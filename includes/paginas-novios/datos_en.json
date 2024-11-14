@@ -1,0 +1,98 @@
+{
+    "currency": "US",
+    "language": "en",
+    "date_format": "mm/dd/yyyy",
+
+    "rutas": {
+        "raiz": "../../../",
+        "pagina": "../../",
+        "img": "../"
+    },
+
+    "ejecutive": {
+        "1": "Executive:",
+        "2": "Executive:"
+    },
+
+    "titulo_detalle" : "Wedding Details",
+	"titulo_hoteles" : "Hotel Information",
+	"titulo_destino" : "Destination Information",
+	"titulo_tarifas" : "Rooms Price",
+    "titulo_novies" : {
+        "0" : "Our bride and groom",
+        "1" : "Our brides",
+        "2" : "Our grooms"
+    },
+    "titulo_comentarios" : {
+        "0" : "Comments for the bride and groom",
+        "1" : "Comments for the brides",
+        "2" : "Comments for the grooms"
+    },
+    "ver_mas" : "See more",
+    "llamar" : "Call",
+    "reservar" : "Book Online",
+    "nuestros_novies" : {
+        "0" : "Our beloved groom and bride are about to start and create a new life together,<br>let’s make an unforgettable collection with the best tips and well wishes!",
+        "1" : "Our beloved brides are about to start and create a new life together,<br>let’s make an unforgettable collection with the best tips and well wishes!",
+        "2" : "Our beloved grooms are about to start and create a new life together,<br>let’s make an unforgettable collection with the best tips and well wishes!"
+    },
+    "parentesco_novies": {
+        "0": "Name and/or relationship to the bride and groom (family, friends, etc.)",
+        "1": "Name and/or relationship to the brides (family, friends, etc.)",
+        "2": "Name and/or relationship to the grooms (family, friends, etc.)"
+    },
+    "mensaje_novies" : {
+        "0" : "Write your message for the groom and bride...",
+        "1" : "Write your message for the brides...",
+        "2" : "Write your message for the grooms..."
+    },
+    "enviar" : "Send",
+
+    "ocupacion" : "Maximum guests:",
+    "vista" : "Room view:",
+    "caracteristica" : "Characteristics:",
+
+    "mapa" : "Map",
+
+    "footer_1" : "Website elaborated by:",
+    "footer_2" : "Learn more about us",
+    "footer_3" : "Participating Cards",
+    "footer_4" : "¿Would you like to have your Dream Wedding? Please contact uss",
+    "footer_5" : "Wedding Code:",
+
+    "tipo_tarifas" : {
+        "0" : "Single",
+        "1" : "Double",
+        "2" : "Extra person(*)",
+        "3" : "Children(**)",
+        "4" : "Junior (***)"
+    },
+    "gratis": "Free",
+
+    "pendiente" : "Not schedule yet",
+    "codigo_vestimenta" : "Dress Code",
+    "guia" : "See Guide",
+
+    "mesa_regalo" : "GIFT REGISTRY",
+    "mesa_regalo_ir" : "GO TO GIFT REGISTRY",
+
+    "form_confirmation" : "CONFIRMATION OF ATTENDANCE",
+    "form_thanks" : "WE APPRECIATE YOUR CONFIRMATION TO OUR WEDDING",
+    "form_selection" : "Please select",
+    "form_yes" : "Yes i will attend",
+    "form_not" : "I will not attend",
+    "form_name" : "Name",
+    "form_last" : "Last Name",
+    "form_email" : "Email",
+    "form_telefono" : "Celphone",
+    "form_ceremony" : "Ceremonies",
+    "form_religious" : "Ceremony",
+    "form_recepcion" : "Reception",
+    "form_both" : "Both",
+    "form_adults" : "Adults",
+    "form_child" : "Children",
+    "form_juniors" : "Juniors",
+    "html_lan" : "en",
+
+    "" : ""
+}

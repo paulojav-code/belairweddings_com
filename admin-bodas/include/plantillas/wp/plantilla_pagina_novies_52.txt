@@ -1,0 +1,696 @@
+<?php
+$id_novie       = {id};
+$id_idioma      = 1;
+
+$ruta_raiz      = $id_idioma == 1 ? '../../' : '../../../';
+$ruta_pagina    = $id_idioma == 1 ? '../' : '../../';
+$ruta_img       = $id_idioma == 1 ? '' : '../';
+
+$currency       = $id_idioma == 1 ? 'MX' : 'US';
+$languague      = $id_idioma == 1 ? 'es' : 'en';
+$date_format     = $id_idioma == 1 ? 'dd/mm/yyyy' : 'mm/dd/yyyy';
+
+include_once($ruta_raiz.'include/conexion.php');
+include_once($ruta_pagina.'paginas-novios/funciones.php');
+
+$datos_json_pre = file_get_contents($ruta_pagina .'paginas-novios/datos_' . ($id_idioma == 1 ? 'es' : 'en') . '.json');
+$datos_json     = json_decode($datos_json_pre, true);
+
+/* SQL Principal */
+$sql = 'SELECT t1.*, t4.frase, t4.codigo_vestimenta, t4.tipo_codigo, t4.pdf, t4.telefono as celular, t4.bitly, t5.nombre AS hotel, t6.nombre_corto, t6.nombre_largo, t8.bandera_alt, t2.clave_hotel, CONCAT(t3.carpeta,t2.carpeta) AS carpeta_h, 
+			t2.banner AS banner_h, t2.mini AS mini_h, t2.galeria AS galeria_h, t2.logo, t5.descripcion AS descripcion_h, t3.carpeta AS carpeta_d, 
+			t3.banner AS banner_d, t3.mini AS mini_d, t3.galeria AS galeria_d, t6.descripcion AS descripcion_d, 
+			t7.correo AS correo_dw, t9.edades, t9.limite, t9.cancelacion,
+			CONCAT(t10.nombre," ",t10.paterno) AS ejecutivo, t10.genero, t10.correo, t10.telefono
+			FROM admin_bodas.novies AS t1
+			INNER JOIN admin_bodas.hoteles AS t2 ON t1.id_hotel = t2.id_hotel
+			INNER JOIN admin_bodas.destinos AS t3 ON t2.id_destino = t3.id_destino
+			INNER JOIN admin_bodas.novies_desc AS t4 ON t1.id_novie = t4.id_novie
+			INNER JOIN admin_bodas.hoteles_desc AS t5 ON t2.id_hotel = t5.id_hotel AND t4.id_idioma = t5.id_idioma
+			INNER JOIN admin_bodas.destinos_desc AS t6 ON t3.id_destino = t6.id_destino AND t4.id_idioma = t6.id_idioma
+			INNER JOIN admin_bodas.ejecutivos AS t7 ON t1.id_ejecutivo = t7.id_ejecutivo
+			INNER JOIN admin_bodas.idiomas AS t8 ON t4.id_idioma = t8.id_idioma
+			LEFT JOIN admin_bodas.detalles_tarifas AS t9 ON t1.id_novie = t9.id_novie AND t4.id_idioma = t9.id_idioma
+			INNER JOIN admin_bodas.ejecutivos AS t10 ON t1.id_ejecutivo_publico = t10.id_ejecutivo
+			WHERE t1.id_novie = ? AND t4.id_idioma = ?;';
+
+$stmt = $con->prepare($sql);
+$stmt->bind_param("ii", $id_novie, $id_idioma);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+$array_data = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+	$array_data[] = $req;
+}
+
+$stmt->close();
+
+$ambas 				 = ($array_data[0]['idiomas'] == 'en' ? true : false );
+$permitido_ninos     = $array_data[0]['permitido_ninos'];
+$clave_evento        = $array_data[0]['clave_evento'];
+
+$categoria_novies    = $array_data[0]['categoria_parejas'];
+$bandera             = $array_data[0]['bandera_alt'];
+
+$cover               = $ruta_img . $array_data[0]['cover_desk'];
+$cover_mobile        = ($array_data[0]['cover_mobile'] != '') ? $ruta_img . $array_data[0]['cover_mobile'] : $ruta_img . $array_data[0]['cover_desk'];
+$destino_banner      = $ruta_raiz . $array_data[0]['carpeta_d'] . $array_data[0]['banner_d'];
+$hotel_banner        = $ruta_raiz . $array_data[0]['carpeta_h'] . $array_data[0]['banner_h'];
+
+$novie_1             = $array_data[0]['person_1'];
+$novie_2             = $array_data[0]['person_2'];
+$conector            = $array_data[0]['conector'];
+$frase               = $array_data[0]['frase'];
+$codigo_vestimenta   = $array_data[0]['codigo_vestimenta'];
+$tipo_codigo   		 = $array_data[0]['tipo_codigo'];
+
+$pdf    			 = $ruta_img . $array_data[0]['pdf'];
+$telefono       	 = ($array_data[0]['celular'] != '' ? $array_data[0]['celular'] : '8009900116');
+$bitly               = $array_data[0]['bitly'];
+
+$foto_ramo           = ($array_data[0]['ramo'] != '' ? $ruta_img . $array_data[0]['ramo'] : $ruta_raiz . '/assets/img/paginas-novios/ramo.jpg');
+$foto_comentario     = ($array_data[0]['form'] != '' ? $ruta_img . $array_data[0]['form'] : $ruta_raiz . '/assets/img/paginas-novios/form.jpg');
+
+$correo_copia        = $array_data[0]['copia'];
+
+$novie_galeria		 = $array_data[0]['galeria'];
+
+$destino_corto       = $array_data[0]['nombre_corto'];
+$destino_largo       = $array_data[0]['nombre_largo'];
+$destino_descripcion = $array_data[0]['descripcion_d'];
+$destino_mini        = $ruta_raiz . $array_data[0]['carpeta_d'] . $array_data[0]['mini_d'];
+$destino_galeria     = $array_data[0]['galeria_d'];
+
+$hotel_nombre        = $array_data[0]['hotel'];
+$hotel_descripcion   = $array_data[0]['descripcion_h'];
+$hotel_logo          = $ruta_raiz . $array_data[0]['carpeta_h'] . $array_data[0]['logo'];
+$hotel_mini          = $ruta_raiz . $array_data[0]['carpeta_h'] . $array_data[0]['mini_h'];
+$hotel_galeria       = $array_data[0]['galeria_h'];
+
+$ejecutive_dw_correo = $array_data[0]['correo_dw'];
+
+if($id_idioma == 1){
+	$ejecutive       = ($array_data[0]['genero'] == 1 ? 'Ejecutiva: ' : 'Ejecutivo: ') . $array_data[0]['ejecutivo'];
+}else{
+	$ejecutive       = 'Executive: ' . $array_data[0]['ejecutivo'];
+}
+$ejecutive_telefono  = phoneFormat($array_data[0]['telefono']);
+$ejecutive_correo    = $array_data[0]['correo'];
+$ejecutive_call 	 = $array_data[0]['telefono'];
+
+$fecha_timer         = dateFormat($array_data[0]['fecha'], 'mm/dd/yyyy');
+$fecha_texto         = dateFormat($array_data[0]['fecha'], ($id_idioma == 1 ? 'dd M yyyy' : 'M dd yyyy'));
+
+$hotel_clave 		 = $array_data[0]['clave_hotel'];
+$token 				 = $array_data[0]['token'];
+$check_in 			 = dateFormat($array_data[0]['check_in'], ($id_idioma == 1 ? 'dd/mm/yyyy' : 'mm/dd/yyyy'));
+$check_out 			 = dateFormat($array_data[0]['check_out'], ($id_idioma == 1 ? 'dd/mm/yyyy' : 'mm/dd/yyyy'));
+
+$detalles_tarifas = [
+	$array_data[0]['edades'], $array_data[0]['limite'], $array_data[0]['cancelacion']
+];
+
+/* SQL Mesa de regalos */
+$sql = 'SELECT * FROM admin_bodas.mesa_regalos WHERE id_novie = ? AND id_idioma = ?;';
+
+$stmt = $con->prepare($sql);
+$stmt->bind_param("ii", $id_novie, $id_idioma);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+$array_data = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+	$array_data[] = $req;
+}
+
+$stmt->close();
+
+$mesa_regalo = array();
+for ($i = 0; $i < count($array_data); $i++) {
+	$mesa_regalo[] = [$array_data[$i]['titulo'], $array_data[$i]['descripcion'], $array_data[$i]['enlace']];
+}
+
+/* SQL Ceremonias */
+$sql = 'SELECT * FROM admin_bodas.ceremonias WHERE id_novie = ? AND id_idioma = ? ORDER BY orden ASC;';
+
+$stmt = $con->prepare($sql);
+$stmt->bind_param("ii", $id_novie, $id_idioma);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+$array_data = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+	$array_data[] = $req;
+}
+
+$stmt->close();
+
+$ceremonias = array();
+for ($i = 0; $i < count($array_data); $i++) {
+	$ceremonias[] = [$array_data[$i]['titulo'], timeFormat(getSplitDateTime($array_data[$i]['fecha'], 'time')), $array_data[$i]['lugar'], $array_data[$i]['direccion'], $array_data[$i]['mapa']];
+}
+
+/* SQL Comentarios */
+$sql = 'SELECT * FROM admin_bodas.comentarios WHERE id_novie = ? AND activo = 1';
+$stmt = $con->prepare($sql);
+$stmt->bind_param("i", $id_novie);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+$array_data = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+	$array_data[] = $req;
+}
+
+$stmt->close();
+
+$comentarios = array();
+for ($i = 0; $i < count($array_data); $i++) {
+	$comentarios[] = [$array_data[$i]['parentesco'],$array_data[$i]['mensaje']];
+}
+
+/* SQL Datos Extra */
+$sql = 'SELECT * FROM admin_bodas.extra_data WHERE id_novie = ? AND activo = 1;';
+
+$stmt = $con->prepare($sql);
+$stmt->bind_param("i", $id_novie);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+$array_data = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+	$array_data[] = $req;
+}
+
+$stmt->close();
+
+if(count($array_data) > 0) {
+	$css_especial = $array_data[0]['datos'];
+}
+
+/* SQL Tarifas */
+$sql = 'SELECT t3.nombre, ocupacion, vista, CONCAT(t5.carpeta,t4.carpeta,t2.carpeta,t2.mini) AS habitacion, precio, doble, extra, nino, descripcion
+			FROM admin_bodas.tarifas AS t1
+			INNER JOIN admin_bodas.habitaciones AS t2 ON t1.id_habitacion = t2.id_habitacion
+			INNER JOIN admin_bodas.habitaciones_desc AS t3 ON t1.id_habitacion = t3.id_habitacion
+			INNER JOIN admin_bodas.hoteles AS t4 ON t2.id_hotel = t4.id_hotel
+			INNER JOIN admin_bodas.destinos AS t5 ON t4.id_destino = t5.id_destino
+			WHERE t1.activo = 1 AND t1.id_novie = ? AND t3.id_idioma = ?
+			ORDER BY t1.precio ASC';
+
+$stmt = $con->prepare($sql);
+$stmt->bind_param("ii", $id_novie, $id_idioma);
+$stmt->execute();
+
+$result = $stmt->get_result();
+
+$array_data = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+	$array_data[] = $req;
+}
+
+$stmt->close();
+
+$habitaciones = array();
+for ($i = 0; $i < count($array_data); $i++) {
+	$habitaciones[] = [
+		'nombre' => $array_data[$i]['nombre'],
+		'ocupacion' => $array_data[$i]['ocupacion'],
+		'vista' => $array_data[$i]['vista'],
+		'imagen' => $ruta_raiz . $array_data[$i]['habitacion'] . '1.jpg',
+		'tarifas' => [
+			$array_data[$i]['precio'], $array_data[$i]['doble'], $array_data[$i]['extra'], $array_data[$i]['nino']
+		],
+		'amenidades' => $array_data[$i]['descripcion']
+	];
+}
+
+include_once($ruta_pagina.'paginas-novios/header.php');
+
+?>
+	<style>
+		#banner { background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("<?php echo $cover; ?>");background-position: 50% 50%;background-size: cover;}
+		@media screen and (max-width: 480px) { #banner { background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("<?php echo $cover_mobile; ?>");background-position: 50% 50%;background-size: cover;}}
+		.box.special.hotel { background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("<?php echo $hotel_banner; ?>");background-position: 50% 50%;background-size: cover;}
+		.box.special.destino { background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("<?php echo $destino_banner; ?>");background-position: 50% 10%;background-size: cover;}
+
+		<?php echo $css_especial; ?>
+	</style>
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<div class="logo">
+				<a href="<?php echo $ruta_raiz; ?>"><img src="<?php echo $ruta_raiz; ?>assets/img/logos/logo-dw-bco.png" alt="Logo Dreams Wedding Blanco"></a>
+			</div>
+			<?php
+			if ($ambas) {
+				echo '<div class="bandera"><a href="' . ($id_idioma == 1 ? 'en/' : '../') . '"><img src="' . $ruta_raiz . $bandera . '" alt="Logo Bandera"></a></div>';
+			}
+			?>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+			<h2><?php echo $novie_1; ?> <span class="detalle"><?php echo $conector; ?> </span><?php echo $novie_2; ?></h2>
+			<p><?php echo $fecha_texto; ?> | <?php echo $destino_corto; ?></p>
+		</section>
+
+		<!-- Main -->
+		<section id="main" class="container">
+
+			<section class="box special contador">
+				<header class="major">
+					<div class="row gtr-0">
+						<div class="col-12">
+							<h4><?php echo $frase; ?></h4>
+						</div>
+						<div class="col-12 imp-mobile">
+							<span id="timer"></span>
+						</div>
+					</div>
+				</header>
+			</section>
+
+			<!-- Info -->
+			<section id="detalle">
+				<div class="row align-center aln-center">
+					<div class="col-12">
+						<h3 class="titulo-flores"><?php echo $datos_json['titulo_detalle']; ?></h3>
+						<img class="flores" src="<?php echo $ruta_raiz; ?>assets/img/paginas-novios/flores.png" alt="flores de dreams wedding">
+					</div>
+					<?php
+					for ($i = 0; $i < count($ceremonias); $i++) {
+						if ($i == 0 & count($ceremonias) == 4) {
+							echo '<div class="col-4 col-12-mobile imp-mobile">
+											<div class="ramo">
+												<img src="' . $foto_ramo . '" alt="Ramo Flores" class="">
+											</div>
+										</div>';
+							echo '<div class="col-5 col-12-mobile">
+										<h4>' . $ceremonias[$i][0] . '</h4>
+										<span class="tiempo">' . ($ceremonias[$i][1] != '' ? $ceremonias[$i][1] : $datos_json['pendiente']) . '</span>
+										<p class="strong">' . $ceremonias[$i][2] . '</p>
+										<p>' . $ceremonias[$i][3] . '</p>
+										<a href="' . $ceremonias[$i][4] . '" target="_blank">' . $datos_json['mapa'] . ' <i class="icon solid fa-map-marker-alt"></i></a>
+									</div>';
+						}else if($i == 0 & count($ceremonias) == 3) {
+							echo '<div class="col-' . (count($ceremonias) == 3 ? '3' : '4') . ' col-12-mobile imp-mobile">
+											<div class="ramo">
+												<img src="' . $foto_ramo . '" alt="Ramo Flores" class="ramo-flores">
+											</div>
+										</div>';
+							echo '<div class="col-3 col-12-mobile">
+										<h4>' . $ceremonias[$i][0] . '</h4>
+										<span class="tiempo">' . ($ceremonias[$i][1] != '' ? $ceremonias[$i][1] : $datos_json['pendiente']) . '</span>
+										<p class="strong">' . $ceremonias[$i][2] . '</p>
+										<p>' . $ceremonias[$i][3] . '</p>
+										<a href="' . $ceremonias[$i][4] . '" target="_blank">' . $datos_json['mapa'] . ' <i class="icon solid fa-map-marker-alt"></i></a>
+									</div>';
+						} else{
+							echo '<div class="col-' . (count($ceremonias) == 3 ? '3' : '4') . ' col-12-mobile">
+										<h4>' . $ceremonias[$i][0] . '</h4>
+										<span class="tiempo">' . ($ceremonias[$i][1] != '' ? $ceremonias[$i][1] : $datos_json['pendiente']) . '</span>
+										<p class="strong">' . $ceremonias[$i][2] . '</p>
+										<p>' . $ceremonias[$i][3] . '</p>
+										<a href="' . $ceremonias[$i][4] . '" target="_blank">' . $datos_json['mapa'] . ' <i class="icon solid fa-map-marker-alt"></i></a>
+									</div>';
+						}	
+						if ($i == 0 & count($ceremonias) == 2) {
+							echo '<div class="col-' . (count($ceremonias) == 3 ? '3' : '4') . ' col-12-mobile imp-mobile">
+											<div class="ramo">
+												<img src="' . $foto_ramo . '" alt="Ramo Flores" class="ramo-flores">
+											</div>
+										</div>';
+						}
+					}
+					?>
+				</div>
+				<div id="codigo-vestimenta" class="row aln-center align-center gtr-uniform">
+					<?php
+					if ($codigo_vestimenta != '') {
+						if($tipo_codigo == 0) {
+					?>
+						<div class="col-10 col-12-mobile">
+							<h4><?php echo $datos_json['codigo_vestimenta']; ?></h4>
+							<p><?php echo $codigo_vestimenta; ?></p>
+						</div>
+					<?php
+						}else {
+					?>
+						<div class="col-10 col-12-mobile">
+							<?php echo $codigo_vestimenta; ?>
+						</div>
+					<?php		
+						}
+					}
+					?>
+				</div>
+			</section>
+
+			<!-- Hotel -->
+			<section class="box special hotel">
+				<h2><?php echo $datos_json['titulo_hoteles']; ?></h2>
+			</section>
+			<section id="hotel">
+				<div class="row aln-center gtr-uniform">
+					<div class="col-5 col-12-mobile">
+						<div id="carousel-hotel" class="owl-carousel">
+							<?php
+							for ($i = 0; $i < $hotel_galeria; $i++) {
+								echo '<div class=""><img src="' . $hotel_mini . ($i + 1) . '.jpg" alt="Imagen Hotel ' . $hotel_nombre . ' Galeria ' . ($i + 1) . '" class="image fit"></div>';
+							}
+							?>
+						</div>
+					</div>
+					<div class="col-6 col-12-mobile">
+						<img src="<?php echo $hotel_logo; ?>" alt="Logo <?php echo $hotel_nombre; ?>" class="logo">
+						<div class="info-hotel">
+							<p><?php echo $hotel_descripcion; ?></p>
+						</div>
+					</div>
+				</div>
+				<?php 
+				if(count($habitaciones) > 0){
+				?>
+				<div class="row aln-center">
+					<div class="col-11">
+						<div id="tarifas" class="box">
+							<h3><?php echo $datos_json['titulo_tarifas']; ?></h3>
+							<hr>
+							<div class="row gtr-uniform">
+								<?php
+								for ($i = 0; $i < count($habitaciones); $i++) {
+									echo '<div class="col-5 col-12-mobile"><img src="' . $habitaciones[$i]['imagen'] . '" alt="Imagen Habtación ' . $habitaciones[$i]['nombre'] . '" class="image fit"></div>';
+									echo '<div class="col-7 col-12-mobile"><h4>' . $habitaciones[$i]['nombre'] . '</h4><div class="row">';
+									$numero_tarifas = array_count_values($habitaciones[$i]['tarifas']);
+									for ($j = 0; $j < 4; $j++) {
+										if($habitaciones[$i]['tarifas'][$j] != 'n/a'){
+											echo '<div class="col-'.(12 / (4 - $numero_tarifas['n/a']) ).' col-6-mobile imp imp-mobile"><b>' . $datos_json['tipo_tarifas'][$j] . '</b></div>';
+											echo '<div class="col-'.(12 / (4 - $numero_tarifas['n/a']) ).' col-6-mobile imp-mobile">' . $habitaciones[$i]['tarifas'][$j] . '</div>';
+										}
+									}
+									echo '<div class="col-12"><br><br><a class="button small alt" onclick="modal(\'#modal_hab_' . ($i + 1) . '\')">' . $datos_json['ver_mas'] . '</a></div></div></div>';
+								}
+								?>
+								<div class="col-12">
+									<?php
+									for ($i = 0; $i < count($detalles_tarifas); $i++) {
+										echo '<p' . ($i == 0 ? ' class="small"' : '') . '>' . $detalles_tarifas[$i] . '</p>';
+									}
+									?>
+								</div>
+								<div class="col-12">
+									<ul class="icons">
+										<li><a href="tel:<?php echo $telefono; ?>" class="button small" onclick=""><?php echo $datos_json['llamar']; ?></a></li>
+										<?php 
+										if ($token != '') { 
+										?>
+											<li><a class="button small" onclick="reservar('<?php echo $hotel_clave; ?>','<?php echo $token; ?>','<?php echo $check_in; ?>','<?php echo $check_out; ?>')"><?php echo $datos_json['reservar']; ?></a></li>
+										<?php 
+										} 
+										if($pdf != '') {
+										?>
+											<li><a href="<?php echo $pdf; ?>" class="button small" onclick="" target="_blank"><?php echo $datos_json['guia']; ?></a></li>
+										<?php
+										}
+										?>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php	
+				}
+				?>
+			</section>
+
+			<!-- Novios -->
+			<section class="box special novios">
+				<h2><?php echo $datos_json['titulo_novies'][$categoria_novies]; ?></h2>
+			</section>
+			<section id="novios">
+				<div class="row aln-center">
+					<div class="col-11">
+						<div id="comentario" class="box">
+							<div class="row gtr-uniform">
+								<div class="col-12 align-center">
+									<p><?php echo $datos_json['nuestros_novies'][$categoria_novies]; ?></p>
+								</div>
+								<div class="col-5 col-12-mobile">
+									<div class="imagen-cover">
+										<img onclick="mostrar_imagen(0)" src="<?php echo $foto_comentario; ?>" alt="Imagen Novies confirmacion" class="fondo" style="object-position:50% 0%">
+									</div>
+								</div>
+								<div class="col-7 col-12-mobile">
+									<div class="row gtr-uniform gtr-25 align-center">
+										<div class="col-12">
+											<input name="parentesco" id="parentesco" type="text" placeholder="<?php echo $datos_json['parentesco_novies'][$categoria_novies]; ?>" maxlength="100">
+											<textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="<?php echo $datos_json['mensaje_novies'][$categoria_novies]; ?>"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="icons">
+												<li><input type="hidden" name="recaptcha_response_com" id="recaptcha_response_com"></li>
+												<li><input type="submit" value="<?php echo $datos_json['enviar']; ?>" class="small alt" onclick="enviar_comentario()" /></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<?php
+					if ($novie_galeria > 0) {
+					?>
+					<div class="col-12">
+						<div id="carousel-novies" class="owl-carousel">
+							<?php
+							for ($i = 0; $i < $novie_galeria; $i++) {
+								echo '<div class=""><img onclick="mostrar_imagen('.($i + 1).')" src="'.$ruta_img.'img/' . ($i + 1) . '-m.jpg" alt="Imagen Novies ' . $novie_1 . ' ' . $conector . ' ' . $novie_2 . ' Galeria ' . ($i + 1) . '" class="image fit"></div>';
+							}
+							?>
+						</div>
+					</div>
+					<?php
+					}
+					if(count($comentarios) > 0) {
+					?>
+					<div class="col-12 align-center">
+						<h3 class="titulo-flores"><?php echo $datos_json['titulo_comentarios'][$categoria_novies]; ?></h3>
+						<img class="flores" src="<?php echo $ruta_raiz; ?>assets/img/paginas-novios/flores.png" alt="flores de dreams wedding">
+					</div>
+					<div class="col-12">
+						<div class="row aln-center align-center elemento-comentario">
+						<?php
+							for ($i=0; $i < count($comentarios); $i++) { 
+								echo '<div class="col-8 col-12-narrower">
+									<p>'.$comentarios[$i][1].'</p>
+									<h3>'.$comentarios[$i][0].'</h3>
+									<hr>
+								</div>';
+							}
+						?>
+						</div>
+						<br>
+					</div>
+					<?php
+					}
+					if (count($mesa_regalo) > 0) {
+					?>
+						<div class="col-11">
+							<div id="mesa" class="box special mesa">
+								<div class="row aln-center">
+									<div class="col-12">
+										<h3><?php echo $datos_json['mesa_regalo']; ?></h3>
+										<p></p>
+									</div>
+									<div class="col-3 col-12-narrower">
+										<img src="<?php echo $ruta_raiz; ?>assets/img/paginas-novios/regalo.png" alt="Imagen mesa de regalo" class="image fit">
+									</div>
+									<?php
+									for ($i = 0; $i < count($mesa_regalo); $i++) {
+									?>
+										<div class="col-3 col-12-narrower align-center">
+											<h3><?php echo $mesa_regalo[$i][0]; ?></h3>
+											<h4><?php echo $mesa_regalo[$i][1]; ?></h4>
+											<ul class="icons">
+												<?php echo $mesa_regalo[$i][2] != '' ? '<li><a href="'.$mesa_regalo[$i][2].'" class="button small alt" target="_blank">'.$datos_json['mesa_regalo_ir'].'</a></li>' : '' ?>
+											</ul>
+										</div>
+									<?php
+									}
+									?>
+									<div class="col-3 col-12-narrower">
+										<img src="img/sobre.png" alt="" class="image fit">
+									</div>
+								</div>
+							</div>
+						</div>
+					<?php
+					}
+					?>
+					<div class="col-11 align-center">
+						<h3><?php echo $datos_json['form_confirmation']; ?></h3>
+						<img class="flores" src="<?php echo $ruta_raiz; ?>assets/img/paginas-novios/flores.png" alt="Imagen flores de Dreams Wedding">
+					</div>
+					<div class="col-11 align-center">
+						<div id="formulario" class="box">
+							<h4><?php echo $datos_json['form_thanks']; ?></h4>
+							<div class="row gtr-50 gtr-uniform aln-center">
+								<div class="col-6 col-12-mobilep">
+									<br>
+									<select name="asistencia" id="asistencia">
+										<option value=""><?php echo $datos_json['form_selection']; ?></option>
+										<option value="1"><?php echo $datos_json['form_yes']; ?></option>
+										<option value="2"><?php echo $datos_json['form_not']; ?></option>
+									</select>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<label for="ceremonia"><?php echo $datos_json['form_ceremony']; ?></label>
+									<select name="ceremonia" id="ceremonia">
+										<option value=""><?php echo $datos_json['form_selection']; ?></option>
+										<option value="1"><?php echo $datos_json['form_religious']; ?></option>
+										<option value="2"><?php echo $datos_json['form_recepcion']; ?></option>
+										<option value="3"><?php echo $datos_json['form_both']; ?></option>
+									</select>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<label for="nombre"><?php echo $datos_json['form_name']; ?></label>
+									<input type="text" name="nombre" id="nombre" value="" placeholder="<?php echo $datos_json['form_name']; ?>(s)" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<label for="apellido"><?php echo $datos_json['form_last']; ?></label>
+									<input type="text" name="apellido" id="apellido" value="" placeholder="<?php echo $datos_json['form_last']; ?>(s)" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<label for="email"><?php echo $datos_json['form_email']; ?></label>
+									<input type="email" name="email" id="email" value="" placeholder="<?php echo $datos_json['form_email']; ?>" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<label for="telefono"><?php echo $datos_json['form_telefono']; ?></label>
+									<input type="text" name="telefono" id="telefono" value="" placeholder="<?php echo $datos_json['form_telefono']; ?>" />
+								</div>
+								<div class="<?php echo ($permitido_ninos) ? 'col-4':'col-12'; ?> col-12-mobilep">
+									<label for="adultos"><?php echo $datos_json['form_adults']; ?></label>
+									<select name="adultos" id="adultos">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+								<?php
+									if($permitido_ninos){
+								?>
+								<div class="col-4 col-12-mobilep">
+									<label for="ninhos"><?php echo $datos_json['form_child']; ?></label>
+									<select name="ninhos" id="ninhos">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+									</select>
+								</div>
+								<div class="col-4 col-12-mobilep">
+									<label for="juniors"><?php echo $datos_json['form_juniors']; ?></label>
+									<select name="juniors" id="juniors">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+									</select>
+								</div>
+								<?php
+									}else{
+								?>
+									<input type="hidden" name="ninhos" id="ninhos" value="0" />
+									<input type="hidden" name="juniors" id="juniors" value="0" />
+								<?php
+									}
+								?>
+								<div class="col-12">
+									<ul class="icons">
+										<li><input type="hidden" name="recaptcha_response" id="recaptcha_response"></li>
+										<li><input type="submit" value="<?php echo $datos_json['enviar']; ?>" class="small alt" onclick="enviar_confirmacion()" /></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Destino -->
+			<section class="box special destino">
+				<h2><?php echo $datos_json['titulo_destino']; ?></h2>
+			</section>
+			<section id="destino">
+				<div class="row gtr-25 aln-center gtr-uniform">
+					<div class="col-11 col-12-mobile">
+						<div class="info-destino">
+							<h3><?php echo $destino_largo; ?></h3>
+							<p><?php echo $destino_descripcion; ?></p>
+						</div>
+					</div>
+					<div class="col-12">
+						<div id="carousel-destino" class="owl-carousel">
+							<?php
+							for ($i = 0; $i < $destino_galeria; $i++) {
+								echo '<div><img src="' . $destino_mini . ($i + 1) . '.jpg" alt="Imagen Destino' . $destino_largo . ' Galeria ' . ($i + 1) . '" class="image fit"></div>';
+							}
+							?>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</section>
+
+		<?php
+		for ($i = 0; $i < count($habitaciones); $i++) {
+			echo '<div class="modal" id="modal_hab_' . ($i + 1) . '"><div class="modal-content"><span class="close" onclick="modal(\'#modal_hab_' . ($i + 1) . '\')">&times;</span><div class="row aln-center gtr-uniform">';
+			echo '<div class="col-12"><h3>' . $habitaciones[$i]['nombre'] . '</h3></div>';
+			echo '<div class="col-7 col-12-mobile"><img src="' . $habitaciones[$i]['imagen'] . '" alt="Imagen Habitación ' . $habitaciones[$i]['nombre'] . '" class="image fit"></div>';
+			echo '<div class="col-12"><p>' . ($habitaciones[$i]['ocupacion'] != '' ? '<b>' . $datos_json['ocupacion'] . '</b> ' . $habitaciones[$i]['ocupacion'] . '</p>' : '');
+			echo ($habitaciones[$i]['vista'] != '' ? '<p><b>' . $datos_json['vista'] . '</b> ' . $habitaciones[$i]['vista'] . '</p>' : '') . '<p>' . $datos_json['caracteristica'] . '</p></div>';
+
+			$habitaciones[$i]['amenidades'] = explode(',', $habitaciones[$i]['amenidades']);
+
+			$numero_amenidades = count($habitaciones[$i]['amenidades']);
+
+			for ($j = 0; $j < $numero_amenidades; $j++) {
+				if ($j == 0 || $j == (ceil($numero_amenidades / 2))) {
+					echo '<div class="col-6 col-12-mobile"><ul>';
+				}
+				echo '<li>' . $habitaciones[$i]['amenidades'][$j] . '</li>';
+				if ($j == ($numero_amenidades - 1) || $j == (ceil($numero_amenidades / 2) - 1)) {
+					echo '</ul></div>';
+				}
+			}
+			echo '</div></div></div>';
+		}
+		?>
+
+		<div class="modal" id="modal-imagen">
+            <div class="modal-content-img">
+                <span class="close" onclick="modal('#modal-imagen')">&times;</span>
+            </div>
+        </div>
+
+		<div class="modal" id="modal-alerta">
+			<div class="modal-content">
+				<img src="" alt="Icono confirmación">
+				<h2></h2>
+				<p>hola mundo, esto es una alerta</p>
+			</div>
+		</div>
+
+	<?php include_once($ruta_pagina.'paginas-novios/footer.php'); ?>
+
+</body>
+
+</html>

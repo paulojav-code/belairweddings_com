@@ -1,0 +1,3220 @@
+{
+    "destinos": {
+        "0": {
+            "var": "cancun",
+            "destino": "Cancún",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_cancun.jpg",
+            "carpeta": "LBDTS_CANCUN/",
+            "hoteles": {
+                "0": {
+                    "var": "krystal-grand",
+                    "nombre": "KRYSTAL GRAND CANCÚN",
+                    "carpeta": "REFLECT_CANCUN/",
+                    "galeria": "16",
+                    "logo": "krystal-grand-cancun.png",
+                    "direccion": "Blvd. Kukulcan km 8.5, Punta Cancun, Zona Hotelera, 77500 Cancún, Q.R.",
+                    "mapa": "https://goo.gl/maps/x2oUzSgEfT38FVEy6",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "DE LUJO",
+                            "imagenes": {
+                                "0": "DELUXE-ROOM/1.jpg"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima de 3 adultos.",
+                                "1": "Cama King size o dos camas dobles",
+                                "2": "Aire acondicionado",
+                                "3": "Terraza o balcón",
+                                "4": "Reproductor de CD y DVD",
+                                "5": "Televisión por cable",
+                                "6": "Duchas tipo lluvia",
+                                "7": "Batas de baño, pantuflas y espejo de vanidad",
+                                "8": "Internet gratis",
+                                "9": "Equipamiento de oficina",
+                                "10": "Teléfono",
+                                "11": "Closet tipo Walk-in",
+                                "12": "Área de descanso separado",
+                                "13": "Jardín privado con vista a los serpenteantes canales de agua",
+                                "14": "Tina de baño al aire libre."
+                            }
+                        },
+                        "1": {
+                            "nombre": "DE LUJO VISTA PARCIAL AL MAR",
+                            "imagenes": {
+                                "0": "DELUXE_PARTIAL_OCEAN_VIEW/1.jpg"
+                            },
+                            "puntos": {
+                                "0": "Cama King size o dos camas dobles",
+                                "1": "Área de recámara separada",
+                                "2": "Amplia terraza con vista a la laguna o vista parcial al mar",
+                                "3": "Aire acondicionado",
+                                "4": "Ventanales panorámicos del piso al techo",
+                                "5": "Reproductor de CD y DVD",
+                                "6": "Televisión por cable",
+                                "7": "Duchas tipo lluvia",
+                                "8": "Batas de baño, pantuflas y espejo de vanidad",
+                                "9": "Internet gratis",
+                                "10": "Equipamiento de oficina",
+                                "11": "Teléfono",
+                                "12": "Closet tipo Walk-in",
+                                "13": "Máquina de café Nespresso",
+                                "14": "Tina de baño al aire libre"
+                            }
+                        },
+                        "2": {
+                            "nombre": "DE LUJO VISTA AL MAR",
+                            "imagenes": {
+                                "0": "DELUXE_OCEAN_FRONT/1.jpg",
+                                "1": "DELUXE_OCEAN_FRONT/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima 2 personas.",
+                                "1": "Cama King size o dos camas dobles",
+                                "2": "Área de recámara separada",
+                                "3": "Amplia terraza con vista a la laguna o vista parcial al mar",
+                                "4": "Check privado con acceso directo a la laguna",
+                                "5": "Aire acondicionado",
+                                "6": "Ventanales panorámicos del piso al techo",
+                                "7": "Reproductor de CD y DVD",
+                                "8": "Televisión por cable",
+                                "9": "Duchas tipo lluvia",
+                                "10": "Batas de baño, pantuflas y espejo de vanidad",
+                                "11": "Internet gratis",
+                                "12": "Equipamiento de oficina",
+                                "13": "Teléfono",
+                                "14": "Closet tipo Walk-in",
+                                "15": "Máquina de café Nespresso",
+                                "16": "Tina de baño al aire libre"
+                            }
+                        },
+                        "3": {
+                            "nombre": "SUITE FAMILIAR FRENTE AL MAR",
+                            "imagenes": {
+                                "0": "FAMILY_SUITE_OCEAN_FRONT/1.jpg",
+                                "1": "FAMILY_SUITE_OCEAN_FRONT/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima 3 personas.",
+                                "1": "Cama King size o dos camas dobles",
+                                "2": "Sala y recámara totalmente separadas",
+                                "3": "Alberca y tina de baño privadas en la terraza",
+                                "4": "Baño principal con 2 duchas tipo lluvia",
+                                "5": "Aire acondicionado",
+                                "6": "Reproductor de CD y DVD",
+                                "7": "Televisión por cable",
+                                "8": "Batas de baño, pantuflas y espejo de vanidad",
+                                "9": "Internet gratis",
+                                "10": "Equipamiento de oficina",
+                                "11": "Teléfono",
+                                "12": "Closet tipo Walk-in",
+                                "13": "Máquina de café Nespresso"
+                            }
+                        },
+                        "4": {
+                            "nombre": "ALTITUDE SUITE",
+                            "imagenes": {
+                                "0": "ALTITUDE_SUITE/1.jpg"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima 2 personas.",
+                                "1": "Cama King size",
+                                "2": "Acceso privado a la playa",
+                                "3": "2 regaderas tipo lluvia",
+                                "4": "Elegante tina de baño de mármol",
+                                "5": "Recibidor con un mini bar",
+                                "6": "Ventanales panorámicos del piso al techo",
+                                "7": "Alberca y tina de baño privadas en la terraza",
+                                "8": "Aire acondicionado",
+                                "9": "Reproductor de CD y DVD",
+                                "10": "Televisión por cable",
+                                "11": "Internet gratis",
+                                "12": "Equipamiento de oficina",
+                                "13": "Teléfono",
+                                "14": "Closet tipo Walk-in",
+                                "15": "Máquina de café Nespresso",
+                                "16": "Asoleadero en el tejado totalmente equipada, incluye una cama y una alberca infinito."
+                            }
+                        },
+                        "5": {
+                            "nombre": "ALTITUDE SUITE FRENTE AL MAR",
+                            "imagenes": {
+                                "0": "ALTITUDE_SUITE_OCEAN_FRONT/1.jpg",
+                                "1": "ALTITUDE_SUITE_OCEAN_FRONT/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima 2 personas.",
+                                "1": "Cama King size",
+                                "2": "Acceso privado a la playa",
+                                "3": "2 regaderas tipo lluvia",
+                                "4": "Elegante tina de baño de mármol",
+                                "5": "Recibidor con un mini bar",
+                                "6": "Ventanales panorámicos del piso al techo",
+                                "7": "Alberca y tina de baño privadas en la terraza",
+                                "8": "Aire acondicionado",
+                                "9": "Reproductor de CD y DVD",
+                                "10": "Televisión por cable",
+                                "11": "Internet gratis",
+                                "12": "Equipamiento de oficina",
+                                "13": "Teléfono",
+                                "14": "Closet tipo Walk-in",
+                                "15": "Máquina de café Nespresso",
+                                "16": "Asoleadero en el tejado totalmente equipada, incluye una cama y una alberca infinito."
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "Ayami",
+                            "descripcion": "Cocina Pan-Asiática y Teppanyaki, código de vestimenta: casual elegante.",
+                            "imagenes": {
+                                "0": "ayami.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "The Beach Bar & Grill",
+                            "descripcion": "Snack favoritos.",
+                            "imagenes": {
+                                "0": "the-beach-bar-grill.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "Coco café",
+                            "descripcion": "Deli & cafetería.",
+                            "imagenes": {
+                                "0": "coco-cafe.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "The Grill",
+                            "descripcion": "Especialidades a la parrilla a la carta",
+                            "imagenes": {
+                                "0": "the-grill.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "Hacienda el Mortero",
+                            "descripcion": "Autentica comida Mexicana en el Corazón de Cancún, se requiere reservación.",
+                            "imagenes": {
+                                "0": "hacienda-mortero.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "Restaurant O",
+                            "descripcion": "Buffet internacional.",
+                            "imagenes": {
+                                "0": "o.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "Rissoto Restaurant",
+                            "descripcion": "Cocina Italiana.",
+                            "imagenes": {
+                                "0": "risotto.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "K Bar",
+                            "descripcion": "Bar de la playa.",
+                            "imagenes": {
+                                "0": "k-beach-bar.jpg"
+                            }
+                        },
+                        "8": {
+                            "nombre": "The Lounge & Terrace",
+                            "descripcion": "Bebidas, tapas y más con vistas al atardecer.",
+                            "imagenes": {
+                                "0": "the-lounge-terrace.jpg"
+                            }
+                        },
+                        "9": {
+                            "nombre": "The Pool Bar",
+                            "descripcion": "Bar en la Azotea.",
+                            "imagenes": {
+                                "0": "pool-bar.jpg"
+                            }
+                        },
+                        "10": {
+                            "nombre": "Reflections",
+                            "descripcion": "Bar en el lobby.",
+                            "imagenes": {
+                                "0": "reflections-bar.jpg"
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "var": "flamingo",
+                    "nombre": "FLAMINGO CANCÚN",
+                    "carpeta": "FLAMINGO_CANCUN/",
+                    "galeria": "15",
+                    "logo": "flamingo-cancun.png",
+                    "direccion": "Boulevard Kukulkán Km 11, Cancún, Quintana Roo.",
+                    "mapa": "https://g.page/flamingocancun?share",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "ESTÁNDAR",
+                            "imagenes": {
+                                "0": "standard.jpg"
+                            },
+                            "puntos": {
+                                "0": "Cama king size o en dos camas matrimoniales ",
+                                "1": "Televisión",
+                                "2": "Caja de seguridad",
+                                "3": "Balcón con vista al jardín",
+                                "4": "Cuarto de baño privado con artículos de aseo"
+                            }
+                        },
+                        "1": {
+                            "nombre": "ESTÁNDAR VISTA AL MAR",
+                            "imagenes": {
+                                "0": "standard-ocean-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "Cama king size o dos camas matrimoniales",
+                                "1": "Televisión",
+                                "2": "Caja de seguridad",
+                                "3": "Balcón con vista al jardín ",
+                                "4": "Cuarto de baño privado con artículos de aseo"
+                            }
+                        },
+                        "2": {
+                            "nombre": "FAMILIAR",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            },
+                            "puntos": {
+                                "0": "Amplia terraza con vista al jardín ",
+                                "1": "Dos camas matrimoniales",
+                                "2": "Litera ",
+                                "3": "Televisión",
+                                "4": "Caja de seguridad",
+                                "5": "Balcón con vista al jardín y cuarto de baño privado con artículos de aseo"
+                            }
+                        },
+                        "3": {
+                            "nombre": "DE LUJO VISTA AL MAR",
+                            "imagenes": {
+                                "0": "deluxe-ocean-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "Cama king size o en dos camas matrimoniales ",
+                                "1": "Televisión",
+                                "2": "Caja de seguridad",
+                                "3": "Balcón con vista al jardín y cuarto de baño privado con artículos de aseo"
+                            }
+                        },
+                        "4": {
+                            "nombre": "DE LUJO VISTA A LA LAGUNA",
+                            "imagenes": {
+                                "0": "deluxe-lagoon-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "Cama king size o en dos camas matrimoniales",
+                                "1": "Televisión",
+                                "2": "Caja de seguridad",
+                                "3": "Balcón con vista al jardín",
+                                "4": "Cuarto de baño privado con artículos de aseo"
+                            }
+                        },
+                        "5": {
+                            "nombre": "JUNIOR SUITE SWIM UP",
+                            "imagenes": {
+                                "0": "swim-up-junior-suite.jpg"
+                            },
+                            "puntos": {
+                                "0": "Alberca y jacuzzi en la terraza",
+                                "1": "Cama king size ",
+                                "2": "Sofá king size ",
+                                "3": "Televisión",
+                                "4": "Caja de seguridad",
+                                "5": "Balcón con vista al jardín",
+                                "6": "Cuarto de baño privado con artículos de aseo"
+                            }
+                        },
+                        "6": {
+                            "nombre": "SWIM UP ROOM",
+                            "imagenes": {
+                                "0": "swim-up-family.jpg"
+                            },
+                            "puntos": {
+                                "0": "Swim Up y terraza conectadas",
+                                "1": "Cama king size o en dos camas matrimoniales ",
+                                "2": "Televisión",
+                                "3": "Caja de seguridad",
+                                "4": "Balcón con vista al jardín",
+                                "5": "Cuarto de baño privado con artículos de aseo"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "LA FUENTE",
+                            "descripcion": "Este restaurante buffet te ofrece platillos internacionales para degustar junto a la alberca del hotel.",
+                            "imagenes": {
+                                "0": "la-fuente.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "ALBATROS",
+                            "descripcion": "Saborea productos del mar como langosta y una gran variedad de ceviches a pie de la playa.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "DON ROBERTO`S BAR & PIZZA",
+                            "descripcion": "Pizza y cócteles exquisitos te esperan en nuestro restaurante especializado.",
+                            "imagenes": {
+                                "0": "bar-don-roberto.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "LAS PALMAS SNACK & POOL BAR",
+                            "descripcion": "Para que la diversión no pare, te ofrecemos opciones rápidas para satisfacer tu antojo en el área principal de piscina.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "LOBBY BAR PALENQUE",
+                            "descripcion": "Gama de licores de diferentes nacionalidades.",
+                            "imagenes": {
+                                "0": "lobby-bar.jpg"
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "var": "all-ritmo",
+                    "nombre": "ALL RITMO CANCÚN",
+                    "carpeta": "ALL_RITMO_CANCUN/",
+                    "galeria": "28",
+                    "logo": "all-ritmo-cancun.png",
+                    "direccion": "Km. 1.5, Puerto Juárez, 77500, Cancún, Quintana Roo.",
+                    "mapa": "https://goo.gl/maps/Jvnkd5vbZGByqYj38",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "ESTÁNDAR",
+                            "imagenes": {
+                                "0": "standard.png"
+                            },
+                            "puntos": {
+                                "0": "Ocupación máxima: 4 personas",
+                                "1": "1 cama king size o 2 camas matrimoniales",
+                                "2": "TV con cable",
+                                "3": "Cafetera",
+                                "4": "Estacionamiento",
+                                "5": "Caja fuerte",
+                                "6": "Amenidades para el baño",
+                                "7": "Teléfono de marcado directo",
+                                "8": "Plancha y tabla de planchar",
+                                "9": "Baño privado con regadera",
+                                "10": "Secadora de cabello",
+                                "11": "Servicio despertador",
+                                "12": "Detectores de humo",
+                                "13": "Ventilador de techo",
+                                "14": "Aire acondicionado",
+                                "15": "Cunas disponibles"
+                            }
+                        },
+                        "1": {
+                            "nombre": "ESTÁNDAR VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "garden-view.png"
+                            },
+                            "puntos": {
+                                "0": "Ocupación máxima: 4 personas",
+                                "1": "1 cama matrimonial y 1 sofá cama",
+                                "2": "Sala de estar",
+                                "3": "Comedor",
+                                "4": "Cocineta",
+                                "5": "Frigobar",
+                                "6": "TV de pantalla plana con cable",
+                                "7": "Cafetera",
+                                "8": "Estacionamiento",
+                                "9": "Caja fuerte",
+                                "10": "Amenidades para el baño",
+                                "11": "Clóset",
+                                "12": "Plancha y tabla de planchar",
+                                "13": "Baño privado con regadera",
+                                "14": "Secadora de cabello",
+                                "15": "Detectores de humo",
+                                "16": "Ventilador de techo",
+                                "17": "Aire acondicionado",
+                                "18": "Horno de microondas"
+                            }
+                        },
+                        "2": {
+                            "nombre": "MASTER SUITE VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "master-garden-view.png"
+                            },
+                            "puntos": {
+                                "0": "Ocupación máxima: 8 personas, máximo de 4 menores.",
+                                "1": "1 cama sofá, 2 camas matrimoniales, 1 cama king size",
+                                "2": "Cocineta",
+                                "3": "Sala",
+                                "4": "Comedor para 6 personas",
+                                "5": "Refrigerador",
+                                "6": "Dos baños completos",
+                                "7": "TV de pantalla plana con cable",
+                                "8": "Cafetera",
+                                "9": "Estacionamiento",
+                                "10": "Caja fuerte",
+                                "11": "Amenidades para el baño",
+                                "12": "Clóset",
+                                "13": "Plancha y tabla de planchar",
+                                "14": "Secadora de cabello",
+                                "15": "Cable/Satélite",
+                                "16": "Ventilador de techo",
+                                "17": "Aire acondicionado",
+                                "18": "Agua fría y caliente",
+                                "19": "Horno de microondas"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "EL PALMAR",
+                            "descripcion": "Restaurante principal estilo buffet con vista a la piscina y al Mar Caribe. Aquí disfrutarás de elegantes noches temáticas y el mejor ambiente caribeño.",
+                            "imagenes": {
+                                "0": "palmar.png"
+                            }
+                        },
+                        "1": {
+                            "nombre": "PANCHO VILLA",
+                            "descripcion": "Probarás lo mejor de la comida típica en este restaurante de cocina tradicional mexicana.",
+                            "imagenes": {
+                                "0": "pancho.png"
+                            }
+                        },
+                        "2": {
+                            "nombre": "GÓNDOLA",
+                            "descripcion": "Ubicado a la orilla de la playa es la opción perfecta para disfrutar del sazón italiano con una vista increíble.",
+                            "imagenes": {
+                                "0": "gondola.png"
+                            }
+                        },
+                        "3": {
+                            "nombre": "OSTRAS",
+                            "descripcion": "Una ambientación original que recuerda los faros de las bahías. Prueba los mejores platillos gourmet de una cocina de mar internacional mientras disfrutas de una vista inigualable.",
+                            "imagenes": {
+                                "0": "ostras.png"
+                            }
+                        },
+                        "4": {
+                            "nombre": "OASIS SNACK BAR",
+                            "descripcion": "Cerca del espléndido Mar Caribe, se convierte en la mejor opción para disfrutar de un bocadillo en la playa.",
+                            "imagenes": {
+                                "0": "snack.png"
+                            }
+                        },
+                        "5": {
+                            "nombre": "CENA SHOW",
+                            "descripcion": "En el Teatro All Ritmo Cancún & Waterpark disfrutarás de cenas espectaculares con entretenimiento en vivo.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "BAR DIEGO’S",
+                            "descripcion": "Servicio de coctelería para una tarde tranquila junto a la alberca y con el océano de fondo.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "CÚPULAS BAR",
+                            "descripcion": "Auténtica cantina mexicana ubicada a unos pasos del lobby principal.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "8": {
+                            "nombre": "OASIS BAR",
+                            "descripcion": "Ubicado en el centro del parque acuático es el mejor sitio para convivir con otros huéspedes y refrescarte con tu bebida favorita.",
+                            "imagenes": {
+                                "0": "snack-oasis.png"
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "var": "cancun-bay",
+                    "nombre": "CANCÚN BAY RESORT",
+                    "carpeta": "CANCUN_BAY/",
+                    "galeria": "24",
+                    "logo": "cancun-bay.png",
+                    "direccion": "Boulevard Kukulkán kilómetro 3.5, S/N, Zona Hotelera Cancún, México. CP. 77500",
+                    "mapa": "https://g.page/Cancunbayresort?share",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "ESTÁNDAR",
+                            "imagenes": {
+                                "0": "estandar.png"
+                            },
+                            "puntos": {
+                                "0": "Ocupación máxima: 2 adultos y 2 menores o 3 adultos",
+                                "1": "1 cama king size o 2 camas dobles",
+                                "2": "Aire acondicionado",
+                                "3": "Climatización individual",
+                                "4": "Servicio a la habitación",
+                                "5": "Televisión satelital",
+                                "6": "Balcón",
+                                "7": "Detector de humos",
+                                "8": "Plancha y tabla de planchar",
+                                "9": "Despertador",
+                                "10": "Wifi",
+                                "11": "Caja de seguridad",
+                                "12": "Ducha",
+                                "13": "Secador de pelo",
+                                "14": "Teléfono"
+                            }
+                        },
+                        "1": {
+                            "nombre": "SUPERIOR",
+                            "imagenes": {
+                                "0": "superior-ov.png"
+                            },
+                            "puntos": {
+                                "0": "Ocupación máxima: 2 adultos y 2 menores o 3 adultos",
+                                "1": "1 cama king size o 2 camas matrimoniales",
+                                "2": "Aire acondicionado",
+                                "3": "Climatización individual",
+                                "4": "Servicio de habitaciones",
+                                "5": "Televisión satelital",
+                                "6": "Balcón",
+                                "7": "Detector de humos ",
+                                "8": "Plancha y tabla de planchar",
+                                "9": "Despertador",
+                                "10": "Wifi",
+                                "11": "Caja de seguridad",
+                                "12": "Ducha ",
+                                "13": "Secador de pelo",
+                                "14": "Teléfono",
+                                "15": "Minibar"
+                            }
+                        },
+                        "2": {
+                            "nombre": "JUNIOR SUITE",
+                            "imagenes": {
+                                "0": "jr-suite.png"
+                            },
+                            "puntos": {
+                                "0": "Ocupación máxima: 5 personas",
+                                "1": "2 recámaras separadas: 1 con cama king size y la otra con 2 camas matrimoniales",
+                                "2": "Dos baños privados",
+                                "3": "Minibar",
+                                "4": "Aire acondicionado",
+                                "5": "Climatización individual",
+                                "6": "Servicio de habitaciones",
+                                "7": "Televisión satelital",
+                                "8": "Balcón",
+                                "9": "Detector de humos ",
+                                "10": "Plancha y tabla de planchar",
+                                "11": "Despertador",
+                                "12": "Wifi",
+                                "13": "Caja de seguridad",
+                                "14": "Ducha",
+                                "15": "Secador de pelo",
+                                "16": "Teléfono"
+                            }
+                        },
+                        "3": {
+                            "nombre": "MASTER SUITE",
+                            "imagenes": {
+                                "0": "master-suite.png"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima: 8 adultos, mínima 4 adultos",
+                                "1": "3 recámaras separadas con baño propio",
+                                "2": "Sala de estar",
+                                "3": "Balcón o terraza con vista al mar, estacionamiento o piscina central",
+                                "4": "Minibar",
+                                "5": "Aire acondicionado",
+                                "6": "Climatización individual",
+                                "7": "Servicio de habitaciones",
+                                "8": "Televisión satelital",
+                                "9": "Detector de humos ",
+                                "10": "Plancha y tabla de planchar",
+                                "11": "Despertador",
+                                "12": "Wifi",
+                                "13": "Caja de seguridad",
+                                "14": "Ducha",
+                                "15": "Secador de pelo",
+                                "16": "Teléfono"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "EL FAISÁN",
+                            "descripcion": "Restaurante de cocina internacional que ofrece un ambiente relajado y familiar.<br>Se ubica a un costado de la alberca y tiene acceso desde el lobby.",
+                            "imagenes": {
+                                "0": "faisan.png"
+                            }
+                        },
+                        "1": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Ofrece una amplia variedad de coctelería nacional",
+                            "imagenes": {
+                                "0": "lobby-bar.png"
+                            }
+                        },
+                        "2": {
+                            "nombre": "PIÑA COLADA",
+                            "descripcion": "Servicio de snacks con opciones para chicos y grandes.",
+                            "imagenes": {
+                                "0": "pina-colada.png"
+                            }
+                        },
+                        "3": {
+                            "nombre": "TRATTORIA",
+                            "descripcion": "Restaurante de especialidad italiana. Disfruta de los mejores cortes y vinos de la casa.<br>Servicio a la carta de miércoles a lunes. Requiere reservación.",
+                            "imagenes": {
+                                "0": "trattoria.png"
+                            }
+                        },
+                        "4": {
+                            "nombre": "SUSHI BAR",
+                            "descripcion": "Localizado en la terraza frente a la alberca principal. Aquí disfrutarás de su especialidad: Cancun Bay Roll.",
+                            "imagenes": {
+                                "0": "sushi.png"
+                            }
+                        },
+                        "5": {
+                            "nombre": "JACUZZI BAR",
+                            "descripcion": "Servicio de barra libre nacional con vista al mar.<br>Sólo para adultos.",
+                            "imagenes": {
+                                "0": "jacuzzi-bar.png"
+                            }
+                        }
+                    }
+                },
+                "4": {
+                    "var": "palladium",
+                    "nombre": "GRAND PALLADIUM COSTA MUJERES",
+                    "carpeta": "PALLADIUM_COSTA_MUJERES/",
+                    "galeria": "5",
+                    "logo": "GP_COSTA.png",
+                    "direccion": "Vialidad Paseo Mujeres, Manzana 1, Lote 10, SM 3, 77400 Cancún, Q.R.",
+                    "mapa": "https://goo.gl/maps/umswZyiW9Br6ufJu5",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "Palladium_costa_mujeres_suite_garden_lagoon_view.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN VISTA AL MAR",
+                            "imagenes": {
+                                "0": "Palladium_costa_mujeres_suite_poolside.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "FRUTAS Y FLORES",
+                            "descripcion": "Todos los días encontrarás algo diferente cocinado al momento: pescado, pollo, res o cerdo.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "1": {
+                            "nombre": "LA TERRAZA",
+                            "descripcion": "Restaurante al aire libre donde podrás disfrutar de una cena a la carta con las especialidades de nuestro chef.",
+                            "imagenes": {
+                                "0": "Palladium_vallarta_rest_las terrazas.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "CAÑA BRAVA",
+                            "descripcion": "Restaurante al aire libre en el que disfrutarás las mejores especialidades de nuestro chef con un fresco y variado  menú.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "3": {
+                            "nombre": "LA ISLA",
+                            "descripcion": "Goza de una vista maravillosa hacia nuestra Bahía El Palmar o hacia nuestras piscinas.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "4": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Disfruta de una bebida refrescante viendo al mar.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "5": {
+                            "nombre": "POOL BAR",
+                            "descripcion": "La mejor opción para una refrescante bebida junto a la alberca.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "planeación",
+                    "puntos": {
+                        "0": "Coordinación de boda",
+                        "1": "Degustación de menú para 2 personas (persona extra costo adicional, propina no incluida)",
+                        "2": "Elección de la locación privada para ceremonia y banquete",
+                        "3": "Invitación electrónica personalizada de tu boda"
+                    }
+                },
+                "1": {
+                    "nombre": "montaje de ceremonia",
+                    "puntos": {
+                        "0": "Gazebo decorado con telas blancas",
+                        "1": "Sillas tiffany",
+                        "2": "Equipo de audio básico (bocina y micrófono para oficiante)",
+                        "3": "Mesa para juez o ministro"
+                    }
+                },
+                "2": {
+                    "nombre": "banquete de boda",
+                    "puntos": {
+                        "0": "Montaje en blanco",
+                        "1": "Loza y Cristalería",
+                        "2": "Silla tiffany",
+                        "3": "Menú a tres tempos",
+                        "4": "Copa de vino espumoso para el brindis",
+                        "5": "Barra libre nacional por 4 hrs.",
+                        "6": "Pastel de boda representativo"
+                    }
+                },
+                "3": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "Transporte aeropuerto-hotel-aeropuerto",
+                        "1": "3 Ascensos garantizados (a una categoría superior y sujeto a disponibilidad)",
+                        "2": "Bebida de bienvenida a su llegada al hotel",
+                        "3": "Late check-out (sujeto a disponibilidad)",
+                        "4": "Masaje relajante para la pareja (50 minutos)",
+                        "5": "Ramo de novia & boutonniere de novio",
+                        "6": "Cortesía de hospedaje para 1er Aniversario. (una noche en plan Bed & Breakfast)"
+                    }
+                },
+                "4": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica de la habitación",
+                        "1": "Botella de vino espumoso",
+                        "2": "Tabla de quesos",
+                        "3": "Desayuno continental en la habitación al día siguiente (room service)"
+                    }
+                }
+            }
+        },
+        "1": {
+            "var": "nuevo-vallarta",
+            "destino": "Nuevo Vallarta",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_nuevo_vallarta.jpg",
+            "carpeta": "LBDTS_NVO_VALLARTA/",
+            "hoteles": {
+                "0": {
+                    "var": "krystal-grand",
+                    "nombre": "KRYSTAL GRAND NUEVO VALLARTA",
+                    "carpeta": "REFLECT_NUEVO_VALLARTA/",
+                    "galeria": "11",
+                    "logo": "krystal-grand-nuevo-vallarta.png",
+                    "direccion": "Blvd. Costero 800, Flamingos, Sur, 63732 Nuevo Vallarta, Nay.",
+                    "mapa": "https://goo.gl/maps/qHZ3ZLBEDHFaLbY8A",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "DELUXE RESORT VIEW",
+                            "imagenes": {
+                                "0": "deluxe-resort-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "27.8 metros cuadrados",
+                                "1": "Una cama queen",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24 horas",
+                                "5": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con Sistema de cable",
+                                "8": "Aire acondicionado con control remoto en la habitación",
+                                "9": "Cafetera y tetera",
+                                "10": "Plancha & tabla de planchar",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello"
+                            }
+                        },
+                        "1": {
+                            "nombre": "DELUXE TROPICAL VIEW",
+                            "imagenes": {
+                                "0": "deluxe-tropical-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Una cama king o dos camas dobles",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24 horas",
+                                "5": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con sistema de cable",
+                                "8": "Aire acondicionado con control remoto en la habitación",
+                                "9": "Cafetera y tetera",
+                                "10": "Plancha & tabla de planchar",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello"
+                            }
+                        },
+                        "2": {
+                            "nombre": "DELUXE OCEAN VIEW",
+                            "imagenes": {
+                                "0": "deluxe-ocean-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Una cama king o dos camas dobles",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24 horas",
+                                "5": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con sistema de cable",
+                                "8": "Aire acondicionado con control remoto en la habitación",
+                                "9": "Cafetera y tetera",
+                                "10": "Plancha & tabla de planchar",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello"
+                            }
+                        },
+                        "3": {
+                            "nombre": "JUNIOR SUITE VISTA A LA PISCINA",
+                            "imagenes": {
+                                "0": "junior-suite-pool-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Una cama king o dos camas dobles ",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24 horas",
+                                "5": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con sistema de cable",
+                                "8": "Aire acondicionado con control remoto en la habitación",
+                                "9": "Cafetera y tetera",
+                                "10": "Plancha & tabla de planchar",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello"
+                            }
+                        },
+                        "4": {
+                            "nombre": "JUNIOR SUITE VISTA AL MAR",
+                            "imagenes": {
+                                "0": "junior-suite-ocean-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Una cama king o dos camas dobles ",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24 horas",
+                                "5": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con sistema de cable",
+                                "8": "Aire acondicionado con control remoto en la habitación",
+                                "9": "Cafetera y tetera",
+                                "10": "Plancha & tabla de planchar",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello"
+                            }
+                        },
+                        "5": {
+                            "nombre": "JUNIOR SWIM OUT",
+                            "imagenes": {
+                                "0": "junior-suite-swim-out.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Una cama king o dos camas dobles",
+                                "2": "Pequeña terraza con acceso directo a piscina ",
+                                "3": "Baño con regadera",
+                                "4": "Lujosas amenidades de baño",
+                                "5": "Servicio a la habitación 24 horas",
+                                "6": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "7": "Wi-Fi de cortesía",
+                                "8": "TV con sistema de cable",
+                                "9": "Aire acondicionado con control remoto en la habitación",
+                                "10": "Cafetera y tetera",
+                                "11": "Plancha & tabla de planchar",
+                                "12": "Caja de seguridad en la habitación",
+                                "13": "Secadora de cabello"
+                            }
+                        },
+                        "6": {
+                            "nombre": "JUNIOR SUITE FRENTE AL MAR",
+                            "imagenes": {
+                                "0": "junior-suite-swim-out.jpg"
+                            },
+                            "puntos": {
+                                "0": "55 metros cuadrados",
+                                "1": "Una cama king ",
+                                "2": "Balcón o terraza privada",
+                                "3": "Baño con regadera",
+                                "4": "Lujosas amenidades de baño",
+                                "5": "Servicio a la habitación 24 horas",
+                                "6": "Minibar abastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "7": "Wi-Fi de cortesía",
+                                "8": "TV con sistema de cable",
+                                "9": "Aire acondicionado con control remoto en la habitación",
+                                "10": "Cafetera y tetera",
+                                "11": "Plancha & tabla de planchar",
+                                "12": "Caja de seguridad en la habitación",
+                                "13": "Secadora de cabello"
+                            }
+                        },
+                        "7": {
+                            "nombre": "ALTITUDE CLUB JUNIOR SUITE OCEAN VIEW",
+                            "imagenes": {
+                                "0": "altitude-junior-suite-ocean-view.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Habitación con vista al mar",
+                                "2": "Dos camas dobles",
+                                "3": "Balcón o terraza privados",
+                                "4": "Check-in y check-out personalizados en el salón Altitude Club",
+                                "5": "Lounge Privado Club Altitude",
+                                "6": "Servicio de desayuno continental diario; café y postres durante todo el día; bocadillos y vino por la noche en el lounge",
+                                "7": "Mejor categoría de amenidades de baño",
+                                "8": "Batas de baño y pantuflas",
+                                "9": "Toalla de playa en la habitación"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "AYAMI",
+                            "descripcion": "Cocina Pan-Asiática y Teppanyaki.<br>Código de vestimenta<br>Casual Elegante: Zapatos tipo tenis o sandalias y camisas de vestir con manga corta. pantalón largo requerido para hombres (no shorts, o bermudas). no camisetas sin manga o sandalias de playa están permitidas.",
+                            "imagenes": {
+                                "0": "ayami.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "COCO CAFÉ",
+                            "descripcion": "Deli & cafetería<br>Código de vestimenta<br>Casual: Bermudas (pantalones cortos o pantalones capri), calzado deportivo, tenis o sandalias. No se permite a los caballeros usar playeras sin mangas. Las mujeres deben llevar puesto un pareo o salida de baño.",
+                            "imagenes": {
+                                "0": "coco-cafe.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "THE GRILL",
+                            "descripcion": "Favoritos internacionales a la parrilla.<br>Código de vestimenta<br><b>Comida</b><br>Casual: Bermudas (pantalones cortos o pantalones capri), calzado deportivo, tenis o sandalias. No se permite a los caballeros usar playeras sin mangas. Las mujeres deben llevar puesto un pareo o salida de baño.<b>Cena</b><br>Casual Elegante: Zapatos tipo tenis o sandalias y camisas de vestir con manga corta. pantalón largo requerido para hombres (no shorts, o bermudas). no camisetas sin manga o sandalias de playa están permitidas.",
+                            "imagenes": {
+                                "0": "the-grill.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "HACIENDA EL MORTERO",
+                            "descripcion": "Cocina Mexicana<br>Código de vestimenta<br>Casual Elegante: Zapatos tipo tenis o sandalias y camisas de vestir con manga corta. pantalón largo requerido para hombres (no shorts, o bermudas). no camisetas sin manga o sandalias de playa están permitidas.",
+                            "imagenes": {
+                                "0": "hacienda-mortero.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "O RESTAURANTE",
+                            "descripcion": "Buffet Internacional<br>Código de vestimenta<br>Casual: Bermudas (pantalones cortos o pantalones capri), calzado deportivo, tenis o sandalias. No se permite a los caballeros usar playeras sin mangas. Las mujeres deben llevar puesto un pareo o salida de baño",
+                            "imagenes": {
+                                "0": "restaurante-o.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "OASIS SNACK BAR",
+                            "descripcion": "Restaurante exterior a la parrilla & bar",
+                            "imagenes": {
+                                "0": "barefoot-grill.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "RISOTTO RESTAURANT",
+                            "descripcion": "Delicatessen Italianas solo para adultos.<br>Código de vestimenta<br>Casual Elegante: Zapatos tipo tenis o sandalias y camisas de vestir con manga corta. pantalón largo requerido para hombres (no shorts, o bermudas). no camisetas sin manga o sandalias de playa están permitidas.",
+                            "imagenes": {
+                                "0": "rissotto.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "SURFOS SNACK BAR",
+                            "descripcion": "Restaurante exterior a la parrilla & bar.",
+                            "imagenes": {
+                                "0": "surfos-snack-bar.jpg"
+                            }
+                        },
+                        "8": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Localizado en el área principal del lobby.",
+                            "imagenes": {
+                                "0": "lobby-bar.jpg"
+                            }
+                        },
+                        "9": {
+                            "nombre": "SKY LOUNGE",
+                            "descripcion": "Bar en la azotea.",
+                            "imagenes": {
+                                "0": "sky-lounge-rooftop-bar.jpg"
+                            }
+                        },
+                        "10": {
+                            "nombre": "TIME OUT",
+                            "descripcion": "Sports Bar.",
+                            "imagenes": {
+                                "0": "time-out.jpg"
+                            }
+                        }
+                    }
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "planeación",
+                    "puntos": {
+                        "0": "Coordinación de boda",
+                        "1": "Elección de la locación privada para ceremonia y banquete",
+                        "2": "Invitación electrónica personalizada de tu boda"
+                    }
+                },
+                "1": {
+                    "nombre": "montaje de ceremonia",
+                    "puntos": {
+                        "0": "Gazebo decorado con telas blancas",
+                        "1": "Mobiliario y equipo de montaje básico",
+                        "2": "Equipo de audio básico (bocina y micrófono para oficiante)",
+                        "3": "Arreglo para mesa de ceremonia"
+                    }
+                },
+                "2": {
+                    "nombre": "banquete de boda",
+                    "puntos": {
+                        "0": "Montaje en mesas redondas y mantelería básica",
+                        "1": "Banquete compuesto por un menú a 3 tiempos",
+                        "2": "Brindis con un vino espumoso de la casa",
+                        "3": "Barra libre durante 4 horas (horario máximo hasta las 11:00 p.m.)"
+                    }
+                },
+                "3": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "3 Ascensos garantizados a Deluxe Ocean View",
+                        "1": "Bebida de bienvenida a su llegada al hotel",
+                        "2": "Frutero en la habitación",
+                        "3": "Late check-out 4: 00 p.m.",
+                        "4": "Ramo de novia y boutonniere para el novio"
+                    }
+                },
+                "4": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica de la habitación",
+                        "1": "Botella de vino espumoso",
+                        "2": "Tabla de quesos",
+                        "3": "Desayuno a la habitación al día siguiente"
+                    }
+                }
+            }
+        },
+        "2": {
+            "var": "puerto-vallarta",
+            "destino": "Puerto Vallarta",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_puerto_vallarta.jpg",
+            "carpeta": "LBDTS_VALLARTA/",
+            "hoteles": {
+                "0": {
+                    "var": "krystal",
+                    "nombre": "KRYSTAL PUERTO VALLARTA",
+                    "carpeta": "KRYSTAL_PUERTO_VALLARTA/",
+                    "galeria": "5",
+                    "logo": "krystal-puerto-vallarta.png",
+                    "direccion": "Av. Francisco Medina Ascencio S/N, Zona Hotelera, Zona Hotelera Nte., 48333 Puerto Vallarta, Jal.",
+                    "mapa": "https://goo.gl/maps/T8ut8aN3TPUyxb5v7",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN ESTÁNDAR<br>VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "estandar-vista-jardin_1.jpg",
+                                "1": "estandar-vista-jardin_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "44 metros cuadrados",
+                                "1": "Habitación con terraza o balcón",
+                                "2": "Cama king o dos camas dobles",
+                                "3": "Minibar",
+                                "4": "Plancha",
+                                "5": "Tabla de planchar",
+                                "6": "Caja de seguridad",
+                                "7": "TV con control a distancia",
+                                "8": "Reloj alarma",
+                                "9": "Secadora de cabello",
+                                "10": "Tocador con espejo",
+                                "11": "Marcación telefónica directa",
+                                "12": "Aire acondicionado"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN ESTÁNDAR<br>VISTA AL MAR",
+                            "imagenes": {
+                                "0": "estandar-vista-mar_1.jpg",
+                                "1": "estandar-vista-mar_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Habitación con balcón privado y amplias ventanas",
+                                "2": "Pisos de mármol",
+                                "3": "Cama king o dos camas dobles",
+                                "4": "Minibar",
+                                "5": "Plancha",
+                                "6": "Tabla de planchar",
+                                "7": "Caja de seguridad",
+                                "8": "TV con control a distancia"
+                            }
+                        },
+                        "2": {
+                            "nombre": "HABITACIÓN DE LUJO<br>VISTA A LA MONTAÑA",
+                            "imagenes": {
+                                "0": "de-lujo-vista-montana.jpg"
+                            },
+                            "puntos": {
+                                "0": "Una cama king o dos camas matrimoniales",
+                                "1": "Caja de seguridad",
+                                "2": "Set de planchado",
+                                "3": "Wi-Fi de alta velocidad",
+                                "4": "40 metros cuadrados",
+                                "5": "Balcón privado",
+                                "6": "TV de 42”"
+                            }
+                        },
+                        "3": {
+                            "nombre": "HABITACIÓN DE LUJO<br>VISTA AL MAR",
+                            "imagenes": {
+                                "0": "de-lujo-vista-mar_1.jpg",
+                                "1": "de-lujo-vista-mar_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Habitación con balcón privado",
+                                "2": "Baño con ducha independiente",
+                                "3": "Ventilador de techo",
+                                "4": "Wifi de alta velocidad",
+                                "5": "Cama king o dos camas dobles",
+                                "6": "Minibar",
+                                "7": "Plancha",
+                                "8": "Tabla de planchar",
+                                "9": "Caja de seguridad",
+                                "10": "TV con control a distancia",
+                                "11": "Reloj alarma",
+                                "12": "Secadora de cabello",
+                                "13": "Tocador con espejo",
+                                "14": "Marcación telefónica directa"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "LAS VELAS",
+                            "descripcion": "Comida del mar y cocina mexicana, buffet y menú a la carta.",
+                            "imagenes": {
+                                "0": "las-velas.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "KAMAKURA SUSHI BAR",
+                            "descripcion": "Comida japonesa. Se requiere reservación.",
+                            "imagenes": {
+                                "0": "kamakura.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "CINQUE TERRE",
+                            "descripcion": "Cocina italiana, menú a la Carta y buffet. Se requiere reservación.",
+                            "imagenes": {
+                                "0": "cinque-terre.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "CRAZY CRABS SNACK BAR",
+                            "descripcion": "Comida buffet, snacks y bebidas.",
+                            "imagenes": {
+                                "0": "snack-bar.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "LOS MARISCOS",
+                            "descripcion": "Delicias del mar. No aplica para el servicio de todo incluido.",
+                            "imagenes": {
+                                "0": "los-mariscos.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "LE CAFFE LOBBY BAR",
+                            "descripcion": "Bebidas, menú a la carta.",
+                            "imagenes": {
+                                "0": "bar-le-cafe.jpg"
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "var": "hilton",
+                    "nombre": "HILTON PUERTO VALLARTA",
+                    "carpeta": "HILTON_PUERTO_VALLARTA/",
+                    "galeria": "5",
+                    "logo": "hilton-puerto-vallarta.png",
+                    "direccion": "Ave. de Las Garzas 136, Zona Hotelera, Zona Hotelera Nte., 48333 Puerto Vallarta, Jal.",
+                    "mapa": "https://goo.gl/maps/yeUBswkRFt6YSgtr8",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "RESORT ROOM",
+                            "imagenes": {
+                                "0": "junior-suite-balcony_1.jpg",
+                                "1": "junior-suite-balcony_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Habitación con balcón privado y vista a las montañas",
+                                "1": "1 cama king size con edredón de plumas",
+                                "2": "Almohadas sin alérgenos",
+                                "3": "Sábana de 250 hilos",
+                                "4": "Minibar",
+                                "5": "Televisión"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN DELUXE VISTA AL MAR",
+                            "imagenes": {
+                                "0": "ocean-view-room_1.jpg",
+                                "1": "ocean-view-room_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Habitación con balcón privado y vista al océano pacífico",
+                                "1": "2 camas dobles con edredón de plumas",
+                                "2": "Almohadas sin alérgenos",
+                                "3": "Sábana de 250 hilos",
+                                "4": "Minibar",
+                                "5": "Televisión"
+                            }
+                        },
+                        "2": {
+                            "nombre": "HABITACIÓN JUNIOR SUITE HACIENDA JARDÍN",
+                            "imagenes": {
+                                "0": "hacienda-jr-suite-garden-view_1.jpg",
+                                "1": "hacienda-jr-suite-garden-view_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Una cama king size o dos camas matrimoniales",
+                                "1": "Caja de seguridad",
+                                "2": "et de planchado",
+                                "3": "Wi-Fi de alta velocidad",
+                                "4": "40 metros cuadrados ",
+                                "5": "Balcón privado",
+                                "6": "TV de 42”"
+                            }
+                        },
+                        "3": {
+                            "nombre": "HABITACIÓN JUNIOR SUITE HACIENDA PISCINA",
+                            "imagenes": {
+                                "0": "hacienda-jr-suite-pool-view_1.jpg",
+                                "1": "hacienda-jr-suite-pool-view_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Habitación sólo para adultos con vista a la piscina y jardines",
+                                "1": "1 cama king size con edredón de plumas",
+                                "2": "Almohadas sin alérgenos",
+                                "3": "Sábana de 250 hilos",
+                                "4": "Minibar",
+                                "5": "Televisión"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "FOGO",
+                            "descripcion": "Cocina brasileña. Vestimenta: casual elegante.",
+                            "imagenes": {
+                                "0": "fogo.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "II FORMAGGIO",
+                            "descripcion": "Cocina tradicional Italiana.",
+                            "imagenes": {
+                                "0": "formaggio.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "LA BONITA",
+                            "descripcion": "Sandwich, bocadillos, porfaits, postres y café.",
+                            "imagenes": {
+                                "0": "la-bonita.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "LA CATRINA",
+                            "descripcion": "Restaurante mexicano. Vestimenta: casual elegante. Se requieren reservaciones.",
+                            "imagenes": {
+                                "0": "catrina.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "LE DÉLICE",
+                            "descripcion": "Cocina de fusión francesa. Vestimenta: casual elegante.",
+                            "imagenes": {
+                                "0": "le-delice.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "SEA FIRE ALL DAY",
+                            "descripcion": "Cocina internacional en desayuno, comida y cena tipo buffet.",
+                            "imagenes": {
+                                "0": "sea-fire.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "TALAVERA",
+                            "descripcion": "Restaurante con vista a la piscina, desayuno buffet de mariscos y cena temática cada noche.",
+                            "imagenes": {
+                                "0": "talavera.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "O WEST SUNSET LOUNGE",
+                            "descripcion": "Sushi, pinchos y tapas. Sólo adultos.",
+                            "imagenes": {
+                                "0": "o-west-sunset-lounge.jpg"
+                            }
+                        },
+                        "8": {
+                            "nombre": "LOBBY",
+                            "descripcion": "Bebidas nacionales e internacionales.",
+                            "imagenes": {
+                                "0": "lobby.jpg"
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "var": "palladium",
+                    "nombre": "GRAND PALLADIUM VALLARTA",
+                    "carpeta": "PALLADIUM_VALLARTA/",
+                    "galeria": "5",
+                    "logo": "GP_VTA.png",
+                    "direccion": "Carr. Federal la Cruz de Huanacaxtle - Punta de Mita KM. 11.6, 63734 Riviera, Nay.",
+                    "mapa": "https://goo.gl/maps/NUSzGkX27cGKogY9A",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "Palladium_vallarta_deluxe_garden_view.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN VISTA AL MAR",
+                            "imagenes": {
+                                "0": "Palladium_vallarta_junior_suite.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "FRUTAS Y FLORES",
+                            "descripcion": "Todos los días encontrarás algo diferente cocinado al momento: pescado, pollo, res o cerdo.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "1": {
+                            "nombre": "LA TERRAZA",
+                            "descripcion": "Restaurante al aire libre donde podrás disfrutar de una cena a la carta con las especialidades de nuestro chef.",
+                            "imagenes": {
+                                "0": "Palladium_vallarta_rest_las terrazas.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "CAÑA BRAVA",
+                            "descripcion": "Restaurante al aire libre en el que disfrutarás las mejores especialidades de nuestro chef con un fresco y variado  menú.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "3": {
+                            "nombre": "LA ISLA",
+                            "descripcion": "Goza de una vista maravillosa hacia nuestra Bahía El Palmar o hacia nuestras piscinas.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "4": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Disfruta de una bebida refrescante viendo al mar.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "5": {
+                            "nombre": "POOL BAR",
+                            "descripcion": "La mejor opción para una refrescante bebida junto a la alberca.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "ceremonia y banquete",
+                    "puntos": {
+                        "0": "Hospedaje en habitación estándar, en plan todo incluido",
+                        "1": "Gazebo decorado con flores (flores de temporada)",
+                        "2": "Arreglo para mesa de ceremonia",
+                        "3": "Mobiliario y equipo de montaje básico",
+                        "4": "Equipo de audio básico (solo ceremonia)",
+                        "5": "Brindis con vino espumoso de la casa",
+                        "6": "Montaje con mesas redondas y mantelería básica",
+                        "7": "Barra libre durante 4 horas (horario máximo hasta las 11:00 p.m.)",
+                        "8": "Banquete compuesto por un menú de 3 tiempos",
+                        "9": "Coordinación del evento"
+                    }
+                },
+                "1": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "3 ascensos garantizados a la siguiente categoría vista al mar",
+                        "1": "Bebida de bienvenida a la llegada",
+                        "2": "Frutero en habitación",
+                        "3": "Una noche de hospedaje en cortesía para el primer aniversario",
+                        "4": "Late check out 4:00 p.m. (sujeto a disponibilidad)",
+                        "5": "Ramo y boutonniere"
+                    }
+                },
+                "2": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica en la habitación",
+                        "1": "Botella vino espumoso",
+                        "2": "Tabla de quesos",
+                        "3": "Desayuno a la habitación al día siguiente"
+                    }
+                }
+            }
+        },
+        "3": {
+            "var": "riviera-maya",
+            "destino": "Riviera Maya",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_riviera_maya.jpg",
+            "carpeta": "LBDTS_RIVIERA_MAYA/",
+            "hoteles": {
+                "0": {
+                    "var": "bluebay",
+                    "nombre": "BLUEBAY GRAND ESMERALDA",
+                    "carpeta": "BLUEBAY_GRAND_ESMERALDA/",
+                    "galeria": "15",
+                    "logo": "bluebay-riviera-maya.png",
+                    "direccion": "Carretera Chetumal, Puerto Juarez Km. 300, 77710 Playa del Carmen, Q.R.",
+                    "mapa": "https://goo.gl/maps/7UNiD8yt3Q5Ei7WZ7",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "DELUXE VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "deluxe-garden-view.png",
+                                "1": "deluxe-garden-view-2.png"
+                            },
+                            "puntos": {
+                                "0": "Capacidad para 4 personas",
+                                "1": "2 camas dobles o 1 cama king size",
+                                "2": "Aire acondicionado",
+                                "3": "Reloj despertador",
+                                "4": "Balcón o terraza",
+                                "5": "Amenidades de baño",
+                                "6": "Cable",
+                                "7": "Ventilador",
+                                "8": "Cunas disponibles",
+                                "9": "Camas extra disponibles",
+                                "10": "Secadora de cabello",
+                                "11": "Plancha",
+                                "12": "Espejo facial",
+                                "13": "Habitaciones para no fumadores",
+                                "14": "Pantalla LCD/Plasma",
+                                "15": "Room Service ($)",
+                                "16": "Caja de seguridad",
+                                "17": "Regadera (Ducha)",
+                                "18": "Sistema vs. Incendio",
+                                "19": "Teléfono ($)",
+                                "20": "Internet inalámbrico"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "FESTIVAL",
+                            "descripcion": "Restaurante tipo buffet",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "JAAL-HA",
+                            "descripcion": "Cocina internacional tipo buffet.",
+                            "imagenes": {
+                                "0": "jaal-ha.png"
+                            }
+                        },
+                        "2": {
+                            "nombre": "CUORE DI ROSSI",
+                            "descripcion": "Restaurante de especialidad italiana.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "DON ISI",
+                            "descripcion": "Restaurante de especialidad mexicana.",
+                            "imagenes": {
+                                "0": "don-isi.png"
+                            }
+                        },
+                        "4": {
+                            "nombre": "L’ATELIER",
+                            "descripcion": "Restaurante de especialidad francesa.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "SEA FOOD",
+                            "descripcion": "Mariscos.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "STEAK HOUSE",
+                            "descripcion": "Restaurante de especialidad en cortes de carne.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "ORIENTAL",
+                            "descripcion": "Cocina oriental.",
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "var": "blue-diamond",
+                    "nombre": "Blue Diamond Luxury Boutique",
+                    "carpeta": "blue_diamond_luxury/",
+                    "galeria": "10",
+                    "logo": "logo-blue-diamond.png",
+                    "direccion": "México 307 Km 298, Riviera Maya, 77710 Playa del Carmen, Q.R.",
+                    "mapa": "https://goo.gl/maps/z44zxRAQHgvKwu8Q9",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "Patio Junior Suite",
+                            "imagenes": [
+                                "patio-junior-suite.jpg"
+                            ],
+                            "puntos": [
+                                "67 m2",
+                                "Cama king size",
+                                "Capacidad máxima: 2 adultos ",
+                                "Baño completo",
+                                "Cafetera/Tetera",
+                                "TV",
+                                "Teléfono",
+                                "Radio/reloj despertador",
+                                "Aire acondicionado y/o ventilador de techo",
+                                "Caja de seguridad ",
+                                "Plancha y tabla de planchar",
+                                "Secador de pelo"
+                            ]
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "Tapas Bar",
+                            "descripcion": "Variedad de ceviches de mariscos y un menú con una extensa variedad de tapas a la carta.",
+                            "horarios": [
+                                "<b>Código de vestir</b>: casual.",
+                                "<b>Desayuno</b>: 9:00 a.m. a 12:00 p.m.",
+                                "<b>Comida</b>: 12:00 p.m. a 6:00 p.m.",
+                                "<b>Snack</b>: 10:00 p.m. a 7:00 a.m."
+                            ],
+                            "imagenes": {
+                                "0": "ceviches-y-tapas.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "Aguamarina",
+                            "descripcion": "Cocina Internacional a la carta con vista panorámica al Mar Caribe y la alberca principal. Cuenta con dos secciones una climatizada y otra al aire libre, para que disfrutes tranquilamente de tus alimentos y comiences bien tus vacaciones.",
+                            "horarios": [
+                                "<b>Código de vestir</b>: casual elegante.",
+                                "<b>Desayuno</b>: 7:00 a.m. a 11:00 a.m.",
+                                "<b>Comida</b>: 12:00 p.m. a 4:00 p.m.",
+                                "<b>Cena</b>: 6:00 p.m. a 10:00 p.m."
+                            ],
+                            "imagenes": {
+                                "0": "internacional.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "Ambar",
+                            "descripcion": "Disfruta de los mejores platillos de la Cocina Fusión en nuestro ambiente exclusivo y con una vista envidiable de la laguna.",
+                            "horarios": [
+                                "<b>Código de vestir</b>: casual elegante.",
+                                "<b>Abierto</b> de 6:00 p.m. a 10:00 p.m. (a la carte)"
+                            ],
+                            "imagenes": {
+                                "0": "cocina-fusion.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "La Mesa del Chef",
+                            "descripcion": "",
+                            "horarios": [
+                                "<b>Código de vestir</b>: casual elegante.",
+                                "<b>Cena</b>: 7:00 p.m. a 10:00 p.m."
+                            ],
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "The Pool Bar",
+                            "descripcion": "Degusta una amplia variedad de bebidas nacionales e internacionales de marca premium.",
+                            "horarios": [
+                                "<b>Código de vestir</b>: playero durante el día y casual elegante por la noche.",
+                                "<b>Abierto</b> de 9:00 a.m. a 1:00 a.m."
+                            ],
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "The Cigar Lounge",
+                            "descripcion": "Es un bar estilo Chic diseñado para que disfrutes de las más prestigiadas marcas de Habanos, vinos y licores.",
+                            "horarios": [
+                                "<b>Abierto</b> de 9:00 a.m. a 1:00 a.m.",
+                                "* Aplican cargos adicionales en algunos servicios."
+                            ],
+                            "imagenes": {
+                                "0": "bar-cigar.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "Café Brulé",
+                            "descripcion": "Ubicado en el área de Lobby principal, es el lugar ideal para una buena taza de café o té, acompañado de fina repostería.",
+                            "horarios": [
+                                "<b>Abierto</b> de 7:00 a.m. a 11:00 p.m."
+                            ],
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "In-Suite Dining",
+                            "descripcion": "Sin salir de tu suite, disfruta de deliciosos menús preparados para tu desayuno, comida y/o cena.",
+                            "horarios": [
+                                "Servicio las 24 hrs."
+                            ],
+                            "imagenes": {
+                                "0": "default-img.jpg"
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "var": "palladium",
+                    "nombre": "GRAND PALLADIUM RIVIERA MAYA",
+                    "carpeta": "PALLADIUM_RIVIERA_MAYA/",
+                    "galeria": "5",
+                    "logo": "GP_RM.png",
+                    "direccion": "Carretera Federal Chetumal- Puerto Juarez Km.259-100, Predio 3, 77710 Playa del Carmen, Q.R.",
+                    "mapa": "https://goo.gl/maps/dVfxXqXbMdjNUGTX6",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "Palladium_riviera_maya_junior_suite.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN VISTA AL MAR",
+                            "imagenes": {
+                                "0": "Palladium_riviera_maya_deluxe.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "FRUTAS Y FLORES",
+                            "descripcion": "Todos los días encontrarás algo diferente cocinado al momento: pescado, pollo, res o cerdo.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "1": {
+                            "nombre": "LA TERRAZA",
+                            "descripcion": "Restaurante al aire libre donde podrás disfrutar de una cena a la carta con las especialidades de nuestro chef.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "2": {
+                            "nombre": "CAÑA BRAVA",
+                            "descripcion": "Restaurante al aire libre en el que disfrutarás las mejores especialidades de nuestro chef con un fresco y variado  menú.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "3": {
+                            "nombre": "LA ISLA",
+                            "descripcion": "Goza de una vista maravillosa hacia nuestra Bahía El Palmar o hacia nuestras piscinas.",
+                            "imagenes": {
+                                "0": "Palladium_riviera_maya_swim_up_bar.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Disfruta de una bebida refrescante viendo al mar.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        },
+                        "5": {
+                            "nombre": "POOL BAR",
+                            "descripcion": "La mejor opción para una refrescante bebida junto a la alberca.",
+                            "imagenes": {
+                                "0": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "planeación",
+                    "puntos": {
+                        "0": "Coordinación de boda",
+                        "1": "Degustación para 2 personas",
+                        "2": "Elección de locación para ceremonia y banquete"
+                    }
+                },
+                "1": {
+                    "nombre": "montaje de la ceremonia",
+                    "puntos": {
+                        "0": "Gazebo básico decorado con telas blancas",
+                        "1": "Arreglo para mesa de ceremonia",
+                        "2": "Mobiliario y equipo de montaje básico",
+                        "3": "Equipo de audio básico (bocina y micrófono para oficiante)",
+                        "4": "Pastel de boda representativo",
+                        "5": "Ramo y boutonniere"
+                    }
+                },
+                "2": {
+                    "nombre": "banquete de boda",
+                    "puntos": {
+                        "0": "Renta del área donde se llevará a cabo el evento",
+                        "1": "Montaje de gala para el banquete",
+                        "2": "Montaje en mesas y cristalería stock del hotel",
+                        "3": "4 centros de mesa florales",
+                        "4": "Brindis con vino espumoso de la casa",
+                        "5": "Servicio de meseros",
+                        "6": "Banquete compuesto por un menú a 3 tiempos",
+                        "7": "Barra libre duración de 4 horas"
+                    }
+                },
+                "3": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "3 ascensos garantizados a categoría superior contratada",
+                        "1": "Bebida de bienvenida a la llegada",
+                        "2": "Frutero o amenidad en la habitación",
+                        "3": "Botella de vino espumoso en la habitación",
+                        "4": "Decoración especial en la habitación para la noche de bodas",
+                        "5": "Cortesía de hospedaje de 2 noches para festejo de primer aniversario de bodas"
+                    }
+                },
+                "4": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica de la habitación",
+                        "1": "Desayuno nupcial a la mañana siguiente de la boda (previa reservación)",
+                        "2": "Late check out 4:00 p.m. (sujeto a disponibilidad)"
+                    }
+                }
+            }
+        },
+        "4": {
+            "var": "cabos",
+            "destino": "Los Cabos",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_los_cabos.jpg",
+            "carpeta": "LBDTS_CABOS/",
+            "hoteles": [
+                {
+                    "var": "krystal-grand",
+                    "nombre": "KRYSTAL GRAND LOS CABOS",
+                    "carpeta": "REFLECT_LOS_CABOS/",
+                    "galeria": "10",
+                    "logo": "krystal-grand-los-cabos.png",
+                    "direccion": "Carr. Transpeninsular Km. 29, La Jolla, 23400 San José del Cabo, B.C.S.",
+                    "mapa": "https://g.page/reflectkrystalgrandloscabos?share",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "DE LUJO",
+                            "imagenes": {
+                                "0": "DELUXE/1.jpg",
+                                "1": "DELUXE/2.jpg",
+                                "2": "DELUXE/3.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Una cama King ",
+                                "2": "Sofá cama o dos camas dobles más sofá cama",
+                                "3": "Vista a calle residencial",
+                                "4": "Baño con regadera",
+                                "5": "Lujosas amenidades de baño",
+                                "6": "Servicio a la habitación 24-horas",
+                                "7": "Mini-bar reabastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "8": "Wi-Fi de cortesía",
+                                "9": "TV con sistema satelital",
+                                "10": "Cafetera",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello",
+                                "13": "Espejo para maquillarse"
+                            }
+                        },
+                        "1": {
+                            "nombre": "SUITE UNA RECÁMARA VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "ONE_BEDROOM_GARDEN_VIEW/1.jpg",
+                                "1": "ONE_BEDROOM_GARDEN_VIEW/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "63 metros cuadrados",
+                                "1": "Una cama King ",
+                                "2": "Sofá cama ",
+                                "3": "Vista a calle residencial",
+                                "4": "Baño con regadera",
+                                "5": "Lujosas amenidades de baño",
+                                "6": "Servicio a la habitación 24-horas",
+                                "7": "Mini-bar reabastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "8": "Wi-Fi de cortesía",
+                                "9": "TV con sistema satelital",
+                                "10": "Cafetera",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello",
+                                "13": "Espejo para maquillarse"
+                            }
+                        },
+                        "2": {
+                            "nombre": "DE LUJO PALMILLA VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "PALMILLA_DELUXE_GARDEN_VIEW/1.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Una cama King o dos camas dobles ",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24-horas",
+                                "5": "Mini-bar reabastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con sistema satelital",
+                                "8": "Cafetera",
+                                "9": "Caja de seguridad en la habitación",
+                                "10": "Secadora de cabello",
+                                "11": "Espejo para maquillarse"
+                            }
+                        },
+                        "3": {
+                            "nombre": "SUITE PALMILLA VISTA AL MAR",
+                            "imagenes": {
+                                "0": "SUITE_PALMILLA_OCEAN_VIEW/1.jpg"
+                            },
+                            "puntos": {
+                                "0": "51 metros cuadrados",
+                                "1": "Una cama King o dos camas dobles ",
+                                "2": "Baño con regadera",
+                                "3": "Lujosas amenidades de baño",
+                                "4": "Servicio a la habitación 24-horas",
+                                "5": "Mini-bar reabastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "6": "Wi-Fi de cortesía",
+                                "7": "TV con sistema satelital",
+                                "8": "Cafetera",
+                                "9": "Caja de seguridad en la habitación",
+                                "10": "Secadora de cabello",
+                                "11": "Espejo para maquillarse"
+                            }
+                        },
+                        "4": {
+                            "nombre": "JUNIOR SUITE OCEAN VIEW",
+                            "imagenes": {
+                                "0": "JUNIOR_SUITE_OCEAN_VIEW/1.jpg",
+                                "1": "JUNIOR_SUITE_OCEAN_VIEW/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "52.95 metros cuadrados",
+                                "1": "Cama King Size",
+                                "2": "Sofá cama o dos camas dobles",
+                                "3": "Sofá cama",
+                                "4": "Minibar",
+                                "5": "Baño con regadera",
+                                "6": "Lujosas amenidades de baño",
+                                "7": "Servicio a la habitación 24-horas",
+                                "8": "Mini-bar reabastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "9": "Wi-Fi de cortesía",
+                                "10": "TV con sistema satelital",
+                                "11": "Cafetera/tetera",
+                                "12": "Caja de seguridad en la habitación",
+                                "13": "Secadora de cabello",
+                                "14": "Espejo para maquillarse"
+                            }
+                        },
+                        "5": {
+                            "nombre": "JUNIOR SUITE SWIM OUT GARDEN VIEW",
+                            "imagenes": {
+                                "0": "JUNIOR_SUITE_SWIMOUT_GARDEN_VIEW/1.jpg",
+                                "1": "JUNIOR_SUITE_SWIMOUT_GARDEN_VIEW/2.jpg",
+                                "2": "JUNIOR_SUITE_SWIMOUT_GARDEN_VIEW/3.jpg"
+                            },
+                            "puntos": {
+                                "0": "Cama King Size",
+                                "1": "Sofá cama",
+                                "2": "Terraza privada con acceso directo a la piscina",
+                                "3": "Minibar",
+                                "4": "Baño con regadera",
+                                "5": "Lujosas amenidades de baño",
+                                "6": "Servicio a la habitación 24-horas",
+                                "7": "Mini-bar reabastecido diariamente con sodas, agua embotellada, jugos y cerveza",
+                                "8": "Wi-Fi de cortesía",
+                                "9": "TV con sistema satelital",
+                                "10": "Cafetera/tetera",
+                                "11": "Caja de seguridad en la habitación",
+                                "12": "Secadora de cabello",
+                                "13": "Espejo para maquillarse"
+                            }
+                        },
+                        "6": {
+                            "nombre": "ALTITUDE JUNIOR SUITE OCEAN FRONT",
+                            "imagenes": {
+                                "0": "ALTITUDE_JUNIOR_SUITE_OCEAN_FRONT/1.jpg",
+                                "1": "ALTITUDE_JUNIOR_SUITE_OCEAN_FRONT/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "44.96 metros cuadrados",
+                                "1": "Cama King Size",
+                                "2": "Sofá cama o dos camas dobles",
+                                "3": "Sofá cama",
+                                "4": "Balcón o terraza privada",
+                                "5": "Check in y Check out personalizado",
+                                "6": "Lounge Privado Club Altitude",
+                                "7": "Café y postres diarios en el lounge Club Altitude",
+                                "8": "Amenidades de mejor categoría",
+                                "9": "Batas de baño y pantuflas",
+                                "10": "Toalla de playa en la habitación",
+                                "11": "Acceso exclusivo al Sky lounge sólo para adultos"
+                            }
+                        },
+                        "7": {
+                            "nombre": "ALTITUDE JUNIOR SUITE SWIM OUT OCEAN FRONT",
+                            "imagenes": {
+                                "0": "ALTITUDE_JUNIOR_SUITE_SWIMOUT_OCEAN_FRONT/1.jpg",
+                                "1": "ALTITUDE_JUNIOR_SUITE_SWIMOUT_OCEAN_FRONT/2.jpg"
+                            },
+                            "puntos": {
+                                "0": "40 metros cuadrados",
+                                "1": "Cama King Size",
+                                "2": "Sofá cama o dos camas dobles",
+                                "3": "Sofá cama",
+                                "4": "Balcón o terraza privada con acceso directo a la piscina",
+                                "5": "Check in y Check out personalizado",
+                                "6": "Lounge Privado Club Altitude",
+                                "7": "Café y postres diarios en el lounge Club Altitude",
+                                "8": "Amenidades de mejor categoría",
+                                "9": "Batas de baño y pantuflas",
+                                "10": "Toalla de playa en la habitación",
+                                "11": "Acceso exclusivo al Sky lounge sólo para adultos"
+                            }
+                        },
+                        "8": {
+                            "nombre": "ALTITUDE SUITE GOVERNOR OCEAN VIEW",
+                            "imagenes": {
+                                "0": "ALTITUDE_SUITE_GOVERNOR_OCEAN_VIEW/1.jpg",
+                                "1": "ALTITUDE_SUITE_GOVERNOR_OCEAN_VIEW/2.jpg",
+                                "2": "ALTITUDE_SUITE_GOVERNOR_OCEAN_VIEW/3.jpg"
+                            },
+                            "puntos": {
+                                "0": "49.98 metros cuadrados",
+                                "1": "Una cama King y sofá cama",
+                                "2": "Baño completo con tina de hidromasaje",
+                                "3": "Check-in y check-out privado en el lounge Altitude Club",
+                                "4": "Acceso al lounge privado Altitude Club sirviendo bebidas Premium, café y bocadillos",
+                                "5": "Servicio personalizado",
+                                "6": "Amenidades de mejor categoría",
+                                "7": "Bata de baño y pantuflas",
+                                "8": "Toalla de playa y bolsa de playa en la habitación (para usar durante su estancia)",
+                                "9": "Mini-bar de snacks (reabastecido una vez al día)",
+                                "10": "Botella de Tequila de bienvenida en la habitación",
+                                "11": "Acceso exclusivo solo para adultos al Lounge Sky"
+                            }
+                        },
+                        "9": {
+                            "nombre": "ALTITUDE SUITE PRESIDENTIAL OCEAN VIEW",
+                            "imagenes": {
+                                "0": "ALTITUDE_PRESIDENTIAL_OCEAN_VIEW/1.jpg",
+                                "1": "ALTITUDE_PRESIDENTIAL_OCEAN_VIEW/2.jpg",
+                                "2": "ALTITUDE_PRESIDENTIAL_OCEAN_VIEW/3.jpg"
+                            },
+                            "puntos": {
+                                "0": "116.96 metros cuadrados",
+                                "1": "Una cama king",
+                                "2": "Sala de estar y comedor",
+                                "3": "Baño completo con tina de hidromasaje",
+                                "4": "Check-in y check-out privado en el lounge Altitude Club",
+                                "5": "Acceso al lounge privado Altitude Club sirviendo bebidas Premium, café y bocadillos",
+                                "6": "Servicio personalizado",
+                                "7": "Amenidades de mejor categoría",
+                                "8": "Bata de baño y pantuflas",
+                                "9": "Toalla de playa y bolsa de playa en la habitación (para usar durante su estancia)",
+                                "10": "Mini-bar de snacks (reabastecido una vez al día)",
+                                "11": "Botella de Tequila de bienvenida en la habitación",
+                                "12": "Acceso exclusivo solo para adultos al Lounge Sky"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "Ayami",
+                            "descripcion": "Cocina Pan-Asiática y Teppanyaki.",
+                            "imagenes": {
+                                "0": "ayami.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "Coco café",
+                            "descripcion": "Deli & cafetería.",
+                            "imagenes": {
+                                "0": "coco-cafe.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "The Grill",
+                            "descripcion": "Parillada Internacional, código de vestimenta: casual.",
+                            "imagenes": {
+                                "0": "the-grill.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "Hacienda el Mortero",
+                            "descripcion": "Autentica comida Mexicana en el Corazón de Cancún, se requiere reservación.",
+                            "imagenes": {
+                                "0": "hacienda-mortero.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "Restaurant O",
+                            "descripcion": "Buffet Internacional, vestimenta casual.",
+                            "imagenes": {
+                                "0": "o.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "Rissoto Restaurant",
+                            "descripcion": "Delicadeces Italianas, vestimenta casual elegante.",
+                            "imagenes": {
+                                "0": "risotto.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "Surfos Snack Bar",
+                            "descripcion": "Restaurante exterior a la parrilla & bar",
+                            "imagenes": {
+                                "0": "skybar.jpg"
+                            }
+                        },
+                        "7": {
+                            "nombre": "Lobby Bar",
+                            "descripcion": "Localizado en el área principal del lobby.",
+                            "imagenes": {
+                                "0": "lobby-bar.jpg"
+                            }
+                        },
+                        "8": {
+                            "nombre": "Martini & Tapas Bar",
+                            "descripcion": "Una variedad de tapas y martinis",
+                            "imagenes": {
+                                "0": "martini-tapas.jpg"
+                            }
+                        }
+                    }
+                },
+                {
+                    "var": "tesoro",
+                    "nombre": "TESORO LOS CABOS",
+                    "carpeta": "TESORO_LOS_CABOS/",
+                    "galeria": "7",
+                    "logo": "tesoro-los-cabos.png",
+                    "direccion": "Blvd. Paseo de la Marina LT 9 y 10, Centro, Marina, 23450 Cabo San Lucas, B.C.S.",
+                    "mapa": "https://g.page/tesorocabo?share",
+                    "habitaciones": [
+                        {
+                            "nombre": "Standard Room",
+                            "imagenes": [
+                                "estandar-vista-ciudad.jpg"
+                            ],
+                            "descripcion": "Cómoda habitación estándar, con cama King size y vista parcial a la ciudad."
+                        },
+                        {
+                            "nombre": "Standard Marina View",
+                            "imagenes": [
+                                "estandar-vista-mar.jpg"
+                            ],
+                            "descripcion": "Relájate en nuestra acogedora y confortable habitación Estándar con vista a la marina, desayuno buffet disponible."
+                        },
+                        {
+                            "nombre": "Junior Suite",
+                            "imagenes": [
+                                "jr-suite.jpg"
+                            ],
+                            "descripcion": "Nuestra espaciosa y moderna Junior Suite, decorada con colores vibrantes y balcón con vista a la marina, hace que sea la opción ideal para descansar y disfrutar sus vacaciones, desayuno buffet incluido."
+                        },
+                        {
+                            "nombre": "Master Suite",
+                            "imagenes": [
+                                "master-suite.jpg"
+                            ],
+                            "descripcion": "Nuestra suite de una habitación, ofrece un ambiente tranquilo y privado, hace que sea la opción ideal para disfrutar de una escapada divertida o romántica con tu pareja o amigos."
+                        }
+                    ],
+                    "restaurantes": [
+                        {
+                            "nombre": "Vista Roof",
+                            "descripcion": "Restaurante ofrece un ambiente excepcional y relajado con espectaculares vistas panorámicas, comienza tu día con una taza de café recién hecho y la increíble vista del amanecer, disfruta del desayuno buffet más completo.",
+                            "imagenes": ["vista-roof.jpg"]
+                        },
+                        {
+                            "nombre": "LightHouse Restaurant",
+                            "descripcion": "",
+                            "imagenes": ["lighthouse.jpg"]
+                        },
+                        {
+                            "nombre": "Agave Azul Restaurante",
+                            "descripcion": "Disfruta de la auténtica cocina mexicana, aquí degustaras desde un delicioso trio de tacos con sabores tradicionales, hasta el famoso Molcajete Mexicano, perfecto para compartir y disfrutar con tu persona favorita.",
+                            "imagenes": ["agave-azul.jpg"]
+                        },
+                        {
+                            "nombre": "101 Margaritas BAR",
+                            "descripcion": "101 tipos de margaritas además de cada cóctel clásico y una variedad de cervezas, mientras disfruta de eventos deportivos proyectados en pantallas gigantes en un auténtico ambiente mexicano.",
+                            "imagenes": ["margaritas.jpg"]
+                        },
+                        {
+                            "nombre": "Skypool",
+                            "descripcion": "Disfrute y tome un sorbo de su mojito, o siéntese junto a la piscina haciendo nuevos amigos y degustando todas las bebidas refrescantes, en el lugar perfecto con la mejor vista.",
+                            "imagenes": ["skypool.jpg"]
+                        },
+                        {
+                            "nombre": "Half Bar Pub and Coffee",
+                            "descripcion": "Tome una cerveza de la amplia variedad, o disfrute de espressos, cappuccinos y lattes, también te podras refréscar con Frappuccinos y cafes helados con sabores frescos y exquisitos.",
+                            "imagenes": ["half-bar.jpg"]
+                        }
+                    ]
+                }
+            ],
+            "contenido": {
+                "0": {
+                    "nombre": "planeación",
+                    "puntos": {
+                        "0": "Coordinación de boda",
+                        "1": "Degustación de menú para 2 personas (persona extra costo adicional, propina no incluida)",
+                        "2": "Elección de la locación privada para ceremonia y banquete",
+                        "3": "Invitación electrónica personalizada de tu boda"
+                    }
+                },
+                "1": {
+                    "nombre": "ceremonia",
+                    "puntos": {
+                        "0": "Gazebo decorado con flores",
+                        "1": "Mobiliario y equipo de montaje básico",
+                        "2": "Ramo y boutonniere",
+                        "3": "Equipo de audio básico (sólo ceremonia)"
+                    }
+                },
+                "2": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "3 ascensos garantizados de lujo vista al mar",
+                        "1": "Bebida de bienvenida a la llegada",
+                        "2": "Frutero en la habitación",
+                        "3": "Una noche de hospedaje para el primer aniversario",
+                        "4": "Late check out 4 pm (sujeto a disponibilidad)"
+                    }
+                },
+                "3": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica en la habitación",
+                        "1": "Botella de vino espumoso",
+                        "2": "Fresas con chocolate",
+                        "3": "Desayuno en la habitación al día",
+                        "4": "siguiente de la boda"
+                    }
+                }
+            }
+        },
+        "5": {
+            "var": "acapulco",
+            "destino": "Acapulco",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_acapulco.jpg",
+            "carpeta": "LBDTS_ACAPULCO/",
+            "hoteles": {
+                "0": {
+                    "var": "krystal",
+                    "nombre": "KRYSTAL ACAPULCO",
+                    "carpeta": "KRYSTAL_BEACH_ACAPULCO/",
+                    "galeria": "5",
+                    "logo": "krystal-beach-acapulco.png",
+                    "direccion": "Av. Costera Miguel Alemán 163, Fracc. Magallanes, Acapulco de Juárez, Gro.",
+                    "mapa": "https://goo.gl/maps/suFPXdUMWpHdhtrY9",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "ESTÁNDAR CON VISTA AL OCÉANO",
+                            "imagenes": {
+                                "0": "estandar-vista-mar_1.jpg",
+                                "1": "estandar-vista-mar-2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Aire acondicionado",
+                                "1": "Capacidad máxima para 4 personas",
+                                "2": "Amenidades",
+                                "3": "Balcón",
+                                "4": "Caja de seguridad",
+                                "5": "Climatización individual",
+                                "6": "Detector de humos",
+                                "7": "Regadera",
+                                "8": "Plancha y tabla",
+                                "9": "Servicio de habitaciones",
+                                "10": "Servicio despertador",
+                                "11": "Set de baño",
+                                "12": "Televisión con satélite",
+                                "13": "Terraza en la habitación",
+                                "14": "Wifi gratuito"
+                            }
+                        },
+                        "1": {
+                            "nombre": "ESTÁNDAR CON VISTA A LA MONTAÑA",
+                            "imagenes": {
+                                "0": "estandar-vista-montana-1.jpg",
+                                "1": "estandar-vista-montana-2.jpg",
+                                "2": "estandar-vista-montana-3.jpg"
+                            },
+                            "puntos": {
+                                "0": "Aire acondicionado",
+                                "1": "Capacidad máxima para 4 personas ",
+                                "2": "Amenidades",
+                                "3": "Balcón",
+                                "4": "Caja de seguridad",
+                                "5": "Climatización individual",
+                                "6": "Detector de humos",
+                                "7": "Ducha (regadera)",
+                                "8": "Habitaciones estándar",
+                                "9": "Plancha y tabla",
+                                "10": "Servicio de habitaciones",
+                                "11": "Servicio despertador",
+                                "12": "Set de baño",
+                                "13": "Teléfono",
+                                "14": "Televisión",
+                                "15": "Televisión con satélite",
+                                "16": "Terraza en habitación",
+                                "17": "Wifi gratuito"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "RESTAURANTE AQUAMARINA",
+                            "descripcion": "Es su restaurante principal, cuenta con servicio completo de desayuno, comidas y cenas en formato buffet y a la carta. Tiene las mejores vistas sobre la bahía de Acapulco.",
+                            "imagenes": {
+                                "0": "aquamarina.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "RESTAURANTE LA PALAPA",
+                            "descripcion": "En este restaurante encontrarás los mejores sabores del Pacífico mexicano y te relajarás con los pies sumergidos en la arena. Degusta increíble comida marinera y cócteles tropicales.",
+                            "imagenes": {
+                                "0": "la-palapa.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "SNACK BAR",
+                            "descripcion": "Se encuentra a pocos metros de la alberca principal, ofrece comida ligera y botanas preparadas al momento para que no dejes de disfrutar mientras te diviertes en la playa o en la alberca del hotel.",
+                            "imagenes": {
+                                "0": "snack-bar.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Este bar situado en el lobby sirve refrescantes bebidas y exóticos cocteles, ideales para compartir con amigos.",
+                            "imagenes": {
+                                "0": "lobby-bar.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "POOL BAR",
+                            "descripcion": "Por la mañana o tarde disfruta de tu coctel favorito observando los destellos de la bahía y su excelente ambiente.",
+                            "imagenes": {
+                                "0": "pool-bar.jpg"
+                            }
+                        }
+                    }
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "ceremonia y banquete",
+                    "puntos": {
+                        "0": "Hospedaje en habitación estándar, en plan todo incluido",
+                        "1": "Gazebo decorado con flores (flores de temporada)",
+                        "2": "Arreglo para mesa de ceremonia",
+                        "3": "Mobiliario y equipo de montaje básico",
+                        "4": "Equipo de audio básico (solo ceremonia)",
+                        "5": "Brindis con vino espumoso de la casa",
+                        "6": "Montaje con mesas redondas y mantelería básica",
+                        "7": "Barra libre durante 4 horas (horario máximo hasta las 11:00 p.m.)",
+                        "8": "Banquete compuesto por un menú de 3 tiempos",
+                        "9": "Coordinación del evento"
+                    }
+                },
+                "1": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "3 ascensos garantizados a la siguiente categoría vista al mar",
+                        "1": "Bebida de bienvenida a la llegada",
+                        "2": "Frutero en habitación",
+                        "3": "Ramo y boutonniere",
+                        "4": "Una noche de hospedaje en cortesía para el primer aniversario",
+                        "5": "Late check out 4:00 p.m. (sujeto a disponibilidad)"
+                    }
+                },
+                "2": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica en la habitación",
+                        "1": "Botella vino espumoso",
+                        "2": "Tabla de quesos",
+                        "3": "Desayuno a la habitación al día siguiente"
+                    }
+                }
+            }
+        },
+        "6": {
+            "var": "ixtapa",
+            "destino": "Ixtapa",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_ixtapa.jpg",
+            "carpeta": "LBDTS_IXTAPA/",
+            "hoteles": {
+                "0": {
+                    "var": "krystal",
+                    "nombre": "KRYSTAL IXTAPA",
+                    "carpeta": "KRYSTAL_IXTAPA/",
+                    "galeria": "5",
+                    "logo": "krystal-ixtapa.png",
+                    "direccion": "Boulevard Paseo Ixtapa Lote 4 y 4 A, 40880 Ixtapa Zihuatanejo, Gro.",
+                    "mapa": "https://goo.gl/maps/p5PCvXagfvTrbHpv6",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN ESTÁNDAR CON VISTA AL JARDÍN O ALBERCA",
+                            "imagenes": {
+                                "0": "estandar.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Habitación para 4 personas",
+                                "2": "1 cama king size o 2 camas matrimoniales",
+                                "3": "Aire acondicionado ",
+                                "4": "Balcón o terraza",
+                                "5": "Caja de seguridad ",
+                                "6": "Amenidades de Baño",
+                                "7": "TV con cable o satélite",
+                                "8": "Camas extra disponibles",
+                                "9": "Habitaciones conectadas",
+                                "10": "Secadora de cabello",
+                                "11": "Plancha",
+                                "12": "Tabla para planchar",
+                                "13": "Correo de voz",
+                                "14": "Espejo facial",
+                                "15": "Habitaciones para no fumadores",
+                                "16": "Room service ($)",
+                                "17": "Caja de seguridad",
+                                "18": "Regadera (ducha)",
+                                "19": "Teléfono ($)",
+                                "20": "Servicio de despertador"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN CON VISTA AL MAR",
+                            "imagenes": {
+                                "0": "de-lujo-vista-mar_1.jpg",
+                                "1": "de-lujo-vista-mar_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Habitación para 4 personas",
+                                "2": "1 cama king size o 2 camas matrimoniales",
+                                "3": "Aire acondicionado ",
+                                "4": "Balcón o terraza",
+                                "5": "Amenidades de baño",
+                                "6": "TV de plasma con cable o satélite",
+                                "7": "Camas extra disponibles",
+                                "8": "Habitaciones conectadas",
+                                "9": "Secadora de cabello",
+                                "10": "Plancha",
+                                "11": "Tabla para planchar",
+                                "12": "Correo de voz",
+                                "13": "Espejo facial",
+                                "14": "Habitaciones para no fumadores",
+                                "15": "Room service ($)",
+                                "16": "Caja de seguridad",
+                                "17": "Regadera ",
+                                "18": "Teléfono ($)",
+                                "19": "Servicio de despertador"
+                            }
+                        },
+                        "2": {
+                            "nombre": "HABITACIÓN VISTA AL MAR SUPERIOR",
+                            "imagenes": {
+                                "0": "de-lujo-vista-jardin_1.jpg",
+                                "1": "de-lujo-vista-jardin_2.jpg"
+                            },
+                            "puntos": {
+                                "0": "34 metros cuadrados",
+                                "1": "Habitación para 4 personas",
+                                "2": "1 cama king size o 2 camas matrimoniales",
+                                "3": "Aire acondicionado ",
+                                "4": "Balcón o terraza",
+                                "5": "Amenidades de baño",
+                                "6": "TV con cable o satélite",
+                                "7": "Camas extra disponibles",
+                                "8": "Habitaciones conectadas",
+                                "9": "Secadora de cabello",
+                                "10": "Plancha",
+                                "11": "Tabla para planchar",
+                                "12": "Correo de voz",
+                                "13": "Espejo facial",
+                                "14": "Habitaciones para no fumadores",
+                                "15": "Room Service ($)",
+                                "16": "Caja de seguridad",
+                                "17": "Regadera ",
+                                "18": "Teléfono ($)",
+                                "19": "Servicio de despertador"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "LAS VELAS PARRILLADA RESTAURANT",
+                            "descripcion": "Menú buffet y a la carta<br>Seleccionados platillos en especialidades del mar con una magnifica vista al océano pacífico, ambiente agradable y romántico que indudablemente disfrutara.",
+                            "imagenes": {
+                                "0": "las-velas.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "RESTAURANTE AQUAMARINA",
+                            "descripcion": "Menú buffet y a la carta<br>Este restaurante da servicio de desayunos buffet durante las mañanas.",
+                            "imagenes": {
+                                "0": "aquamarina.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "BOGART’S RESTAURANT",
+                            "descripcion": "Menú a la carta<br>Requiere reservación<br>La fantasía de la película Casablanca cobra vida en Bogart’s.<br>Disfruta lo mejor de la comida internacional, con música de piano en vivo en un ambiente romántico y exótico, de uno de los más memorables clásicos del cine.",
+                            "imagenes": {
+                                "0": "bogarts.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "SPORTS BAR",
+                            "descripcion": "Servicio a la Carta<br>Relájese en el nuevo Sports Bar, donde podrá disfrutar de sus partidos favoritos, jugar una ronda de billar con los amigos o simplemente saborear una buena bebida y deliciosa comida.",
+                            "imagenes": {
+                                "0": "sport-bar.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "SNACK BAR LA CASCADA",
+                            "descripcion": "Servicio a la Carta.",
+                            "imagenes": {
+                                "0": "snack-bar-la-cascada.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "CHRISTINE CLUB",
+                            "descripcion": "Disfrute de un increíble ambiente con buena música",
+                            "imagenes": {
+                                "0": "christine.jpg"
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "var": "fontan",
+                    "nombre": "FONTÁN IXTAPA",
+                    "carpeta": "FONTAN_IXTAPA/",
+                    "galeria": "15",
+                    "logo": "fontan-ixtapa.png",
+                    "direccion": "Blvd. Paseo Ixtapa S/N, Fontán, 40880 Zihuatanejo, Gro.",
+                    "mapa": "https://goo.gl/maps/NNVbJvKGCwSgGtDK8",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN DELUXE DOBLE",
+                            "imagenes": {
+                                "0": "deluxe.jpg",
+                                "1": "deluxe-2.jpg",
+                                "2": "deluxe-3.jpg"
+                            },
+                            "puntos": {
+                                "0": "Capacidad máxima 4 adultos",
+                                "1": "2 camas matrimoniales",
+                                "2": "Montaje de casa a tres sabanas, cojín artesanal decorativo y rebozo como pie cama",
+                                "3": "Mobiliario moderno",
+                                "4": "Plancha y tabla de planchar",
+                                "5": "Caja de seguridad digital",
+                                "6": "Terraza a disponibilidad",
+                                "7": "Internet gratuito",
+                                "8": "Aire acondicionado",
+                                "9": "Ducha",
+                                "10": "Servicio de despertador",
+                                "11": "Dispensadores de shampoo, loción corporal y gel de baño",
+                                "12": "Televisión",
+                                "13": "Baño privado",
+                                "14": "WiFi gratis",
+                                "15": "Teléfono"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "REAL PALAPA",
+                            "descripcion": "Servicio tipo buffet dedicado a la comida internacional con los mejores toques de la gastronomía mexicana.",
+                            "imagenes": {
+                                "0": "real-palapa.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "MIRAMAR",
+                            "descripcion": "La mejor opción para disfrutar del sabor del océano. Degusta los mejores pescados de la bahía de Zihuatanejo preparados con el original sazón de la casa.",
+                            "imagenes": {
+                                "0": "miramar.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "BAR MIRAMAR",
+                            "descripcion": "Ideal para disfrutar de una bebida fresca junto a la alberca y en la zona de playa.",
+                            "imagenes": {
+                                "0": "bar-miramar.jpg"
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "var": "holiday",
+                    "nombre": "HOLIDAY INN RESORT IXTAPA",
+                    "carpeta": "HOLIDAY_INN_IXTAPA/",
+                    "galeria": "15",
+                    "logo": "holiday-inn-ixtapa.png",
+                    "direccion": "Blvd. Paseo Ixtapa S/N, 40880 Ixtapa Zihuatanejo, Gro.",
+                    "mapa": "https://goo.gl/maps/Lk39zTsEnkd9KWqG6",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "HABITACIÓN VISTA AL JARDÍN",
+                            "imagenes": {
+                                "0": "habitacion-vista-jardin-1.jpg",
+                                "1": "habitacion-vista-jardin-2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica ",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar ",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        },
+                        "1": {
+                            "nombre": "HABITACIÓN VISTA AL MAR",
+                            "imagenes": {
+                                "0": "vista-mar-1.jpg",
+                                "1": "vista-mar-2.jpg"
+                            },
+                            "puntos": {
+                                "0": "Pantalla de plasma de 32”",
+                                "1": "Caja de seguridad electrónica ",
+                                "2": "Cafetera (con refill diario de café y té)",
+                                "3": "Plancha y tabla de planchar ",
+                                "4": "Secadora de cabello",
+                                "5": "Aire acondicionado individual",
+                                "6": "Wifi en cortesía para hasta 4 dispositivos móviles"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "FRUTAS Y FLORES",
+                            "descripcion": "Todos los días encontrarás algo diferente cocinado al momento: pescado, pollo, res o cerdo.",
+                            "imagenes": {
+                                "0": "F&F.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "LA TERRAZA",
+                            "descripcion": "Restaurante al aire libre donde podrás disfrutar de una cena a la carta con las especialidades de nuestro chef.",
+                            "imagenes": {
+                                "0": "la-terraza.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "CAÑA BRAVA",
+                            "descripcion": "Restaurante al aire libre en el que disfrutarás las mejores especialidades de nuestro chef con un fresco y variado  menú.",
+                            "imagenes": {
+                                "0": "cana-brava.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "LA ISLA",
+                            "descripcion": "Goza de una vista maravillosa hacia nuestra Bahía El Palmar o hacia nuestras piscinas.",
+                            "imagenes": {
+                                "0": "la-isla.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "LOBBY BAR",
+                            "descripcion": "Disfruta de una bebida refrescante viendo al mar.",
+                            "imagenes": {
+                                "0": "sports-bar.jpg"
+                            }
+                        }
+                    }
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "ceremonia y banquete",
+                    "puntos": {
+                        "0": "Hospedaje en habitación estándar, en plan todo incluido",
+                        "1": "Gazebo decorado con flores (flores de temporada)",
+                        "2": "Arreglo para mesa de ceremonia",
+                        "3": "Mobiliario y equipo de montaje básico",
+                        "4": "Ramo y boutonniere",
+                        "5": "Equipo de audio básico (solo ceremonia)",
+                        "6": "Brindis con vino espumoso de la casa",
+                        "7": "Montaje con mesas redondas y mantelería básica",
+                        "8": "Barra libre durante 4 horas (horario máximo hasta las 11:00 p.m.)",
+                        "9": "Banquete compuesto por un menú de 3 tiempos",
+                        "10": "Coordinación del evento"
+                    }
+                },
+                "1": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "3 ascensos garantizados a la siguiente categoría vista al mar",
+                        "1": "Bebida de bienvenida a la llegada",
+                        "2": "Frutero en habitación",
+                        "3": "Una noche de hospedaje en cortesía para el primer aniversario",
+                        "4": "Late check out 4:00 p.m. (sujeto a disponibilidad)"
+                    }
+                },
+                "2": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica en la habitación",
+                        "1": "Botella vino espumoso",
+                        "2": "Tabla de quesos",
+                        "3": "Desayuno a la habitación al día siguiente"
+                    }
+                }
+            }
+        },
+        "7": {
+            "var": "manzanillo",
+            "destino": "Manzanillo",
+            "banner": "/assets/img/lbdts/la_boda_de_tus_suenos_banner_manzanillo.jpg",
+            "carpeta": "LBDTS_MANZANILLO/",
+            "hoteles": {
+                "0": {
+                    "var": "las-hadas",
+                    "nombre": "LAS HADAS MANZANILLO",
+                    "carpeta": "LAS_HADAS_MANZANILLO/",
+                    "galeria": "12",
+                    "logo": "las-hadas-manzanillo.png",
+                    "direccion": "Av. Vista Hermosa S/N, Las Hadas, Península de Santiago, 28867 Manzanillo, Col.",
+                    "mapa": "https://g.page/lashadasmanzanillo?share",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "DELUXE",
+                            "imagenes": {
+                                "0": "deluxe-dos-camas.jpg"
+                            },
+                            "puntos": {
+                                "0": "42 metros cuadrados",
+                                "1": "Balcón privado vista al océano",
+                                "2": "2 camas dobles",
+                                "3": "Capacidad máxima 4 personas",
+                                "4": "Terraza",
+                                "5": "Baño privado",
+                                "6": "Televisión por cable",
+                                "7": "Aire acondicionado",
+                                "8": "Minibar",
+                                "9": "Teléfono directo",
+                                "10": "Secadora de pelo",
+                                "11": "Plancha y tabla para planchar",
+                                "12": "Cafetera",
+                                "13": "Caja fuerte"
+                            }
+                        },
+                        "1": {
+                            "nombre": "BRISAS BEACH CLUB",
+                            "imagenes": {
+                                "0": "brisas-beach-club.jpg"
+                            },
+                            "puntos": {
+                                "0": "49 metros cuadrados",
+                                "1": "Cama King Size",
+                                "2": "Ocupación dos adultos",
+                                "3": "Acceso a una alberca privada",
+                                "4": "Terraza",
+                                "5": "Baño privado",
+                                "6": "Televisión por cable",
+                                "7": "Aire acondicionado",
+                                "8": "Minibar",
+                                "9": "Teléfono directo",
+                                "10": "Secadora de pelo",
+                                "11": "Plancha y tabla para planchar",
+                                "12": "Cafetera",
+                                "13": "Servicio de conserje",
+                                "14": "Bata de baño y pantuflas",
+                                "15": "Caja fuerte"
+                            }
+                        },
+                        "2": {
+                            "nombre": "SUITE FANTASÍA",
+                            "imagenes": {
+                                "0": "brisas-beach-club-alberca-privada.jpg"
+                            },
+                            "puntos": {
+                                "0": "58 metros cuadrados",
+                                "1": "Cama King Size",
+                                "2": "Ocupación dos adultos",
+                                "3": "Sala",
+                                "4": "Acceso a una alberca privada",
+                                "5": "Terraza",
+                                "6": "Baño privado",
+                                "7": "Amenidades de baño La Source",
+                                "8": "Televisión por cable",
+                                "9": "Aire acondicionado",
+                                "10": "Minibar",
+                                "11": "Teléfono directo",
+                                "12": "Secadora de pelo",
+                                "13": "Plancha y tabla para planchar",
+                                "14": "Cafetera",
+                                "15": "Servicio de conserje",
+                                "16": "Bata de baño y pantuflas",
+                                "17": "Caja fuerte"
+                            }
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "El Palmar",
+                            "descripcion": "Desayuno y buffet de cena. Código de vestimenta: Casual . Las cenas se realizan dependiendo del porcentaje de ocupación.",
+                            "imagenes": {
+                                "0": "palmar.jpg"
+                            }
+                        },
+                        "1": {
+                            "nombre": "Legazpi",
+                            "descripcion": "Cocina internacional en este ambiente elegante y romántico. Reservaciones obligatorias. Edad mínima 14 años. Código de vestimenta: elegante. Horarios sujetos a cambios.",
+                            "imagenes": {
+                                "0": "legazpi.jpg"
+                            }
+                        },
+                        "2": {
+                            "nombre": "Los Delfines",
+                            "descripcion": "Parillada Internacional, código de vestimenta: casual.",
+                            "imagenes": {
+                                "0": "delfines.jpg"
+                            }
+                        },
+                        "3": {
+                            "nombre": "El Terral",
+                            "descripcion": "Estilo Steak House, con deliciosos cortes tipo Angus-Choice. Galardonado con el reconocimiento internacional de 3 diamantes avalado por la AAA. Horarios sujetos a cambios.",
+                            "imagenes": {
+                                "0": "el-terral.jpg"
+                            }
+                        },
+                        "4": {
+                            "nombre": "Bar Martinis",
+                            "descripcion": "Martinis y música suave de piano todas las noches. Vestimenta: elegante.",
+                            "imagenes": {
+                                "0": "lobby-bar.jpg"
+                            }
+                        },
+                        "5": {
+                            "nombre": "Oasis Lounge",
+                            "descripcion": "Deliciosos cócteles y música para relajarse. Código de vestimenta: casual.",
+                            "imagenes": {
+                                "0": "oasis-lounge.jpg"
+                            }
+                        },
+                        "6": {
+                            "nombre": "Coco Loco y Snak Duende",
+                            "descripcion": "Cócteles y bocadillos rápidos y deliciosos.",
+                            "imagenes": {
+                                "0": "coco-loco.jpg"
+                            }
+                        }
+                    }
+                },
+                "1": {
+                    "var": "grand-isla",
+                    "nombre": "GRAND ISLA NAVIDAD RESORT",
+                    "carpeta": "GRAND_ISLA_NAVIDAD_RESORT/",
+                    "galeria": "6",
+                    "logo": "grand-isla-navidad.png",
+                    "direccion": "Circuito de los Marinos s/n Isla Navidad, 28838 La Culebra, Col., México",
+                    "mapa": "https://goo.gl/maps/zTMzTPGYiv9RAFQL8",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "DE LUJO",
+                            "imagenes": {},
+                            "puntos": [
+                                "Cama king o dos camas dobles",
+                                "TV satelital",
+                                "Teléfono",
+                                "Caja de seguridad",
+                                "Aire acondicionado con control individual",
+                                "Ventilador de techo",
+                                "Batas de baño",
+                                "Plancha y tabla de planchar",
+                                "Cafetera",
+                                "Minibar",
+                                "Baño con tina y regadera",
+                                "Con vistas al jardín, montaña o alberca"
+                            ]
+                        }
+                    },
+                    "restaurantes": {
+                        "0": {
+                            "nombre": "GRAND CAFÉ",
+                            "descripcion": "Restaurante familiar con vista a la laguna. Ofrece desayunos y cenas tipo buffet y servicio a la carta con variedad de platillos internacionales..",
+                            "horarios": [
+                                "<b>Abierto</b> de 7:00 a.m. a 12:00 p.m. y de las 6:00 p.m. a las 11:00 p.m."
+                            ],
+                            "imagenes": {}
+                        },
+                        "1": {
+                            "nombre": "LA PLAZUELA",
+                            "descripcion": "Ubicado a un costado de la alberca principal ofrece diversos snacks mexicanos y especialidades del mar.",
+                            "horarios": [
+                                "<b>Abierto</b> de 12:00 p.m. a 6:00 p.m."
+                            ],
+                            "imagenes": {}
+                        },
+                        "2": {
+                            "nombre": "LOBBY BAR EL FARO",
+                            "descripcion": "Servicio de coctelería y sushi de gran calidad, amenizado con música en vivo durante temporada alta.",
+                            "horarios": [
+                                "<b>Abierto</b> de 5:00 p.m. a las 00:00 hrs."
+                            ],
+                            "imagenes": {}
+                        },
+                        "3": {
+                            "nombre": "OASIS AQUA BAR",
+                            "descripcion": "Bar de snacks frente a la playa para disfrutar de una refrescante bebida durante la tarde.",
+                            "horarios": [
+                                "<b>Abierto</b> de 11:00 a.m. a 06:00 p.m."
+                            ],
+                            "imagenes": {}
+                        },
+                        "4": {
+                            "nombre": "ANTONIO’S",
+                            "descripcion": "Servicio de alta cocina que ofrece una armonía de sabores, aromas y texturas de la cocina mexicana contemporánea.",
+                            "horarios": [
+                                "<b>Abierto</b> de 7:00 p.m. a las 00:00 hrs."
+                            ],
+                            "imagenes": {}
+                        },
+                        "5": {
+                            "nombre": "ANTONIO’S TEQUILA BAR",
+                            "descripcion": "Ofrece cerca de 200 tequilas diferentes para sorprender a cualquier huésped. La especialidad de la casa: margaritas de chocolate, coco y limón.",
+                            "horarios": [
+                                "<b>Abierto</b> de 7:00 p.m. a las 00:00 hrs."
+                            ],
+                            "imagenes": {}
+                        },
+                        "6": {
+                            "nombre": "LA TERRAZA",
+                            "descripcion": "El espacio que ofrece lo mejor de la cocina tailandesa y otras especialidades asiáticas para brindar a tu paladar otra variedad de sabores.",
+                            "horarios": [
+                                "<b>Abierto</b> sólo en temporada de invierno."
+                            ],
+                            "imagenes": {}
+                        }
+                    }
+                },
+                "2": {
+                    "var": "gran-festivall",
+                    "nombre": "GRAN FESTIVALL ALL INCLUSIVE RESORT",
+                    "carpeta": "GRAN_FESTIVALL/",
+                    "galeria": "13",
+                    "logo": "gran-festivall-manzanillo.png",
+                    "direccion": "Carretera Manzanillo-Barra de Navidad kilómetro 12.5, 28860 Manzanillo, Col.",
+                    "mapa": "https://g.page/gran-festivall-manzanillo?share",
+                    "habitaciones": {
+                        "0": {
+                            "nombre": "VILLA ORO",
+                            "imagenes": ["villa-oro.jpg"],
+                            "puntos": [
+                                "Cama Queen Size Y/O 2 Camas Individuales",
+                                "2 Sofás Camas Individual 2 Baños Completos",
+                                "Servicio De Toallas",
+                                "Sala",
+                                "Aire Acondicionado",
+                                "Televisión Vía Satélite",
+                                "Teléfono Y Recepción",
+                                "Caja De Seguridad"
+                            ]
+                        }
+                    },
+                    "restaurantes": [
+                        {
+                            "nombre": "DANZÓN",
+                            "descripcion": "DISCO FAMILIAR",
+                            "horarios": [
+                                "<b>Abierto</b> de 10:30 p.m. a las 01:00 a.m."
+                            ],
+                            "imagenes": ["danzon.jpg"]
+                        },
+                        {
+                            "nombre": "PIÑATAS",
+                            "descripcion": "SNACK BAR <br>Desayuno, Comida y Cena alterno.",
+                            "imagenes": ["pinhas.jpg"]
+                        },
+                        {
+                            "nombre": "SOLARIUM",
+                            "descripcion": "BAR ALBERCA <br><b>SOLO ADULTOS</b>",
+                            "horarios": [
+                                "<b>Abierto</b> de 12:00 p.m. a las 05:00 p.m."
+                            ],
+                            "imagenes": ["solarium.jpg"]
+                        },
+                        {
+                            "nombre": "MARLIN",
+                            "descripcion": "RESTAURANTE - SNACK BAR <br>Desayuno, Comida y Cena alterno.",
+                            "imagenes": ["marlin.jpg"]
+                        },
+                        {
+                            "nombre": "CONFETTI",
+                            "descripcion": "RESTAURANTE DE ESPECIALIDADES (ITALIANO) <br>Desayuno, Comida y Cena alterno. <br>Código de vestimenta: Formal",
+                            "imagenes": ["confetti.jpg"]
+                        },
+                        {
+                            "nombre": "LAS GUACAMAYAS",
+                            "descripcion": "BUFFET <br>Desayuno, Comida y Cena alterno.",
+                            "imagenes": ["default.jpg"]
+                        },
+                        {
+                            "nombre": "GRAN FESTIVALL",
+                            "descripcion": "BUFFET <br>Desayuno, Comida y Cena alterno.",
+                            "imagenes": ["default.jpg"]
+                        },
+                        {
+                            "nombre": "PLAZA PRINCIPAL",
+                            "descripcion": "PLAZA AL AIRE LIBRE <br>Cenas tema",
+                            "imagenes": ["default.jpg"]
+                        }
+                    ]
+                }
+            },
+            "contenido": {
+                "0": {
+                    "nombre": "planeación",
+                    "puntos": {
+                        "0": "Coordinación de boda",
+                        "1": "Degustación de menú para 2 personas (persona extra con cargo adicional, propina no incluida)",
+                        "2": "Elección de la locación privada para la ceremonia y el banquete",
+                        "3": "Invitación electrónica personalizada de tu boda"
+                    }
+                },
+                "1": {
+                    "nombre": "montaje de la ceremonia",
+                    "puntos": {
+                        "0": "Gazebo para la ceremonia",
+                        "1": "Sillas tiffany",
+                        "2": "Equipo de audio básico (bocina y micrófono)",
+                        "3": "Arreglo para mesa de ceremonia",
+                        "4": "50 copas de vino espumoso para el brindis",
+                        "5": "Pastel simbólico"
+                    }
+                },
+                "2": {
+                    "nombre": "banquete de boda",
+                    "puntos": {
+                        "0": "Montaje para banquete",
+                        "1": "Banquete de gala servido en menú de 3 tiempos",
+                        "2": "Barra libre durante 5 horas",
+                        "3": "Servicios de meseros y capitán",
+                        "4": "Sillas tiffany o banqueteras",
+                        "5": "Iluminación básica de mesas",
+                        "6": "Mantelería blanca, loza, cristalería y plaqué",
+                        "7": "Pista de baile",
+                        "8": "Centros de mesa no florales"
+                    }
+                },
+                "3": {
+                    "nombre": "para los novios",
+                    "puntos": {
+                        "0": "Ramo y boutonniere",
+                        "1": "Asenso de categoría para la habitación de los novios",
+                        "2": "Asenso de categoría para la habitación de los de los papás de los novios",
+                        "3": "Botella de vino espumoso y fresas con chocolate para el día de la boda",
+                        "4": "Late check-out sujeto a disponibilidad",
+                        "5": "Cortesía de hospedaje para el 1er aniversario"
+                    }
+                },
+                "4": {
+                    "nombre": "noche de bodas",
+                    "puntos": {
+                        "0": "Decoración romántica para la noche de bodas",
+                        "1": "Desayuno en la habitación al día siguiente con reservación previa"
+                    }
+                }
+            }
+        }
+    },
+    "contenido": {
+        "0": {
+            "nombre": "Planeación",
+            "puntos": {
+                "0" : "Coordinación de boda por parte del hotel contratado",
+                "1" : "Asesoría personalizada del paquete",
+                "2" : "Control de reservaciones para invitados",
+                "3" : "Elección de locación privada para ceremonia y banquete",
+                "4" : "Degustación de menú para los novios",
+                "5" : "Página web personalizada",
+                "6" : "Invitación digital personalizada",
+                "7" : "Guía de invitados",
+                "8" : "Tarifa especial para visita de inspección"
+            }
+        },
+        "1": {
+            "nombre": "Montaje de la ceremonia",
+            "puntos": {
+                "0" : "Gazebo o huppa (blanco o de madera) decorada con telas blancas",
+                "1" : "Mesa para ministro en color blanco",
+                "2" : "Arreglo para mesa de ceremonia",
+                "3" : "Sillas Tiffany, Versalles, Avant Garde o de stock del hotel",
+                "4" : "Equipo de audio básico (bocina y micrófono para oficiante)",
+                "5" : "Pastel de boda representativo",
+                "6" : "Copa de vino espumoso para el brindis"
+            }
+        },
+        "2": {
+            "nombre": "Banquete",
+            "puntos": {
+                "0" : "Mesas redondas con cubre mantel en color blanco",
+                "1" : "Silla Tiffany, Versalles, Avant Garde o de stock del hotel",
+                "2" : "Centros de mesa no florales",
+                "3" : "Banquete compuesto por menú a 3 tiempos",
+                "4" : "Barra libre durante 4 horas (horario máximo hasta las 23:00 hrs)",
+                "5" : "Precio especial para invitados no hospedados con código de boda"
+            }
+        },
+        "3": {
+            "nombre": "Para los novios",
+            "puntos": {
+                "0" : "3 ascensos garantizados a mejor categoría para los novios y sus padres",
+                "1" : "Bebida de bienvenida a su llegada al hotel",
+                "2" : "Frutero en la habitación",
+                "3" : "Late check-out (sujeto a disponibilidad)",
+                "4" : "Ramo y boutonnière",
+                "5" : "Cortesía de hospedaje por 2 noches para el festejo del primer aniversario"
+            }
+        },
+        "4": {
+            "nombre": "Noche de bodas",
+            "puntos": {
+                "0" : "Decoración romántica de la habitación",
+                "1" : "Botella de vino espumoso",
+                "2" : "Tabla de quesos o tabla de fresas con chocolate",
+                "3" : "Desayuno a la habitación al día siguiente"
+            }
+        }
+    }
+}

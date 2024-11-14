@@ -1,0 +1,90 @@
+{
+    "norma_rodriguez": {
+        "nombre": "Norma Rodriguez",
+        "puesto": "Gerente de bodas",
+        "correo": "gerencia@dreams-wedding.com.mx",
+        "telefono": "3311937161",
+        "foto": "norma-rodriguez.png",
+        "activo": "true"
+    },
+    "brenda_gonzalez": {
+        "nombre": "Brenda Gonzalez",
+        "puesto": "Gerente de productos",
+        "correo": "bodasygrupos@convention-meetings.com",
+        "telefono": "3331704651",
+        "foto": "brenda-gonzalez.png",
+        "activo": "true"
+    },
+    "jesus_vazquez": {
+        "nombre": "Jesus Vazquez",
+        "puesto": "Supervisor de bodas",
+        "correo": "ventas1@dreams-wedding.com.mx",
+        "telefono": "9982603700",
+        "foto": "jesus-vazquez.png",
+        "activo": "true"
+    },
+    "wendy_fuentes": {
+        "nombre": "Wendy Fuentes",
+        "puesto": "Apoyo administrativo",
+        "correo": "administracion2@dreams-wedding.com.mx",
+        "telefono": "3319910541",
+        "foto": "wendy-fuentes.png",
+        "activo": "false"
+    },
+    "karla_jauregui": {
+        "nombre": "Karla Jauregui",
+        "puesto": "Emarketing Manager",
+        "correo": "emktmgr@itrip.mx",
+        "telefono": "3310611417",
+        "foto": "",
+        "activo": "true"
+    },
+    "zayra_rivera": {
+        "nombre": "Zayra Rivera",
+        "puesto": "Ejecutiva de ventas",
+        "correo": "ventas1@dreams-wedding.com.mx",
+        "telefono": "9982603700",
+        "foto": "zayra-rivera.png",
+        "activo": "true"
+    },
+    "rita_lopez": {
+        "nombre": "Rita López",
+        "puesto": "Ejecutiva de ventas",
+        "correo": "ventas5@dreams-wedding.com.mx",
+        "telefono": "3319902132",
+        "foto": "rita-lopez.png",
+        "activo": "true"
+    },
+    "karina_huizar": {
+        "nombre": "Karina Huizar",
+        "puesto": "Ejecutiva de ventas",
+        "correo": "ventas2@dreams-wedding.com.mx",
+        "telefono": "9982600990",
+        "foto": "karina-huizar.png",
+        "activo": "true"
+    },
+    "jorge_gonzalez": {
+        "nombre": "Jorge González",
+        "puesto": "Becario de producto",
+        "correo": "gteproducto@itrip.mx",
+        "telefono": "3319442183",
+        "foto": "jorge-gonzalez.png",
+        "activo": "true"
+    },
+    "sarai_gonzalez": {
+        "nombre": "Sarai González",
+        "puesto": "Becario de reservaciones",
+        "correo": "reservaciones@dreams-wedding.com.mx",
+        "telefono": "",
+        "foto": "sarai-aguilar.png",
+        "activo": "true"
+    },
+    "minerva_guerrero": {
+        "nombre": "Minerva Guerrero",
+        "puesto": "Becario de reservaciones",
+        "correo": "reservaciones@dreams-wedding.com.mx",
+        "telefono": "3336618192",
+        "foto": "minerva-guerrero.png",
+        "activo": "true"
+    }
+}

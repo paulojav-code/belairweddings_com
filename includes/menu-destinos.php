@@ -1,0 +1,19 @@
+<div id="menu">
+    <ul><li class="<?php echo ($id_destino==0?'active':'')?>">
+                <a class="">Cancún</a>
+                <ul><li><a id="pills-krystal-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-cancun.php?krystal" target="_top">KRYSTAL GRAND CANCÚN</a></li><li><a id="pills-flamingo-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-cancun.php?flamingo" target="_top">FLAMINGO CANCÚN</a></li><li><a id="pills-allritmo-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-cancun.php?allritmo" target="_top">ALL RITMO CANCÚN & WATERPARK</a></li><li><a id="pills-cancunbay-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-cancun.php?cancunbay" target="_top">CANCÚN BAY RESORT</a></li></ul></li><li class="<?php echo ($id_destino==1?'active':'')?>">
+                <a class="">Puerto Vallarta</a>
+                <ul><li><a id="pills-krystal-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-puerto-vallarta.php?krystal" target="_top">KRYSTAL PUERTO VALLARTA</a></li><li><a id="pills-hilton-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-puerto-vallarta.php?hilton" target="_top">HILTON PUERTO VALLARTA</a></li><li><a id="pills-hacienda-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-puerto-vallarta.php?hacienda" target="_top">THE HACIENDA AT HILTON PUERTO VALLARTA</a></li></ul></li><li class="<?php echo ($id_destino==2?'active':'')?>">
+                <a class="">Nuevo Vallarta</a>
+                <ul><li><a id="pills-krystal-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-nuevo-vallarta.php?krystal" target="_top">KRYSTAL GRAND NUEVO VALLARTA</a></li></ul></li><li class="<?php echo ($id_destino==3?'active':'')?>">
+                <a class="">Ixtapa</a>
+                <ul><li><a id="pills-krystal-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-ixtapa.php?krystal" target="_top">KRYSTAL IXTAPA</a></li><li><a id="pills-fontan-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-ixtapa.php?fontan" target="_top">FONTÁN IXTAPA</a></li><li><a id="pills-holiday-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-ixtapa.php?holiday" target="_top">HOLIDAY INN RESORT IXTAPA</a></li></ul></li><li class="<?php echo ($id_destino==4?'active':'')?>">
+                <a class="">Acapulco</a>
+                <ul><li><a id="pills-krystal-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-acapulco.php?krystal" target="_top">KRYSTAL ACAPULCO</a></li></ul></li><li class="<?php echo ($id_destino==7?'active':'')?>">
+                <a class="">Los Cabos</a>
+                <ul><li><a id="pills-krystal-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-cabos.php?krystal" target="_top">KRYSTAL GRAND LOS CABOS</a></li></ul></li><li class="<?php echo ($id_destino==8?'active':'')?>">
+                <a class="">Manzanillo</a>
+                <ul><li><a id="pills-hadas-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-manzanillo.php?hadas" target="_top">LAS HADAS MANZANILLO</a></li></ul></li><li class="<?php echo ($id_destino==9?'active':'')?>">
+                <a class="">Riviera Maya</a>
+                <ul><li><a id="pills-bluebay-hotel-tab" href="<?php echo URL; ?>/paquetes/boda-de-tus-suenos/boda-de-tus-suenos-riviera-maya.php?bluebay" target="_top">BLUE BAY GRAND ESMERALDA</a></li></ul></li></ul>
+    </div>

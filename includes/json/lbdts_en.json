@@ -1,0 +1,1010 @@
+{
+    "0": {
+        "var": "cancun",
+        "destino": "Cancun",
+        "banner": "\/assets\/img\/lbdts\/la_boda_de_tus_suenos_banner_cancun.jpg",
+        "carpeta": "LBDTS_CANCUN\/",
+        "descripcion": "Get ready to say \u201cI do\u201d in the Caribbean paradise of white sand and blue seas.",
+        "hoteles": [
+            {
+                "var": "krystal-grand",
+                "nombre": "Krystal Grand Cancun",
+                "descripcion": "This hotel has the most elegant and minimalistic design that offers you the perfect ambiance for your vacations.",
+                "carpeta": "REFLECT_CANCUN\/",
+                "galeria": "16",
+                "logo": "krystal-grand-cancun.png",
+                "direccion": "Blvd. Kukulcan km 8.5, Punta Cancun, Zona Hotelera, 77500 Canc\u00fan, Q.R.",
+                "mapa": "https:\/\/goo.gl\/maps\/x2oUzSgEfT38FVEy6",
+                "habitaciones": [
+                    {
+                        "nombre": "Deluxe",
+                        "imagenes": [
+                            "DELUXE-ROOM\/1.jpg"
+                        ],
+                        "puntos": [
+                            "Maximum occupancy of 3 adults",
+                            "King-size bed or two double beds",
+                            "Air conditioning",
+                            "Terrace or balcony",
+                            "CD and DVD player",
+                            "Cable TV",
+                            "Rain showers",
+                            "Bathrobes, slippers, and vanity mirror",
+                            "Free Internet access",
+                            "Office equipment",
+                            "Telephone",
+                            "Walk-in closet",
+                            "Separate sitting area",
+                            "Private garden overlooking meandering waterways",
+                            "Outdoor bathtub"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "Ayami",
+                        "descripcion": "Pan-Asian and Teppanyaki cuisine.<br> Dress code: smart casual.",
+                        "imagenes": [
+                            "ayami.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 18:30 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "The Beach Bar & Grill",
+                        "descripcion": "Your favorites snacks.",
+                        "imagenes": [
+                            "the-beach-bar-grill.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 18:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Coco Cafe",
+                        "descripcion": "Deli and coffee shop.",
+                        "imagenes": [
+                            "coco-cafe.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 18:00 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "The Grill",
+                        "descripcion": "Grilled specialties a la carte.",
+                        "imagenes": [
+                            "the-grill.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 12:00 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Hacienda El Mortero Restaurant",
+                        "descripcion": "Authentic Mexican food in the heart of Cancun.<br> Booking required.",
+                        "imagenes": [
+                            "hacienda-mortero.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule available: 18:30 hrs, 19:30 hrs, and 20:30 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Restaurant O",
+                        "descripcion": "International buffet.",
+                        "imagenes": [
+                            "o.jpg"
+                        ],
+                        "horarios": [
+                            "Breakfast: 6:30 hrs - 11:00 hrs",
+                            "Dinner: 17:00 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "K Bar",
+                        "descripcion": "Beach bar.",
+                        "imagenes": [
+                            "k-beach-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 11:00 hrs - 17:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "The Lounge & Terrace",
+                        "descripcion": "Drinks, tapas, and more with sunset views.",
+                        "imagenes": [
+                            "the-lounge-terrace.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 12:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "The Pool Bar",
+                        "descripcion": "Rooftop bar.",
+                        "imagenes": [
+                            "pool-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 18:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Reflections",
+                        "descripcion": "Lobby bar.",
+                        "imagenes": [
+                            "reflections-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 17:00 hrs - 23:00 hrs"
+                        ]
+                    }
+                ]
+            },
+            {
+                "var": "flamingo",
+                "nombre": "Flamingo Cancun",
+                "descripcion": "Live an amazing experience at this hotel with more than 30 years of experience offering comfort in the Mexican Caribbean.",
+                "carpeta": "FLAMINGO_CANCUN\/",
+                "galeria": "15",
+                "logo": "flamingo-cancun.png",
+                "direccion": "Boulevard Kukulk\u00e1n Km 11, Canc\u00fan, Quintana Roo.",
+                "mapa": "https:\/\/g.page\/flamingocancun?share",
+                "habitaciones": [
+                    {
+                        "nombre": "Standard",
+                        "imagenes": [
+                            "standard.jpg"
+                        ],
+                        "puntos": [
+                            "King-size bed or two double beds",
+                            "Television",
+                            "Safe box",
+                            "Balcony with garden view",
+                            "Private bathroom with toiletries"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "La Fuente",
+                        "descripcion": "This buffet restaurant offers international dishes to enjoy by the hotel's pool.",
+                        "imagenes": [
+                            "la-fuente.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 7:00 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Albatros",
+                        "descripcion": "Savor seafood such as lobster and a variety of ceviches right on the beach.",
+                        "imagenes": [
+                            "default-img.jpg"
+                        ],
+                        "horarios": [
+                            "Lunch: 12:00 hrs - 17:00 hrs",
+                            "Dinner: 18:30 hrs - 22:30 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Don Roberto\u2019s Bar & Pizza",
+                        "descripcion": "Pizza and exquisite cocktails await you in our specialized restaurant",
+                        "imagenes": [
+                            "bar-don-roberto.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 18:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Las Palmas Snack & Pool Bar",
+                        "descripcion": "To keep the fun going, we offer quick options to satisfy your cravings in the main pool area",
+                        "imagenes": [
+                            "default-img.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 12:00 hrs - 18:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Palenque Lobby Bar",
+                        "descripcion": "Range of liqueurs of different nationalities",
+                        "imagenes": [
+                            "lobby-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 16:00 hrs - 23:00 hrs"
+                        ]
+                    }
+                ]
+            },
+            {
+                "var": "all-ritmo",
+                "nombre": "All Ritmo Cancun & Waterpark",
+                "descripcion": "It\u2019s the perfect place for events with children, thanks to its amazing waterpark and joyful atmosphere.",
+                "carpeta": "ALL_RITMO_CANCUN\/",
+                "galeria": "28",
+                "logo": "all-ritmo-cancun.png",
+                "direccion": "Km. 1.5, Puerto Ju\u00e1rez, 77500, Canc\u00fan, Quintana Roo.",
+                "mapa": "https:\/\/goo.gl\/maps\/Jvnkd5vbZGByqYj38",
+                "habitaciones": [
+                    {
+                        "nombre": "Standard",
+                        "imagenes": [
+                            "standard.png"
+                        ],
+                        "puntos": [
+                            "Maximum occupancy of 4 persons",
+                            "1 king-size bed or 2 double beds",
+                            "TV with cable",
+                            "Coffee maker",
+                            "Parking",
+                            "Safe box",
+                            "Bathroom amenities",
+                            "Direct-dial telephone",
+                            "Iron and ironing board",
+                            "Private bathroom with shower",
+                            "Hairdryer",
+                            "Wake-up service",
+                            "Smoke detectors",
+                            "Ceiling fan",
+                            "Air conditioning",
+                            "Available Cribs"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "El Palmar",
+                        "descripcion": "Buffet-style main restaurant overlooking the pool and the Caribbean Sea. Here you will enjoy elegant theme nights and the best Caribbean ambiance.",
+                        "imagenes": [
+                            "palmar.png"
+                        ],
+                        "horarios": [
+                            "Breakfast: 7:00 hrs - 11:30 hrs",
+                            "Lunch: 12:30 hrs - 15:30 hrs",
+                            "Dinner: 18:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Pancho Villa",
+                        "descripcion": "You will taste the best of typical food in this restaurant of traditional Mexican cuisine.",
+                        "imagenes": [
+                            "pancho.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 18:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "G\u00f3ndola",
+                        "descripcion": "Located at the edge of the beach, it is the perfect option to enjoy Italian cuisine with an incredible view.",
+                        "imagenes": [
+                            "gondola.png"
+                        ],
+                        "horarios": [
+                            "Snacks: 11:00 hrs - 17:00 hrs",
+                            "Dinner: 18:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Ostras",
+                        "descripcion": "Taste the best gourmet dishes of an international seafood cuisine while enjoying an unparalleled view.",
+                        "imagenes": [
+                            "ostras.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 18:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Oasis Snack Bar",
+                        "descripcion": "The best option to enjoy a snack on the beach.",
+                        "imagenes": [
+                            "snack.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 17:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Cena show",
+                        "descripcion": "At the All Ritmo Cancun Theater & Waterpark, you will enjoy spectacular dinners with live entertainment.",
+                        "imagenes": [
+                            "default-img.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 18:00 hrs -  22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Diego\u2019s bar",
+                        "descripcion": "Enjoy your favorite drink by the pool while listening to the sound of the sea.",
+                        "imagenes": [
+                            "default-img.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 01:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "C\u00fapulas\u2019 bar",
+                        "descripcion": "Authentic Mexican cuisine located just a few steps from the lobby.",
+                        "imagenes": [
+                            "default-img.jpg"
+                        ]
+                    },
+                    {
+                        "nombre": "Oasis bar",
+                        "descripcion": "Located in the center of the water park, it is the best place to cool off with your favorite drink.",
+                        "imagenes": [
+                            "snack-oasis.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 17:00 hrs"
+                        ]
+                    }
+                ]
+            },
+            {
+                "var": "cancun-bay",
+                "nombre": "Cancun Bay Resort",
+                "descripcion": "Feel at home and enjoy the most amazing days in this romantic and modern hotel.",
+                "carpeta": "CANCUN_BAY\/",
+                "galeria": "24",
+                "logo": "cancun-bay.png",
+                "direccion": "Boulevard Kukulk\u00e1n kil\u00f3metro 3.5, S\/N, Zona Hotelera Canc\u00fan, M\u00e9xico. CP. 77500",
+                "mapa": "https:\/\/g.page\/Cancunbayresort?share",
+                "habitaciones": [
+                    {
+                        "nombre": "Standard",
+                        "imagenes": [
+                            "estandar.png"
+                        ],
+                        "puntos": [
+                            "Maximum occupancy of 2 adults and 2 minors, or 3 adults",
+                            "1 king-size bed or 2 double beds",
+                            "Air conditioning",
+                            "Individual air conditioning",
+                            "Room service",
+                            "Satellite TV",
+                            "Balcony",
+                            "Smoke detector",
+                            "Iron and ironing board",
+                            "Alarm clock",
+                            "WiFi",
+                            "Safe box",
+                            "Shower",
+                            "Hairdryer",
+                            "Telephone"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "El Fais\u00e1n",
+                        "descripcion": "International cuisine restaurant offering a relaxed and familiar atmosphere.",
+                        "imagenes": [
+                            "faisan.png"
+                        ],
+                        "horarios": [
+                            "Breakfast: 6:30 hrs - 10:30 hrs",
+                            "Lunch: 12:30 hrs - 16:00 hrs",
+                            "Dinner: 18:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Lobby Bar",
+                        "descripcion": "It offers a wide variety of national cocktails",
+                        "imagenes": [
+                            "lobby-bar.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 11:00 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Pi\u00f1a Colada",
+                        "descripcion": "Snack service with options for children and adults",
+                        "imagenes": [
+                            "pina-colada.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:30 hrs - 17:30 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Trattoria",
+                        "descripcion": "Italian specialty restaurant.<br> Booking required",
+                        "imagenes": [
+                            "trattoria.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 19:00 hrs - 21:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Sushi Bar",
+                        "descripcion": "Here you will enjoy their specialty: Cancun Bay Roll.",
+                        "imagenes": [
+                            "sushi.png"
+                        ],
+                        "horarios": [
+                            "Schedule: Tuesday to Sunday from 12:00 hrs - 18:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Jacuzzi Bar",
+                        "descripcion": "National open bar service with ocean view.<br> Adults only",
+                        "imagenes": [
+                            "jacuzzi-bar.png"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:30 hrs - 19:00 hrs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "1": {
+        "var": "nuevo-vallarta",
+        "destino": "Nuevo Vallarta",
+        "banner": "\/assets\/img\/lbdts\/la_boda_de_tus_suenos_banner_nuevo_vallarta.jpg",
+        "carpeta": "LBDTS_NVO_VALLARTA\/",
+        "descripcion": "Prepare yourself for the most important day of your life and get ready to say \u201cI do\u201d in front of the amazing sea of Nuevo Vallarta. ",
+        "hoteles": [
+            {
+                "var": "krystal-grand",
+                "nombre": "Krystal Grand Nuevo Vallarta",
+                "descripcion": "Make the wedding of your dreams come true in an extraordinary destination full of life: Nuevo Vallarta.",
+                "carpeta": "REFLECT_NUEVO_VALLARTA\/",
+                "galeria": "11",
+                "logo": "krystal-grand-nuevo-vallarta.png",
+                "direccion": "Blvd. Costero 800, Flamingos, Sur, 63732 Nuevo Vallarta, Nay.",
+                "mapa": "https:\/\/goo.gl\/maps\/qHZ3ZLBEDHFaLbY8A",
+                "habitaciones": [
+                    {
+                        "nombre": "Deluxe Tropical View",
+                        "imagenes": [
+                            "deluxe-resort-view.jpg"
+                        ],
+                        "puntos": [
+                            "Maximum occupancy of 4 people",
+                            "A king-size bed or two double beds",
+                            "Air Conditioning",
+                            "Bathroom Amenities",
+                            "Cable\/Satellite",
+                            "Coffee maker",
+                            "Available Cribs",
+                            "Hairdryer",
+                            "Iron",
+                            "Ironing board",
+                            "Voice Mail",
+                            "Minibar $",
+                            "Facial Mirror",
+                            "Non-smoking rooms",
+                            "LCD\/Plasma display",
+                            "Security Box",
+                            "Shower",
+                            "Smoke Detectors",
+                            "Phone $",
+                            "Wake-up Service",
+                            "Wireless Internet"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "Ayami",
+                        "descripcion": "Asian and Teppanyaki cuisine.",
+                        "imagenes": [
+                            "ayami.jpg"
+                        ],
+                        "horarios": [
+                            "Dinner: 18:00 hrs - 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual \/ elegant:",
+                                "puntos": [
+                                    "Tennis shoes or sandals and short-sleeved dress shirts.",
+                                    "Long pants are required for men (no shorts).",
+                                    "No tank tops or beach sandals are allowed."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "The Grill",
+                        "descripcion": "International cuisine a la carte.",
+                        "imagenes": [
+                            "the-grill.jpg"
+                        ],
+                        "horarios": [
+                            "Lunch: 12:00 hrs \u2013 17:00 hrs",
+                            "Dinner: 18:30 hrs - 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Lunch, casual:",
+                                "puntos": [
+                                    "Bermuda shorts or capri pants, sneakers\/tennis shoes or sandals."
+                                ]
+                            },
+                            {
+                                "nombre": "Evening meal, casual\/elegant:",
+                                "puntos": [
+                                    "Sports shoes\/tennis or dress sandals, dress or polo shirts."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Restaurant Hacienda El Mortero",
+                        "descripcion": "Mexican cuisine a la carte.",
+                        "imagenes": [
+                            "hacienda-mortero.jpg"
+                        ],
+                        "horarios": [
+                            "Dinner: 18:00 hrs \u2013 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual\/elegant:",
+                                "puntos": [
+                                    "Tennis shoes or sandals, short-sleeved or polo shirts.",
+                                    "No sleeveless shirts or beach sandals are allowed.",
+                                    "Gentlemen's pants are required."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Buffet \u201cO\u201d",
+                        "descripcion": "International Buffet.",
+                        "imagenes": [
+                            "restaurante-o.jpg"
+                        ],
+                        "horarios": [
+                            "Breakfast: 7:00 hrs \u2013 11:00 hrs",
+                            "Lunch: 12:30 hrs \u2013 17:00 hrs",
+                            "Dinner: 18:30 hrs. \u2013 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual:",
+                                "puntos": [
+                                    "Bermuda shorts (shorts or capri pants), athletic shoes\/tennis shoes, or sandals.",
+                                    "Gentlemen are not allowed to wear sleeveless shirts.",
+                                    "Women must wear a sarong or swimsuit."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Risotto Restaurant",
+                        "descripcion": "Italian Delicatessen.<br> Only adults and children over 12 years old are admitted.",
+                        "imagenes": [
+                            "rissotto.jpg"
+                        ],
+                        "horarios": [
+                            "Dinner: 18:00 hrs - 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual\/elegant:",
+                                "puntos": [
+                                    "Tennis shoes or sandals, short-sleeved or polo shirts.",
+                                    "No sleeveless shirts or beach sandals are allowed.",
+                                    "Men's pants are required."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Lobby Bar",
+                        "descripcion": "Located in the main lobby area.",
+                        "imagenes": [
+                            "lobby-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 12:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Sky Bar",
+                        "descripcion": "Rooftop bar.",
+                        "imagenes": [
+                            "sky-lounge-rooftop-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Surfos Snack Bar",
+                        "descripcion": "Grilled bar and restaurant outside\/terrace.",
+                        "imagenes": [
+                            "surfos-snack-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 19:00 hrs",
+                            "Meal service: 11:00 hrs - 18:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Oasis Snack Bar",
+                        "descripcion": "Grilled bar and restaurant outside\/terrace.",
+                        "imagenes": [
+                            "barefoot-grill.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 19:00 hrs",
+                            "Meal service: 11:00 hrs - 17:00 hrs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "2": {
+        "var": "cabos",
+        "destino": "Los Cabos",
+        "banner": "\/assets\/img\/lbdts\/la_boda_de_tus_suenos_banner_los_cabos.jpg",
+        "carpeta": "LBDTS_CABOS\/",
+        "descripcion": "Los Cabos has a unique natural landscape where the sea and the desert coexist, making it the perfect place to start a great love story.",
+        "hoteles": [
+            {
+                "var": "krystal-grand",
+                "nombre": "Krystal Grand Los Cabos",
+                "descripcion": "This hotel is ideal for family travel as it has a children's club, multiple swimming pools, a gym, spa services, and restaurants with exquisite cuisine.",
+                "carpeta": "REFLECT_LOS_CABOS\/",
+                "galeria": "10",
+                "logo": "krystal-grand-los-cabos.png",
+                "direccion": "Carr. Transpeninsular Km. 29, La Jolla, 23400 San Jos\u00e9 del Cabo, B.C.S.",
+                "mapa": "https:\/\/g.page\/reflectkrystalgrandloscabos?share",
+                "habitaciones": [
+                    {
+                        "nombre": "Deluxe double or king",
+                        "imagenes": [
+                            "DELUXE\/1.jpg",
+                            "DELUXE\/2.jpg",
+                            "DELUXE\/3.jpg"
+                        ],
+                        "puntos": [
+                            "Maximum occupancy of 4 people",
+                            "A king-size bed or 2 double beds",
+                            "Air Conditioning",
+                            "Balcony\/Terrace",
+                            "Bathroom Amenities",
+                            "Cable\/Satellite",
+                            "Coffee maker",
+                            "Hairdryer",
+                            "Iron",
+                            "Ironing board",
+                            "Minibar $",
+                            "Facial Mirror",
+                            "Non-smoking rooms",
+                            "LCD\/Plasma display",
+                            "Room Service $",
+                            "Security Box",
+                            "Shower",
+                            "Smoke Detectors",
+                            "Sofa bed",
+                            "Phone $",
+                            "Wake-up Service",
+                            "Wireless Internet"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "Ayami",
+                        "descripcion": "Asian and Teppanyaki cuisine.",
+                        "imagenes": [
+                            "ayami.jpg"
+                        ],
+                        "horarios": [
+                            "Dinner: 18:00 hrs - 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Dress code: casual \/ elegant:",
+                                "puntos": [
+                                    "Tennis shoes or sandals and short-sleeved dress shirts.",
+                                    "Long pants are required for men (no shorts).",
+                                    "No tank tops or beach sandals are allowed."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Deli Take a Bite",
+                        "descripcion": "Deli and cafeteria.",
+                        "imagenes": [
+                            "coco-cafe.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 6:00 hrs - 23:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "The Grill",
+                        "descripcion": "International grilled meat and vegetables.",
+                        "imagenes": [
+                            "the-grill.jpg"
+                        ],
+                        "horarios": [
+                            "Lunch: 12:00 hrs \u2013 17:00 hrs",
+                            "Dinner: 18:30 hrs - 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Lunch, casual:",
+                                "puntos": [
+                                    "Bermuda shorts or capri pants, sneakers\/tennis shoes or sandals."
+                                ]
+                            },
+                            {
+                                "nombre": "Evening meal, casual\/elegant:",
+                                "puntos": [
+                                    "Sports shoes\/tennis or dress sandals, dress or polo shirts."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Restaurant Hacienda El Mortero",
+                        "descripcion": "Mexican cuisine.",
+                        "imagenes": [
+                            "hacienda-mortero.jpg"
+                        ],
+                        "horarios": [
+                            "Dinner: 18:00 hrs \u2013 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual\/elegant dress code:",
+                                "puntos": [
+                                    "Tennis shoes or sandals, short-sleeved or polo shirts.",
+                                    "No sleeveless shirts or beach sandals are allowed.",
+                                    "Gentlemen's pants are required."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "O Restaurant",
+                        "descripcion": "International Buffet.",
+                        "imagenes": [
+                            "o.jpg"
+                        ],
+                        "horarios": [
+                            "Breakfast: 7:00 hrs \u2013 11:00 hrs",
+                            "Lunch: 12:30 hrs \u2013 17:00 hrs",
+                            "Dinner: 18:30 hrs. \u2013 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual:",
+                                "puntos": [
+                                    "Bermuda shorts (shorts or capri pants), athletic shoes\/tennis shoes, or sandals.",
+                                    "Gentlemen are not allowed to wear sleeveless shirts.",
+                                    "Women must wear a sarong or swimsuit."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Risotto Restaurant",
+                        "descripcion": "Italian Delicatessen.<br> Only adults and children over 12 years old are admitted.",
+                        "imagenes": [
+                            "risotto.jpg"
+                        ],
+                        "horarios": [
+                            "Dinner: 18:00 hrs - 22:30 hrs"
+                        ],
+                        "vestimenta": [
+                            {
+                                "nombre": "Casual\/elegant:",
+                                "puntos": [
+                                    "Tennis shoes or sandals, short-sleeved or polo shirts.",
+                                    "No sleeveless shirts or beach sandals are allowed.",
+                                    "Men's pants are required."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nombre": "Lobby Bar",
+                        "descripcion": "Located in the main lobby area.",
+                        "imagenes": [
+                            "lobby-bar.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 10:00 hrs - 00:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Martini y tapas bar",
+                        "descripcion": "Variety of tapas and martinis.",
+                        "imagenes": [
+                            "martini-tapas.jpg"
+                        ],
+                        "horarios": [
+                            "Bar service: 15:00 hrs - 23:00 hrs",
+                            "Tapas service: 17:00 hrs - 22:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Sky Lounge",
+                        "descripcion": "Rooftop bar.<br> Only adult guests of the Altitude Club are admitted.",
+                        "imagenes": [
+                            "skybar.jpg"
+                        ],
+                        "horarios": [
+                            "Bar service: 10:00 hrs - 22:00 hrs",
+                            "Snacks: 11:00 hrs - 17:00 hrs"
+                        ]
+                    },
+                    {
+                        "nombre": "Time out bar",
+                        "descripcion": "Sports Bar.",
+                        "imagenes": [
+                            "default-img.jpg"
+                        ],
+                        "horarios": [
+                            "Schedule: 17:00 hrs - 00:00 hrs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "3": {
+        "var": "splitrock",
+        "destino": "Split Rock",
+        "banner": "\/assets\/img\/lbdts\/la_boda_de_tus_suenos_banner_splitrock.jpg",
+        "carpeta": "lbdts_split_rock\/",
+        "descripcion": "Make the wedding of your dreams come true in our four-season resort and enjoy Split Rock\u2019s unique Pocono Mountains experience!",
+        "hoteles": [
+            {
+                "var": "split-rock",
+                "nombre": "Split Rock",
+                "descripcion": "Make the wedding of your dreams come true in our four-season resort and enjoy Split Rock\u2019s unique Pocono Mountains experience!",
+                "carpeta": "split_rock\/",
+                "galeria": "6",
+                "logo": "las-hadas-manzanillo.png",
+                "direccion": "Av. Vista Hermosa S\/N, Las Hadas, Pen\u00ednsula de Santiago, 28867 Manzanillo, Col.",
+                "mapa": "https:\/\/g.page\/lashadasmanzanillo?share",
+                "habitaciones": [
+                    {
+                        "nombre": "Standard Hotel Room",
+                        "imagenes": [
+                            "standar/1.jpg"
+                        ],
+                        "puntos": [
+                            "Located by the Town Center",
+                            "King-size bed or 2 twins",
+                            "Air-Jet tub"
+                        ]
+                    }
+                ],
+                "restaurantes": [
+                    {
+                        "nombre": "Lake View Tavern",
+                        "descripcion": "Enjoy as Lake View Tavern takes over all the cooking!<br> Relax at Split Rock's lakeside lodge.",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "International",
+                        "descripcion": "Enjoy an international cuisine full of flavors and aromas, where you will enjoy an exquisite experience for the most demanding palates.",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "Oriental",
+                        "descripcion": "Located at Galleria. Delightful selection of oriental dishes for demanding palates.",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "Rock Bar",
+                        "descripcion": "The Rock Lounge, located in the Town Center, is the perfect way to spend the evening. Relax after a day of outdoor activities, enjoy a nightcap, or catch one of our entertainers.",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "Food Court",
+                        "descripcion": "Enjoy great coffee shop and pizzeria items on-the-go! You're in the mountains ready to roll and fill your day with fun so grab items conveniently to take back to your room or with you to your next adventure!",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "The Grill At Split Rock Land & Sea",
+                        "descripcion": "Located at Lodge, our family-friendly dining room has delicious breakfast and dinner selections. ",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "Ciao Mexico",
+                        "descripcion": "We fuse the delicate and sweet flavors of Italian gastronomy with the strong flavors of Mexican cuisine, to bring a succulent journey of flavors to your palates.",
+                        "imagenes": [
+                        ]
+                    },
+                    {
+                        "nombre": "Shipwreck Island Snack Bar",
+                        "descripcion": "This seasonal bar is located outside the historic Lodge overlooking the gorgeous Lake Harmony. The perfect place to relax and enjoy a cold drink.",
+                        "imagenes": [
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "contenido": [
+        {
+            "nombre": "Wedding Planning",
+            "puntos": [
+                "Coordination of the wedding",
+                "Personalized package consulting",
+                "Guest reservation control",
+                "Choice of the venue",
+                "Menu tasting for two",
+                "Personalized web page",
+                "Personalized digital invitation",
+                "Guest guide",
+                "Special rate for the inspection visit"
+            ]
+        },
+        {
+            "nombre": "Ceremony Set-Up",
+            "puntos": [
+                "Gazebo or huppa (white or wood) decorated with white fabrics",
+                "White minister's table",
+                "Ceremony table arrangement",
+                "Tiffany, Versailles, Avant Garden, or stock hotel chairs",
+                "Basic audio equipment (speaker and microphone for officiant)",
+                "Representative wedding cake",
+                "A glass of sparkling wine for the toast"
+            ]
+        },
+        {
+            "nombre": "Wedding reception",
+            "puntos": [
+                "Round tables with white tablecloth covers",
+                "Tiffany, Versailles, Avant Garden, or hotel stock chairs",
+                "Non-floral centerpieces",
+                "Banquet consisting of a three-course menu",
+                "Open bar for 4 hours (until 11:00 p.m.)",
+                "Special price for guests not staying at the hotel with wedding code"
+            ]
+        },
+        {
+            "nombre": "For the bride and groom",
+            "puntos": [
+                "3 guaranteed upgrades to the best category for the bride and groom and their parents.",
+                "Welcome drink upon arrival at the hotel",
+                "Fruit bowl in the room",
+                "Late check-out (upon availability)",
+                "Bouquet and boutonniere",
+                "Complimentary accommodation for 2 nights for the first-anniversary celebration"
+            ]
+        },
+        {
+            "nombre": "Wedding night",
+            "puntos": [
+                "Romantic room decoration",
+                "Bottle of sparkling wine",
+                "Cheeseboard or strawberry and chocolate board",
+                "Breakfast in the room the next day"
+            ]
+        }
+    ]
+}

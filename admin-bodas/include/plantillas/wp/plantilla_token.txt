@@ -1,0 +1,49 @@
+<?php
+$id_novie       = {id};
+$id_idioma      = {idioma};
+
+$retorno = $id_idioma == 1 ? '../../' : '../../../';
+
+include_once($retorno.'include/conexion.php');
+include_once($retorno.'wp/paginas-novios/funciones.php');
+
+$datos_json_pre = file_get_contents($retorno . 'wp/paginas-novios/datos_' . ($id_idioma == 1 ? 'es' : 'en') . '.json');
+$datos_json     = json_decode($datos_json_pre, true);
+
+/* SQL Novies */
+$sql = 'SELECT t0.person_1, t0.person_2, t0.conector, t2.clave_hotel, t1.token, t1.check_in, t1.check_out 
+FROM admin_bodas.novies AS t0
+INNER JOIN admin_bodas.novies_token AS t1 ON t0.id_novie = t1.id_novie
+INNER JOIN admin_bodas.hoteles AS t2 ON t0.id_hotel = t2.id_hotel
+WHERE t0.id_novie = ?;';
+$stmt = $con->prepare($sql);
+$stmt->bind_param("i", $id_novie);
+$stmt->execute();
+$result = $stmt->get_result();
+$array_novie = array();
+while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
+    $array_novie = $req;
+}
+$stmt->close();
+$ruta_raiz      	 = $datos_json['rutas']['raiz'];
+$ruta_pagina    	 = $datos_json['rutas']['pagina'];
+$currency       	 = $datos_json['currency'];
+$languague      	 = $datos_json['language'];
+$date_format    	 = $datos_json['date_format'];
+//general
+$novie_1             = $array_novie['person_1'];
+$novie_2             = $array_novie['person_2'];
+$conector            = $array_novie['conector'];
+//token
+$token 				 = $array_novie['token'];
+$check_in 			 = !is_null($array_novie['check_in']) ? dateFormat($array_novie['check_in'], $date_format) : '';
+$check_out 			 = !is_null($array_novie['check_out']) ? dateFormat($array_novie['check_out'], $date_format) : '';
+$hotel_clave 		 = $array_novie['clave_hotel'];
+
+include_once($ruta_pagina.'paginas-novios/header-token.php');
+
+include_once($ruta_pagina.'paginas-novios/footer-token.php');
+?>
+</body>
+
+</html>

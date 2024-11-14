@@ -1,0 +1,37 @@
+{
+    "html_lan" : "es-Mx",
+    "html_title" : "BelAir Wedding - Agencia de viajes especializada en bodas",
+    "menu_inicio" : "INICIO",
+    "menu_servicios" : "SERVICIOS",
+    "menu_servicios_url" : "servicios/",
+    "menu_contacto" : "CONTACTO",
+    "menu_telefono" : "LLÁMANOS",
+    "menu_telefono_numero" : "3319902132",
+    "telefono_footer":"3319902132",
+    "menu_telefono_url" : "3319902132",
+    "promociones":"PROMOCIONES",
+    "cambio_idioma":{
+        "href":"/en/",
+        "idioma":"EN"
+    },
+
+    "contacto_titulo" : "Contacto",
+    "contacto_nombre" : "Nombre(s)*",
+    "contacto_apellido" : "Apellido(s)*",
+    "contacto_telefono" : "Teléfono (10 dígitos)*",
+    "contacto_correo" : "Correo Electrónico",
+    "contacto_mensaje" : "Mensaje",
+    "contacto_enviar" : "Enviar",
+
+    "footer_title" : "Nuestra Sede",
+    "footer_direccion" : "Juan Ruiz De Alarcón 8, Arcos Vallarta. 44130. Guadalajara, Jal. MX.",
+    "footer_terminos" : "Términos y Condiciones Políticas de Privacidad",
+    "footer_terminos_url" : "privacidad/", 
+    "footer_empresa" : "Empresa perteneciente a",
+
+    "footer_telefonos" : {
+        "0" : "MX <b>3341700489</b>"
+    },
+
+    "" : ""
+}

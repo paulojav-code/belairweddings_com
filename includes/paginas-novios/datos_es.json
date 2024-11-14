@@ -1,0 +1,98 @@
+{
+    "currency": "MX",
+    "language": "es",
+    "date_format": "dd/mm/yyyy",
+
+    "rutas": {
+        "raiz": "../../",
+        "pagina": "../",
+        "img": ""
+    },
+
+    "ejecutive": {
+        "1": "Ejecutiva:",
+        "2": "Ejecutivo:"
+    },
+
+    "titulo_detalle" : "Detalles de la boda",
+	"titulo_hoteles" : "Información del hotel",
+	"titulo_destino" : "Información del destino",
+	"titulo_tarifas" : "Tarifas de habitación",
+    "titulo_novies" : {
+        "0" : "Nuestros novios",
+        "1" : "Nuestras novias",
+        "2" : "Nuestros novios"
+    },
+    "titulo_comentarios" : {
+        "0" : "Comentarios para los novios",
+        "1" : "Comentarios para las novias",
+        "2" : "Comentarios para los novios"
+    },
+    "ver_mas" : "Ver más",
+    "llamar" : "Llamar",
+    "reservar" : "Reservar Online",
+    "nuestros_novies" : {
+        "0" : "Nuestros queridos novios están a punto de comenzar su vida juntos,<br>¡Hagamos una colección con los mejores consejos y buenos deseos! Deja tu mensaje.",
+        "1" : "Nuestras queridas novias están a punto de comenzar su vida juntas,<br>¡Hagamos una colección con los mejores consejos y buenos deseos! Deja tu mensaje.",
+        "2" : "Nuestros queridos novios están a punto de comenzar su vida juntos,<br>¡Hagamos una colección con los mejores consejos y buenos deseos! Deja tu mensaje."
+    },
+    "parentesco_novies": {
+        "0": "Nombre y/o relación con los novios (familia,amigos, etc.)",
+        "1": "Nombre y/o relación con las novias (familia,amigos, etc.)",
+        "2": "Nombre y/o relación con los novios (familia,amigos, etc.)"
+    },
+    "mensaje_novies" : {
+        "0" : "Escribe tu mensaje para los novios...",
+        "1" : "Escribe tu mensaje para los novias...",
+        "2" : "Escribe tu mensaje para los novios..."
+    },
+    "enviar" : "Enviar",
+
+    "ocupacion" : "Máximo de huéspedes:",
+    "vista" : "Vista de la habitación:",
+    "caracteristica" : "Características:",
+
+    "mapa" : "Mapa",
+
+    "footer_1" : "Página elaborada por:",
+    "footer_2" : "Conoce más sobre nosotros",
+    "footer_3" : "Tarjetas Participantes",
+    "footer_4" : "¿Tú también quieres tener la Boda de tus Sueños? Contáctanos",
+    "footer_5" : "Codigo de la Boda:",
+
+    "tipo_tarifas" : {
+        "0" : "Sencilla",
+        "1" : "Doble",
+        "2" : "Personas Extras(*)",
+        "3" : "Menor (**)",
+        "4" : "Junior (***)"
+    },
+    "gratis": "Gratis",
+
+    "pendiente" : "Pendiente",
+    "codigo_vestimenta" : "Código de vestimenta",
+    "guia" : "Ver guia",
+
+    "mesa_regalo" : "MESA DE REGALOS",
+    "mesa_regalo_ir" : "IR A MESA DE REGALOS",
+
+    "form_confirmation" : "CONFIRMACIÓN DE ASISTENCIA",
+    "form_thanks" : "AGRADECEMOS TU CONFIRMACIÓN A LA BODA",
+    "form_selection" : "Seleccione",
+    "form_yes" : "Si asistiré",
+    "form_not" : "No asistiré",
+    "form_name" : "Nombre",
+    "form_last" : "Apellido",
+    "form_email" : "Correo",
+    "form_telefono" : "Teléfono",
+    "form_ceremony" : "Ceremonias",
+    "form_religious" : "Ceremonia",
+    "form_recepcion" : "Recepción",
+    "form_both" : "Ambas",
+    "form_adults" : "Adultos",
+    "form_child" : "Niños",
+    "form_juniors" : "Juniors",
+    "html_lan" : "es-MX",
+
+    "" : ""
+}

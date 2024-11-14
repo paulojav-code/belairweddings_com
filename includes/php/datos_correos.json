@@ -1,0 +1,34 @@
+
+{
+    "clave_secreta": "6LcYChIaAAAAAKqpKpU5BfXBZAp8zgPprqBcWlyi",
+    "recaptcha_score": "0",
+    "origen": {
+        "0": {
+            "titulo": "Formulario Dreams Wedding",
+            "retorno": "https://berninisuites.com/",
+            "correo_titular": {
+                "nombre": "Webmaster",
+                "correo": "web@eze-trip.com"
+            },
+            "correos_copias": []
+        },
+        "1": {
+            "titulo": "Reservacion WP - ",
+            "retorno": "https://berninisuites.com/",
+            "correo_titular": {
+                "nombre": "Webmaster",
+                "correo": "web@eze-trip.com"
+            },
+            "correos_copias": []
+        },
+        "2": {
+            "titulo": "Book WP - ",
+            "retorno": "https://berninisuites.com/",
+            "correo_titular": {
+                "nombre": "Webmaster",
+                "correo": "web@eze-trip.com"
+            },
+            "correos_copias": []
+        }
+    }
+}

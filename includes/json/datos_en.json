@@ -1,0 +1,37 @@
+{
+    "html_lan" : "en",
+    "html_title" : " | BelAir Wedding - Travel Agency specialized in Weddings",
+    "menu_inicio" : "HOME",
+    "menu_servicios" : "PACKAGE",
+    "menu_servicios_url" : "en/package/",
+    "menu_contacto" : "CONTACT US",
+    "menu_telefono" : "CALL US",
+    "menu_telefono_numero" : "1 855 224 5143",
+    "telefono_footer":"1 619 514 0457",
+    "menu_telefono_url" : "18552245143",
+    "promociones":"PROMOTIONS",
+    "cambio_idioma":{
+        "href":"",
+        "idioma":"ES"
+    },
+
+    "contacto_titulo" : "Contact us",
+    "contacto_nombre" : "First name(s)*",
+    "contacto_apellido" : "Last name(s)*",
+    "contacto_telefono" : "Phone number*",
+    "contacto_correo" : "Email address",
+    "contacto_mensaje" : "Message",
+    "contacto_enviar" : "Send",
+
+    "footer_title" : "Our headquarters",
+    "footer_direccion" : "Morelos 2005, Arcos Vallarta. Guadalajara, Jal. Mx. 44130",
+    "footer_terminos" : "Terms and conditions Privacy policies",
+    "footer_terminos_url" : "en/privacidad/", 
+    "footer_empresa" : "Company belonging to",
+
+    "footer_telefonos" : {
+        "0" : "US <b>1 619 514 0457</b>"
+    },
+
+    "" : ""
+}

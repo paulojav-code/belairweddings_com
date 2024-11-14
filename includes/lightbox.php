@@ -1,0 +1,1 @@
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script><script async type="text/javascript">$(document).ready(function($){$(document).on('click', '[data-toggle="lightbox"]', function(event){event.preventDefault();$(this).ekkoLightbox();});});</script>

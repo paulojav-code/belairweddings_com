@@ -1,0 +1,6 @@
+Options +Indexes +Includes +FollowSymLinks -MultiViews
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^wpp/(.*)$ wpp/index.php?uri=$1 [QSA,L]
