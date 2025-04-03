@@ -1,0 +1,739 @@
+#titulo-bdts {
+	text-align: center;
+}
+
+	#titulo-bdts .font-anitto {
+		margin-left: 0.5em;
+		font-size: 1.8em;
+		line-height: 1em;
+	} 
+
+	#titulo-bdts h2.major {
+		font-size: 3.5em;
+		letter-spacing: 2px;
+		line-height: 1em;
+	}
+
+	#titulo-bdts.alt h2.major {
+		font-size: 1.5em;
+		margin-bottom: 2rem;
+	}
+
+		#titulo-bdts.alt h2.major .font-anitto  {
+			font-size: 1.75em;
+			line-height: 0.8em;
+			display: block;
+			text-transform: none;
+		}
+
+		#titulo-bdts.alt h2.major .your {
+			padding-right: 7em;
+		}
+
+	#titulo-bdts a {
+		width: fit-content;
+		margin: 0 auto;
+		border-bottom: solid 1px;
+		line-height: 1em;
+	}
+
+	#titulo-bdts h3.major {
+		font-family: Karla;
+		font-weight: 200;
+		text-transform: none;
+		margin: 1rem 0;
+	}
+
+		#titulo-bdts h3.major:after {
+			display: none;
+		}
+
+#descripcion p {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#lista-destinos {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+	#lista-destinos ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+		
+		#lista-destinos ul li {
+			padding: 0;
+			margin: 0;
+			font-family: Brandon Grotesque;
+			font-size: 1.2em;
+			font-weight: 300;
+			letter-spacing: 0.1em;
+			line-height: 1.5em;
+			margin-bottom: 1em;
+			text-transform: uppercase;
+		}
+
+			#lista-destinos ul li:last-child {
+				margin-bottom: 0;
+			}
+
+			#lista-destinos ul li a {
+				border-bottom: none;
+				cursor: pointer;
+			}
+
+				#lista-destinos ul li a.active {
+					font-weight: 600;
+					letter-spacing: 0.1em;
+				}
+
+#lista-hoteles, #contenido {
+	overflow: auto;
+	justify-content: flex-start;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+	#lista-hoteles:before {
+		border-left: solid 2px;
+		height: calc(100% - 8em);
+		content: '';
+		position: absolute;
+		left: 0em;
+	}
+
+	#lista-hoteles .back {
+		position: absolute;
+		top: 3.5rem;
+		left: 1rem;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+	#lista-hoteles b {
+		font-weight: 600;
+		line-height: 2em;
+	}
+
+	#lista-hoteles h3, #contenido h3 {
+		font-family: Brandon Grotesque;
+		text-transform: uppercase;
+		font-size: 1.3em;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		width: 100%;
+		text-align: center;
+	}
+
+	#contenido h3 {
+		margin-bottom: 1.5rem;
+		font-size: 1.5em;
+		padding-top: 2em;
+	}
+
+	#lista-hoteles h4, #contenido h4, #descripcion h4 {
+		font-family: Brandon Grotesque;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		text-align: center;
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+
+	#descripcion h4 {
+		font-size: 1.5em;
+	}
+
+	#lista-hoteles h5 {
+		font-family: Karla;
+		font-size: 1.5em;
+		font-weight: 600;
+		width: 100%;
+		text-align: center;
+		letter-spacing: 1px;
+		margin-top: 0.5rem;
+	}
+
+	#lista-hoteles p {
+		font-size: 1.5em;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		padding-bottom: 2rem;
+		line-height: 1em;
+		width: calc(100% - 1em);
+	}
+
+	#lista-hoteles a {
+		font-size: 1.5em;
+		border-bottom: solid 1px;
+		width: fit-content;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	#lista-hoteles ul, #contenido ul {
+		width: 100%;
+		list-style: none;
+		padding: 0 0.75em;
+		text-align: center;
+		margin: 0;
+	}
+
+		#lista-hoteles ul li, #contenido ul li {
+			border-bottom: solid 1px;
+			padding: 1rem 0;
+		}	
+
+			#lista-hoteles ul li:first-child, #contenido ul li:first-child {
+				border-top: solid 1px;
+			}
+
+			#lista-hoteles ul li a, #contenido ul li a  {
+				text-transform: uppercase;
+				font-family: Brandon Grotesque;
+				font-size: 1.2em;
+				font-weight: 300;
+				letter-spacing: 0.05em;
+				border-bottom: none;
+				cursor: pointer;
+			}
+
+	#lista-hoteles .lista-contenido, #contenido .lista-contenido {
+		margin-bottom: 2rem;
+		border-top: none;
+	}
+
+	#lista-hoteles .lista-contenido li, #contenido .lista-contenido li  {
+		padding: 0.5rem 0;
+	}
+
+		#lista-hoteles .lista-contenido li:first-child, #contenido .lista-contenido li:first-child {
+			border-top: solid 1px;
+		}
+
+		#lista-hoteles .lista-contenido li ul, #contenido .lista-contenido li ul {
+			display: none;
+		}
+
+		#lista-hoteles .lista-contenido a {
+			font-size: 1.2em;
+		}
+
+		#contenido .lista-contenido a {
+			font-size: 1.2em;
+		}
+
+		#lista-hoteles .lista-contenido li ul, #contenido .lista-contenido li ul {
+			border-top: none;
+			margin: 0.5rem 0;
+			padding-top: 0.5rem;
+			list-style: disc;
+		}
+
+		#lista-hoteles .lista-contenido li ul li, #contenido .lista-contenido li ul li {
+			font-size: 1em;
+			padding: 0;
+			border-bottom: none;
+			text-align: left;
+		}
+
+		#lista-hoteles .lista-contenido li ul li:first-child, #contenido .lista-contenido li ul li:first-child {
+			border-top: none;
+		}
+
+#imagen-destino .pre, #imagen-destino .next {
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	background-color: rgba(208, 171, 177, 0.85);
+	z-index: 100;
+	top: 16.5rem;
+	padding: 1rem 1.5rem;
+	text-align: center;
+	font-size: 2rem;
+	line-height: 3rem;
+	cursor: pointer;
+}
+
+	#imagen-destino .pre {
+		left: 0;
+	}
+
+	#imagen-destino .next {
+		right: 0;
+	}
+
+	#imagen-destino .pre:hover, #imagen-destino .next:hover {
+		font-size: 2.25rem;
+	}
+
+#titulo-servicios {
+	text-align: center;
+}
+
+	#titulo-servicios h2.major {
+		font-size: 3em;
+		letter-spacing: 0.1em;
+		margin-bottom: 3rem;
+	}
+
+	#titulo-servicios h3.major {
+		font-size: 1.5em;
+		letter-spacing: 0.1em;
+	}
+
+	#titulo-servicios h3.major::after {
+		display: none;
+	}
+
+	#titulo-servicios a {
+		font-size: 1.2em;
+		line-height: 1em;
+		width: fit-content;
+		margin: 1rem auto 0 auto;
+		padding-top: 1em;
+		border-top: solid 1px;
+		border-bottom: none;
+	}
+
+.panel-titulo h3.major {
+	text-align: center;
+}
+
+.panel-titulo h3.major::after {
+	display: none;
+}
+
+#titulo-wedding-brunch h2.major {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#titulo-wedding-brunch .font-anitto {
+	text-transform: none;
+	line-height: 2em;
+}
+
+#titulo-boda-eco-friendly h2.major {
+	font-size: 2.5em;
+	letter-spacing: 0.25em;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#titulo-boda-eco-friendly .font-alize {
+	background-color: #145249;
+	font-size: 2.25em;
+	width: fit-content;
+	margin: 0 auto 1.9875rem auto;
+	padding: 0 0.25em;
+	height: 0.8em;
+	line-height: 0.9em;
+	letter-spacing: 0.15em;
+	color: #ffffff;
+}
+
+#titulo-boda-boutique h2.major {
+	font-size: 3.5em;
+	line-height: 0.65em;
+	letter-spacing: 0.15em;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#titulo-tu-boda-cdmx h2.major {
+	font-size: 2em;
+	text-align: center;
+}
+
+	#titulo-tu-boda-cdmx .font-anitto {
+		text-transform: none;
+		display: block;
+	}
+
+#titulo-despedida-soltere h2 {
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+#titulo-despedida-soltere ul {
+	padding-left: 0;
+	text-align: center;
+}
+
+#titulo-despedida-soltere ul li {
+	display: inline-block;
+	padding-left: 0;
+	font-size: 1.35rem;
+	text-transform: uppercase;
+	padding: 0 0 0 1rem;
+	border-left: solid 1px;
+}
+
+#titulo-despedida-soltere ul li:first-child {
+	border: none;
+	padding: 0 1rem 0 0;
+}
+
+#titulo-despedida-soltera .content, #titulo-despedida-soltero .content {
+	/*display: none;*/
+	opacity: 0;
+}
+
+#titulo-despedida-soltera .content.active, #titulo-despedida-soltero .content.active {
+	/*display: flex;*/
+	opacity: 1;
+}
+
+.panel-titulo a {
+	font-size: 1.2em;
+	line-height: 1em;
+	width: fit-content;
+	margin: 3rem auto 0 auto;
+	padding-top: 1em;
+	border-top: solid 1px;
+	border-bottom: none;
+}
+
+.panel-info {
+	display: none;
+	overflow: auto;
+	text-align: center;
+}
+
+.panel.panel-info > .intro {
+	justify-content: flex-start;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-top: 5rem;
+}
+
+.panel-info p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 1.5rem;
+}
+
+	.panel-info p a {
+		line-height: 1em;
+		border-bottom: solid 1px;
+	}
+
+.panel-info ul {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	border-top: solid 1px;
+	margin-bottom: 1.5rem;
+}
+
+	.panel-info ul li {
+		padding: 0;
+		text-align: center;
+		padding: 1em 0;
+		border-bottom: solid 1px;
+	}
+
+	.panel-info ul li a {
+		text-transform: uppercase;
+		font-family: Brandon Grotesque;
+		font-size: 1.2em;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		border-bottom: none;
+		cursor: pointer;
+	}
+	
+		.panel-info ul li ul {
+			border-top: none;
+			margin: 0.5rem 0;
+		}
+
+		.panel-info ul li ul li {
+			padding: 0;
+			border-bottom: none;
+			text-align: center;
+		}
+
+	.panel-info ul div, .panel-info ul li ul {
+		display: none;
+	}
+
+	#info-tu-boda-cdmx.panel-info ul li ul {
+		display: block;
+	}
+
+	.panel-info .cotizar {
+		display: block;
+		width: fit-content;
+		font-size: 1.2em;
+		line-height: 1em;
+		margin: 0 auto;
+		border-bottom: solid 1px;
+	}
+
+	#hoteles {
+		display: none;
+	}
+
+	#hoteles .inner {
+		justify-content: flex-start;
+		text-align: center;
+	}
+
+		#hoteles img {
+			width: 100%;
+			max-width: 12rem;
+			margin: 0 auto 1rem auto;
+		}
+
+		#hoteles a {
+			border-bottom: none;
+		}
+
+		#hoteles ul {
+			width: 100%;
+			list-style: none;
+			padding: 0;
+			border-top: solid 1px;
+			margin-bottom: 1.5rem;
+		}
+		
+		#hoteles ul li {
+				padding: 0;
+				text-align: center;
+				padding: 1em 0;
+				border-bottom: solid 1px;
+			}
+		
+			#hoteles ul li a {
+				text-transform: uppercase;
+				font-family: Brandon Grotesque;
+				font-size: 1.2em;
+				font-weight: 300;
+				letter-spacing: 0.1em;
+				border-bottom: none;
+				cursor: pointer;
+			}
+
+/* Modal Hotel */
+	#habitaciones .modal, #restaurantes .modal {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		pointer-events: none;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		-moz-transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
+		-webkit-transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
+		-ms-transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
+		transition: opacity 0.5s ease, visibility 0.5s, z-index 0.5s;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(46, 43, 55, 0.875);
+		opacity: 0;
+		outline: 0;
+		visibility: none;
+		z-index: 0;
+	}
+		
+		#habitaciones .modal:before, #restaurantes .modal:before {
+			-moz-animation: gallery-modal-spinner 1s infinite linear;
+			-webkit-animation: gallery-modal-spinner 1s infinite linear;
+			-ms-animation: gallery-modal-spinner 1s infinite linear;
+			animation: gallery-modal-spinner 1s infinite linear;
+			-moz-transition: opacity 0.25s ease;
+			-webkit-transition: opacity 0.25s ease;
+			-ms-transition: opacity 0.25s ease;
+			transition: opacity 0.25s ease;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
+			content: '';
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 4rem;
+			height: 4rem;
+			margin: -2rem 0 0 -2rem;
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='96px' height='96px' viewBox='0 0 96 96' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: rgba(255, 255, 255, 0.875)%3B stroke-width: 1.5px%3B %7D%3C/style%3E%3Cdefs%3E%3CclipPath id='corner'%3E%3Cpolygon points='0,0 48,0 48,48 96,48 96,96 0,96' /%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23corner)'%3E%3Ccircle cx='48' cy='48' r='32'/%3E%3C/g%3E%3C/svg%3E");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 4rem;
+			opacity: 0;
+		}
+		
+		#habitaciones .modal:after, #restaurantes .modal:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0.5rem;
+			right: 0.5rem;
+			width: 4rem;
+			height: 4rem;
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='64px' viewBox='0 0 64 64' zoomAndPan='disable'%3E%3Cstyle%3Eline %7Bstroke: rgba(255, 255, 255, 0.875)%3Bstroke-width: 1.5px%3B%7D%3C/style%3E%3Cline x1='20' y1='20' x2='44' y2='44' /%3E%3Cline x1='20' y1='44' x2='44' y2='20' /%3E%3C/svg%3E");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 3rem;
+			cursor: pointer;
+		}
+		
+		#habitaciones .modal .inner, #restaurantes .modal .inner {
+			-moz-transform: translateY(0.75rem);
+			-webkit-transform: translateY(0.75rem);
+			-ms-transform: translateY(0.75rem);
+			transform: translateY(0.75rem);
+			-moz-transition: opacity 0.25s ease, -moz-transform 0.25s ease;
+			-webkit-transition: opacity 0.25s ease, -webkit-transform 0.25s ease;
+			-ms-transition: opacity 0.25s ease, -ms-transform 0.25s ease;
+			transition: opacity 0.25s ease, transform 0.25s ease;
+			opacity: 0;
+			width: 70em;
+			height: 35em;
+			max-width: 90vw;
+			max-height: 85vh;
+			background: #d0abb1;
+			background: #ffffff;
+			color: #191919;
+			z-index: 11001;
+			box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.35);
+			padding: 3.5rem 3.5rem 2em 3.5rem;
+			overflow-y: scroll;
+		}
+		
+		#habitaciones .modal.visible, #restaurantes .modal.visible {
+			pointer-events: auto;
+			opacity: 1;
+			visibility: visible;
+			z-index: 11000;
+		}
+		
+			#habitaciones .modal.visible:before, #restaurantes .modal.visible:before {
+				opacity: 1;
+			}
+		
+					#habitaciones .modal.loaded .inner, #restaurantes .modal.loaded .inner {
+						-moz-transform: translateY(0);
+						-webkit-transform: translateY(0);
+						-ms-transform: translateY(0);
+						transform: translateY(0);
+						-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+						-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+						-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+						transition: opacity 0.5s ease, transform 0.5s ease;
+						opacity: 1;
+					}
+		
+					#habitaciones .modal.loaded:before, #restaurantes .modal.loaded:before {
+						-moz-transition-delay: 0s;
+						-webkit-transition-delay: 0s;
+						-ms-transition-delay: 0s;
+						transition-delay: 0s;
+						opacity: 0;
+					}
+
+					#habitaciones .modal .inner h2, #restaurantes .modal .inner h2,
+					#habitaciones .modal .inner h3, #restaurantes .modal .inner h3 {
+						font-family: Karla;
+						color: #d0abb1;
+						font-weight: 400;
+					}
+
+		#habitaciones img, #restaurantes img {
+			width: 100%;
+		}
+
+		#restaurantes p {
+			margin-bottom: 1em;
+		}
+
+		#restaurantes ul {
+			list-style: none;
+			margin-bottom: 1.5em;
+		}
+
+		#restaurantes b {
+			color: #000;
+			font-weight: 600;
+		}
+		
+	@media screen and (max-width: 980px) {
+
+		#habitaciones .modal .inner img, #restaurantes .modal .inner img {
+			max-width: 100vw;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#titulo-servicios h2.major {
+			font-size: 2.5em;
+		}
+
+		#titulo-bdts.alt h2.major {
+			font-size: 1.55em;
+			line-height: 1.2;
+		}
+
+		#titulo-bdts.alt h2.major .font-anitto  {
+			font-size: 1.50em;
+			line-height: 4rem;
+			display: block;
+			text-transform: none;
+			margin-left: 0.25em;
+		}
+
+		#titulo-bdts .image[data-position="left"] img {
+			object-position: 80% 50%;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#titulo-servicios h2.major {
+			font-size: 2.25em;
+		}
+
+		#titulo-boda-eco-friendly .font-alize {
+			font-size: 2em;
+		}
+
+		#titulo-boda-boutique h2.major {
+			font-size: 3em;
+		}
+
+		#titulo-bdts.alt h2.major {
+			font-size: 1.05em;
+		}
+
+		#titulo-bdts.alt h2.major .font-anitto  {
+			font-size: 1.5em; 
+			margin-left: 0.5em;
+		}
+	}

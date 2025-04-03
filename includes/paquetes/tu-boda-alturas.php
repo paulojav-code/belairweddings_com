@@ -27,7 +27,7 @@
 				<ul>
 					<li>Holiday Inn Select</li>
 					<li>Hotel Posada 1970</li>
-					<li>Hard Rock Hotel Guadalajara</li>
+					<!-- <li>Hard Rock Hotel Guadalajara</li> -->
 					<li>Square Small Luxury</li>
 				</ul>
 			</li>

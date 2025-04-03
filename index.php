@@ -1,4 +1,5 @@
 <?php
+$lang = 'es';
 ini_set('display_errors', 1);
 include_once('includes/php/variables.php');
 include_once('includes/php/config.php');

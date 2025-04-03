@@ -1,0 +1,38 @@
+.cover {
+  background: url("../../img/BLOG/cover-escritorio-blog-2X.jpg") !important;
+  background-position: center center!important;
+  height:250px!important;
+}
+
+.cover.visible {
+    background: url("../../img/BLOG/cover-escritorio.jpg") !important;
+    background-position: center center!important;
+    height:250px!important;
+  }
+
+.iconito {
+  width: 5% !important;
+}
+.formularioContacto {
+  box-shadow: 1px -15px 20px 0 #0000002e;
+}
+.formulario {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+.descarga {
+  background: url(../../img/HOME/fondo-guia-bodas-contactanos-escritorio.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  box-shadow: 2px 8px 11px 4px #00000069;
+}
+.testimonios {
+  padding: 5% 30% !important;
+  height: 330px !important;
+}
+.imagenesBlog{
+  max-width: 80%;
+}
+

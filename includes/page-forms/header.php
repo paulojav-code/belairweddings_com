@@ -19,6 +19,8 @@
     <!-- End Google Tag Manager -->
     
     <?php include_once('metas.php');  ?>
+
+    <script src="https://js.hcaptcha.com/1/api.js?render=explicit" async defer></script>
 </head>
 
 <body class="is-preload">

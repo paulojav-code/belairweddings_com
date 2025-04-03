@@ -30,7 +30,7 @@ while ($req = $result->fetch_array(MYSQLI_ASSOC)) {
 }
 
 $stmt->close();
-
+echo $array_data;
 include_once('../includes/page-forms/header.php');
 ?>
 <!-- Page Wrapper -->
@@ -67,7 +67,7 @@ include_once('../includes/page-forms/header.php');
 			<div class="gallery">
 				<?php
 					for ($i=1; $i <= count($array_data) - 1; $i++) { 
-						if($i % 4 == 1){
+						if($i % 2 == 1){
 							echo '<div class="group span-5">';
 						}
 						echo '<div class="image filtered transparent span-2-5" data-position="center"><img src="'.URL.'/assets/img/blog/'.$array_data[$i]['id_articulo'].'/mini.jpg" alt="" />';
@@ -80,7 +80,7 @@ include_once('../includes/page-forms/header.php');
 							</ul>
 						</div>';
 						echo '</div>';
-						if($i % 4 == 0){
+						if($i % 2 == 0){
 							echo '</div>';
 						}
 					}

@@ -1,37 +1,23 @@
 [
     {
-        "url_image": "assets/img/promociones/2024/buen_fin/BUEN FIN_DW_CIUDAD_WEB_Banner.png",
-        "title": "¡Dile  “sí,  acepto” a la boda de tus sueños!",
-        "subtitle":"",
-        "desc": "<p>El Buen Fin llegó a BelAir Wedding con una impresionante promoción para que des el siguiente paso como siempre imaginaste.<br>Aparta tu boda para el 2025, ¡por solo $5,000!<br><br>¡Elige entre nuestros exclusivos destinos de playa y ciudad!</p>",
-        "link_wp":"https://api.whatsapp.com/send?phone=3325343763&amp;text=Hola,%20me%20gustar%C3%ADa%20reservar%20la%20Boda%20de%20mis%20sueños."
+        "url_image": "assets/img/promociones/2025/WEB_2_Banner.png",
+        "title": "¡Tu amor merece el mejor escenario de Guadalajara!",
+        "subtitle":"Hard Rock Hotel Guadalajara",
+        "desc": "<p>Cásate como rockstar, festeja a lo grande y transforma tu boda en el mejor día de tu vida con la espectacular oferta de Hard Rock Hotel.!<br>¡Esta oferta es por tiempo limitado!<br><br>Llama ahora al: <a href=\"tel:3341700489\">33 4170 0489</a></p>",
+        "link_wp":"https://api.whatsapp.com/send?phone=3319902132&text=Hola,%20me%20gustar%C3%ADa%20reservar%20mi%20Boda%20en%20Hard%20Rock%20Guadalajara"
     },
     {
-        "url_image": "assets/img/promociones/2024/buen_fin/BUEN FIN_DW_WEB_Banner.png",
-        "title": "¡Dile“sí, acepto” a la boda de tus sueños!",
-        "subtitle":"",
-        "desc": "<p><p>El Buen Fin llegó a BelAir Wedding con una impresionante promoción para que des el siguiente paso como siempre imaginaste.<br>Aparta tu boda para el 2025, ¡por solo $5,000!<br><br>¡Elige entre nuestros exclusivos destinos de playa y ciudad!</p>",
-        "link_wp":"https://api.whatsapp.com/send?phone=3325343763&amp;text=Hola,%20me%20gustar%C3%ADa%20reservar%20la%20Boda%20de%20mis%20sueños."
+        "url_image": "assets/img/promociones/2025/WEB_Banner.png",
+        "title": "¡Celebra tu boda en las preciosas playas de México!",
+        "subtitle":"Grand Palladium",
+        "desc": "<p>Sol, playa y romance son la combinación perfecta para tener una boda inolvidable.Conoce la increíble promoción que Grand Palladium tiene para ti.Reserva un mínimo de 25 habitaciones y recibe tu banquete de cortesía.<br>¡Esta oferta es por tiempo limitado!<br><br>Llama ahora al: <a href=\"tel:3341700489\">33 4170 0489</a></p>",
+        "link_wp":"https://api.whatsapp.com/send?phone=3319902132&text=Hola,%20me%20gustar%C3%ADa%20reservar%20mi%20Boda%20en%20el%20hotel%20Palladium"
     },
     {
-        "url_image": "assets/img/promociones/2024/cambio_promocion_29_07_2024/ROYALTON_DW_WEB_Banner.png",
-        "title": "¡Obtén gratis la boda de tus sueños!",
-        "subtitle":"Royalton Riviera Cancún",
-        "desc": "<p>La belleza inigualable de la Riviera Maya es el escenario perfecto para vivir el mejor día de tu vida. Aprovecha la promoción especial de Royalton Riviera Cancún y disfruta una ceremonia de ensueño, ¡completamente gratis!<br>¡Esta oferta es por tiempo limitado!<br><br>Llama ahora al: <a href=\"tel:3341700489\">33 4170 0489</a></p>",
-        "link_wp":"https://api.whatsapp.com/send?phone=3325343763&amp;text=Hola,%20me%20gustar%C3%ADa%20reservar%20la%20Boda%20de%20mis%20sueños."
-    },
-    {
-        "url_image": "assets/img/promociones/2024/WEB_Banner_Banner.png",
-        "title": "Certificado de aniversario",
-        "subtitle":"Krystal Grand Nuevo Vallarta",
-        "desc": "<p>¡El amor merece ser celebrado siempre! El lugar perfecto para tu noche de ensueño es el maravilloso Krystal Grand Nuevo Vallarta. Al confiar en nosotros, te otorgamos un certificado por el primer aniversario de tu boda.<br>¡Reserva ahora!<br><br>Llama ahora al: <a href=\"tel:3341700489\">33 4170 0489</a></p>",
-        "link_wp":"https://api.whatsapp.com/send?phone=3325343763&amp;text=Hola,%20me%20gustar%C3%ADa%20reservar%20la%20Boda%20de%20mis%20sueños."
-    },
-    {
-        "url_image": "assets/img/promociones/2024/REDES SOCIALES_ANUNCIO.png",
-        "title": "LBTS Los Cabos",
-        "subtitle":"La Boda de Tus Sueños",
-        "desc": "<p>Vive el día más importante de tu vida en el increíble destino de Los Cabos. Reserva un mínimo de 15 habitaciones por 2 noches y obtén tu boda GRATIS con diferentes beneficios.<br><br>Llama ahora al: <a href=\"tel:3341700489\">33 4170 0489</a></p>",
-        "link_wp":"https://api.whatsapp.com/send?phone=3325343763&amp;text=Hola,%20me%20gustar%C3%ADa%20reservar%20la%20Boda%20de%20mis%20sueños."
+        "url_image": "assets/img/promociones/2025/WEB_Banner (1).png",
+        "title": "¡Cásate en las mejores playas de México!",
+        "subtitle":"Hard Rock Mexico",
+        "desc": "<p>Vive la boda de tus sueños en los exclusivos hoteles Hard Rock y transforma tu día especial en el evento del año con esta promoción. Reserva un mínimo de 10 habitaciones y recibe un espectacular banquete de cortesía.<br>¡Esta oferta es por tiempo limitado!<br><br>Llama ahora al: <a href=\"tel:3341700489\">33 4170 0489</a></p>",
+        "link_wp":"https://api.whatsapp.com/send?phone=3319902132&text=Hola,%20me%20gustar%C3%ADa%20reservar%20mi%20Boda%20en%20Hard%20Rock%20en%20la%20Playa"
     }
 ]

@@ -27,6 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		$nombre_novies  = strip_tags($_POST["novies"]);
 		$correos_copias = strip_tags($_POST["copias"]);
 		$correos_copias = explode(',',$correos_copias);
+		echo $correos_copias;
+		// $correos_copias = explode(',',$correos_copias);
 
 		if(!empty($asistencia)) {
 			if(!empty($nombre) || !empty($apellido) || !empty($email) || ($asistencia == 1 && !empty($ceremonia)) ) {

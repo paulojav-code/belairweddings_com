@@ -1,13 +1,24 @@
 <?php
 	$return = $idioma == 'es'?'':'../';
+    include_once($return.'includes/page-forms/formulario.php');
 	if($contacto){
 ?>
 <!-- Panel -->
 <section class="panel color1" id="pre-fifth">
     <div class="intro span-1-5">
         <h2 class="major"><?php echo $datos_json['contacto_titulo']; ?></h2>
+        <br>
+        <button id="boton_open_formulario"><?= $datos_json['contacto_button']; ?></button>
     </div>
 </section>
+<script>
+    document.querySelector(`#boton_open_formulario`).addEventListener('click',function(){
+        openForm({
+            source:`Home<?= $idioma == 'en'? ' EN':'' ?>`,
+            move:true,
+            copies:`mktmanagerbts@gmail.com,gerencia@dreams-wedding.com.mx,mktmanager@dreams-wedding.com.mx`});
+    });
+</script>
 <?php
 	}
 ?>
@@ -18,7 +29,7 @@
         <?php
 			if($contacto){
 		?>
-        <div class="span-3-25">
+        <!-- <div class="span-3-25">
             <form method="post" action="<?php echo $return; ?>includes/php/send.php">
                 <input type="hidden" name="idioma" value="<?= htmlspecialchars($idioma)?>">
                 <div class="fields">
@@ -44,13 +55,12 @@
                     </div>
                 </div>
                 <ul class="actions">
-                    <li><input type="hidden" name="recaptcha_response" id="recaptcha_response" /></li>
-                    <li><input type="hidden" name="formulario_dw_origen" id="formulario_dw_origen" /></li>
-                    <li><input id="formulario_dw_boton_enviar" type="submit"
-                            value="<?php echo $datos_json['contacto_enviar']; ?>" class="pretty" /></li>
+                    <li><div class="h-captcha" data-sitekey="be240d90-e718-4480-abbc-e71e600ecdd6"></div></li>
+                    <li><input type="hidden" name="formulario_dw_origen" id="formulario_dw_origen"/></li>
+                    <li><input id="formulario_dw_boton_enviar" type="submit" value="<?php echo $datos_json['contacto_enviar']; ?>" class="pretty"/></li>
                 </ul>
             </form>
-        </div>
+        </div> -->
         <?php
 			}
 		?>

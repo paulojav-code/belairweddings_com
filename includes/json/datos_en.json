@@ -16,6 +16,7 @@
     },
 
     "contacto_titulo" : "Contact us",
+    "contacto_button":"Contact us here",
     "contacto_nombre" : "First name(s)*",
     "contacto_apellido" : "Last name(s)*",
     "contacto_telefono" : "Phone number*",

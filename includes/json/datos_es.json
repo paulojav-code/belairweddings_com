@@ -16,6 +16,7 @@
     },
 
     "contacto_titulo" : "Contacto",
+    "contacto_button": "Contactanos aquí",
     "contacto_nombre" : "Nombre(s)*",
     "contacto_apellido" : "Apellido(s)*",
     "contacto_telefono" : "Teléfono (10 dígitos)*",

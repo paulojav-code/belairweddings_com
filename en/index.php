@@ -1,4 +1,5 @@
 <?php
+	$lang = 'en';
 	include_once('../includes/php/const.php');
 	include_once('../includes/php/config.php');
 	include_once('../includes/php/conexion.php');

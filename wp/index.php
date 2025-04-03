@@ -62,7 +62,7 @@
     $tipo_codigo   		 = $array_novie['tipo_codigo'];
     $codigo_vestimenta   = $array_novie['codigo_vestimenta'];
     $guia_novies    	 = $ruta_img . $array_novie['guia_novies'];
-    $telefono       	 = $array_novie['celular'] != '' ? $array_novie['celular'] : '8009900116';
+    $telefono       	 = $datos_json['telefono_reserva'] != '' ? $datos_json['telefono_reserva'] : $array_novie['celular'];
     $bitly               = $array_novie['bitly'];
     //configuracion
     $ambas 				 = $array_novie['idiomas'] == 'en' ? true : false;
@@ -323,7 +323,7 @@
 											<li><a class="button small" onclick="reservar('<?php echo $hotel_clave; ?>','<?php echo $token; ?>','<?php echo $check_in; ?>','<?php echo $check_out; ?>')"><?php echo $datos_json['reservar']; ?></a></li>
 										<?php 
 										} 
-										if($guia_novies != '') {
+										if($array_novie['guia_novies'] != '') {
 										?>
 											<li><a href="<?php echo $guia_novies; ?>" class="button small" onclick="" target="_blank"><?php echo $datos_json['guia']; ?></a></li>
 										<?php
