@@ -4,4 +4,5 @@
     }else{
         defined("URL") ? null : define("URL", "https://".$_SERVER['SERVER_NAME']);
     }
+    include_once($_SERVER['DOCUMENT_ROOT'] . "/web/belairweddings_com/includes/php/config.php");
 ?>

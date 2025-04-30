@@ -24,10 +24,6 @@
             <label for=""><?= $datos_json['contacto_telefono'] ?></label>
             <input type="text" id="ts-form-e-phone">
         </article>
-        <article>
-            <label for=""><?= $datos_json['contacto_destino'] ?></label>
-            <input type="text" id="ts-form-e-destination">
-        </article>
         <article class="full">
             <label for=""><?= $datos_json['contacto_mensaje'] ?></label>
             <textarea id="ts-form-e-message" cols="30" rows="4"></textarea>
@@ -109,7 +105,7 @@
                 let a = i.id.split('-')[3];
                 if(a){j[a] = i.value;}
             });
-            j.copies = `gerencia@eze-trip.com,gerencia@dreams-wedding.com.mx,bodasygrupos@convention-meetings.com,info@belairweddings.com,dreams-wedding.com.mx,mktmanager@dreams-wedding.com.mx,mktmanagerbts@gmail.com,revenuemanager@coleccionbeliar.com`;
+            j.copies = `gerencia@eze-trip.com,gerencia@dreams-wedding.com.mx,bodasygrupos@convention-meetings.com,info@belairweddings.com,dreams-wedding.com.mx,mktmanager@dreams-wedding.com.mx,mktmanagerbts@gmail.com,ingresosmanager@coleccionbelair.com`;
 
             closeForm({});
 
@@ -196,112 +192,4 @@
             }
         }
     }
-    .ts-modal {
-    display: none;
-    position: fixed;
-    z-index: 20000;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    padding: 0.5em;
-}
-
-.ts-modal.active {
-    display: flex;
-}
-
-.ts-modal .modal-background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.ts-modal .modal-content {
-    position: relative;
-    z-index: 200002;
-    background-color: #d0abb1;
-    width: 40em;
-    max-width: 100%;
-    padding: 2em 2em 1em;
-    border-radius: 1em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.ts-modal .modal-content header {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 1em;
-    align-items: center;
-    width: 100%;
-}
-
-.ts-modal .modal-content header h3 {
-    font-size: 1.5em;
-    margin: 0;
-    width: calc(100% - 2rem);
-    line-height: 1em;
-    height: 1em;
-}
-
-.ts-modal .modal-content header .close {
-    font-size: 1em;
-    width: 2.5rem;
-    color: #fff;
-    background: transparent;
-    padding: 0;
-    border: 0;
-    box-shadow: none;
-    text-align: center;
-    cursor: pointer;
-    height: 2.5rem;
-    line-height: 1em;
-}
-
-.ts-modal .modal-content footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 1em;
-    width: 100%;
-}
-
-.ts-modal .modal-content footer button {
-    margin: 0 0 1em 1em;
-}
-
-.ts-modal .modal-content article {
-    width: 50%;
-    padding: 0 0.5em;
-}
-
-.ts-modal .modal-content article.full {
-    width: 100%;
-}
-
-.ts-modal .modal-content article label {
-    line-height: 1.5em;
-}
-
-@media screen and (max-width: 480px) {
-    .ts-modal .modal-content {
-        padding: 1.5em 1em 1em;
-    }
-    .ts-modal .modal-content article {
-        padding: 0;
-        width: 100%;
-    }
-}
 </style>

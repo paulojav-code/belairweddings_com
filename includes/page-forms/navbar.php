@@ -35,7 +35,7 @@
 			<?php
 				}
 			?>
-			<li><a id="lang_change" href="<?php echo URL.$datos_json['cambio_idioma']['href'];?>"<strong><?php echo $datos_json['cambio_idioma']['idioma'];?></strong></a></li>
+			<li><a href="<?php echo URL.$datos_json['cambio_idioma']['href'];?>"<strong><?php echo $datos_json['cambio_idioma']['idioma'];?></strong></a></li>
 		</ul>
 		<a href="tel:<?= $phone_number ?>"><b><?php echo $datos_json['menu_telefono']; ?></b> <br><?= format_phone($phone_number); ?></a>
 	</nav>

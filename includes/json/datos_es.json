@@ -22,6 +22,7 @@
     "contacto_telefono" : "Teléfono (10 dígitos)*",
     "contacto_correo" : "Correo Electrónico",
     "contacto_mensaje" : "Mensaje",
+    "contacto_destino": "Destino",
     "contacto_enviar" : "Enviar",
 
     "footer_title" : "Nuestra Sede",

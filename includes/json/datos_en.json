@@ -21,6 +21,7 @@
     "contacto_apellido" : "Last name(s)*",
     "contacto_telefono" : "Phone number*",
     "contacto_correo" : "Email address",
+    "contacto_destino": "Destination",
     "contacto_mensaje" : "Message",
     "contacto_enviar" : "Send",
 

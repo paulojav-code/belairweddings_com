@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             $mail->Host       = "smtp.gmail.com"; // sets the SMTP server
             $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
             $mail->Username   = "formulario@coleccionbelair.com"; // SMTP account username
-            $mail->Password   = "!QuestioNWeB2019$";        // SMTP account password
+            $mail->Password   = "uvgo rond qngg dnrn";        // SMTP account password
 
             $mail->SetFrom($email, $nombre.' '.$apellido);
             
@@ -60,15 +60,15 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             $mail->AddAddress($address, "info bodas");
 
             //copia de correo a...
-            $mail->AddCC("mktmanager@dreams-wedding.com.mx", "mktmanager");
-            $mail->AddCC("gerencia@dreams-wedding.com.mx", "Norma");
-            $mail->AddCC("web@eze-trip.com", "Webmaster");
-            $mail->AddCC("auxwe@coleccionbelair.com", "auxiliar web");
+            // $mail->AddCC("mktmanager@dreams-wedding.com.mx", "mktmanager");
+            // $mail->AddCC("gerencia@dreams-wedding.com.mx", "Norma");
+            // $mail->AddCC("web@eze-trip.com", "Webmaster");
+            // $mail->AddCC("auxwe@coleccionbelair.com", "auxiliar web");
             // $mail->AddCC("gerenciaoperaciones@eze-trip.com", "gerencia operaciones");
             // $mail->AddCC("mktmanagerbts@gmail.com", "mktmanager bts");
             // $mail->AddCC("mkt@coleccionbelair.com", "Vero");
             // $mail->AddCC("gteestrategia@itrip.mx", "Gerente Estrategia");
-            // $mail->AddCC("gteproducto@itrip.mx", "Gerente Producto");
+            $mail->AddCC("auxweb@coleccionbelair.com", "");
     
             if (!$mail->Send()) {
                 $mensaje = 'Ocurrió un error, por favor, intentalo de nuevo';
