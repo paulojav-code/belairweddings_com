@@ -149,7 +149,7 @@
 		<!-- Header -->
 		<header id="header" class="alt">
 			<div class="logo">
-				<a href="<?php echo $ruta_raiz; ?>"><img src="<?php echo $ruta_raiz; ?>assets/img/logos/logo-dw-bco.png" alt="Logo Dreams Wedding Blanco"></a>
+				<a href="<?php echo $ruta_raiz; ?>"><img src="<?php echo $ruta_raiz; ?>assets/img/logos/LOGOTIPOS_belair-dreams-wedding.png" alt="Logo Dreams Wedding Blanco"></a>
 			</div>
 			<?php
 			if ($ambas) {

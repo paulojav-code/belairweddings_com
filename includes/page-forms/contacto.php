@@ -1,5 +1,5 @@
 <?php
-	$return = $idioma == 'es'?'':'../';
+	$return = $idioma == 'es'?'':'../../';
     include_once($return.'includes/page-forms/formulario.php');
 	if($contacto){
 ?>

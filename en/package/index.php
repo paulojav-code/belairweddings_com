@@ -157,7 +157,7 @@
 					$('#imagen-destino .image').html('<img src="<?php echo URL; ?>' + destinos[id]['banner'] + '" alt="" />');
 					$('#formulario_dw_origen').val('LBDTS ' + destinos[id]['destino']);
 
-					var cuerpo_lista_hoteles = '<h3>La boda de tus sueños<br> <b>en ' + destinos[id]['destino'] + '</b></h3>' + 
+					var cuerpo_lista_hoteles = '<h3>Your dream wedding<br> <b>in ' + destinos[id]['destino'] + '</b></h3>' + 
 						'<ul>';
 					for (let index = 0; index < Object.keys(destinos[id]['hoteles']).length; index++) {
 						cuerpo_lista_hoteles += '<li><a href="#hoteles" onclick="show_hotel_info(' + id + ',' + index + ')">' + destinos[id]['hoteles'][index]['nombre'] + '</a></li>';
@@ -167,7 +167,7 @@
 						cuerpo_lista_hoteles += '<br>';
 					}
 
-					cuerpo_lista_hoteles += '<a href="#pre-fifth">Cotiza tu boda</a>';
+					cuerpo_lista_hoteles += '<a href="#pre-fifth">Get a quote</a>';
 
 					$('#lista-hoteles').html(cuerpo_lista_hoteles);
 				}
