@@ -4,7 +4,7 @@
 				<div class="row aln-center">
 					<div class="col-4 col-12-mobile">
 						<h2><?php echo $datos_json['footer_1']; ?></h2>
-						<a href="<?php echo $ruta_raiz; ?>" class="logo"><img src="<?php echo $ruta_raiz; ?>assets/img/logos/logo-dw-bco.png" alt="Logo Dreams Wedding Blanco"></a>
+						<a href="<?php echo $ruta_raiz; ?>" class="logo"><img src="<?php echo $ruta_raiz; ?>assets/img/logos/LOGOTIPOS_belair-dreams-wedding.png" alt="Logo Dreams Wedding Blanco"></a>
 						<a href="<?php echo $ruta_raiz; ?>"><?php echo $datos_json['footer_2']; ?></a>
 					</div>
 					<div class="col-4 col-12-mobile">
@@ -21,13 +21,15 @@
 					<div class="col-4 col-12-mobile">
 						<h4><?php echo $datos_json['footer_4']; ?></h4>
 						<ul class="datos">
-							<li><?php echo $ejecutive; ?></li>
+							<!-- <li><?php echo $ejecutive; ?></li> -->
 							<?php
 								if($ejecutive_correo != ''){
-									echo '<li>'.$ejecutive_correo.'</li>';
+									// echo '<li>'.$ejecutive_correo.'</li>';
+									echo '<li> info@dreams-wedding.com.mx</li>';
 								}
 								if($ejecutive_telefono != ''){
-									echo '<li><a href="tel:'.$ejecutive_call.'">'.$ejecutive_telefono.'</a></li>';
+									// echo '<li><a href="tel:'.$ejecutive_call.'">'.$ejecutive_telefono.'</a></li>';
+									echo '<li><a href="tel:+523341700489 ">3341700489 </a></li>';
 								}
 							?>
 						</ul>
